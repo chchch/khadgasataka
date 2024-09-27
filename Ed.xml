@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="Ed">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sa">Khaḍgaśataka</title>
+        <title type="sub">Preliminary critical edition</title>
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <!--idno type="URI"></idno-->
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>This preliminary text is currently being edited by Danieleo Cuneo &amp; Charles Li.</p>
+            </summary>
+          </msContents>
+        </msDesc>
+<listWit><witness xml:id="B" source="B.xml"><abbr type="siglum">B</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title></expan><witness xml:id="Bac" type="ac"><abbr type="siglum">Bac</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan></witness><witness xml:id="Bpc" type="pc"><abbr type="siglum">Bpc</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan></witness></witness><witness xml:id="C1" source="C1.xml"><abbr type="siglum">C1</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title></expan></witness><witness xml:id="Cc" source="Cc.xml"><abbr type="siglum">Cc</abbr><expan>A Descriptive Catalogue of the Sanskrit Manuscripts in the Collection of the Asiatic Society of Bengal, Volume VII: Kāvya Manuscripts</expan></witness><witness xml:id="Ed" source="Ed.xml"><abbr type="siglum">Ed</abbr><expan>Khaḍgaśataka</expan></witness><witness xml:id="KEd" source="KEd.xml"><abbr type="siglum">KEd</abbr><expan>
+          <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
+        </expan><witness xml:id="KEdac" type="ac"><abbr type="siglum">KEdac</abbr><expan>
+          <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
+         [ante correctionem]</expan></witness><witness xml:id="KEdpc" type="pc"><abbr type="siglum">KEdpc</abbr><expan>
+          <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
+         [post correctionem]</expan></witness></witness><witness xml:id="O" source="O.xml"><abbr type="siglum">O</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title></expan><witness xml:id="Oac" type="ac"><abbr type="siglum">Oac</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan></witness><witness xml:id="Opc" type="pc"><abbr type="siglum">Opc</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan></witness></witness><witness xml:id="R" source="R.xml"><abbr type="siglum">R</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title></expan><witness xml:id="Rac" type="ac"><abbr type="siglum">Rac</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan></witness><witness xml:id="Rpc" type="pc"><abbr type="siglum">Rpc</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan></witness></witness></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <!--text xml:lang="sa" corresp="#Ed" type="edition"-->
+  <text xml:lang="sa" type="edition">
+    <body>
+      <div n="1">
+<lg type="verse" xml:id="v_1" source="alignments/v_1.xml">
+    <l><app><lem wit="#KEd #Rac #Rpc #B #Cc #O"> kalpāti</lem><rdg wit="#C1"> || kalpāṃti</rdg></app>krūrakālabhrukuṭikuṭilatākalpa<app><lem wit="#KEd #Rac #Rpc #C1 #Cc #O">kalpāgramuṣṭiḥ</lem><rdg wit="#B">kalpā‡‡ṣṭiḥ </rdg></app><caesura/> <app><lem wit="#Rac #Rpc #C1 #Cc #O">krudhyatkālīkaṭākṣāṅkita iva</lem><rdg wit="#KEd">krudhyatkālīkaṭākṣāṅkita[sa]</rdg><rdg wit="#B">kru‡‡‡‡‡‡nkita iva </rdg></app> <app><lem wit="#B #C1 #O">kalayan kāntim</lem><rdg wit="#KEd">kala........nim</rdg><rdg wit="#Rac #Rpc">kala‡‡tim </rdg><rdg wit="#Cc">kalayat kāntim </rdg></app> <app><lem wit="#C1 #Cc #O">ekāntakālīm |</lem><rdg wit="#KEd">e(ṣe)kāntakālī | </rdg><rdg wit="#Rac #Rpc">ekāṃtakālī | </rdg><rdg wit="#B">ekāṃtakālī || </rdg></app></l>
+    <l><app><lem wit="#KEd #Rac #Rpc #Cc #O">krīḍaty asyākrameṇa</lem><rdg wit="#B">krī‡‡yākrameṇa </rdg><rdg wit="#C1">krīḍety asyākrameṇa </rdg></app> <app><lem wit="#KEd #Rac #Rpc #C1 #Cc #O">krakacakṛtikṛtī</lem><rdg wit="#B">‡kacakṛtikṛtī </rdg></app> <app><lem wit="#Rpc #B #Cc #O">kumbhikumbhāgra</lem><rdg wit="#KEd">kunti(mbhi)kumbhāgra</rdg><rdg wit="#Rac">kuṃbhikuṃbhāṃgra</rdg><rdg wit="#C1">kruṃbhikuṃbhāgra</rdg></app><app><lem wit="#KEd #Rac #Rpc #B #O">kūṭa<caesura/></lem><rdg wit="#C1">kruṭa</rdg><rdg wit="#Cc">kūṭaḥ </rdg></app><app><lem wit="#KEd #Rac #Rpc #O">kroḍeṣūtkṛttakaṇṭhotthita</lem><rdg wit="#B">kroḍeṣūtkaṃ‡‡hosmita</rdg><rdg wit="#C1">kroḍe pūtkṛttakaṃṭhotthita</rdg><rdg wit="#Cc">kroḍe phutkṛttakaṇṭhojjhita</rdg></app>rudhirakaṇākīrṇakoṇaḥ <app><lem wit="#KEd #B #C1 #Cc #O">kṛpāṇaḥ || 1 ||</lem><rdg wit="#Rac #Rpc">kṛpā‡‡ || 1 || </rdg></app> </l>
+    </lg>
+      </div>
+      <div n="2">
+        <lg type="verse" xml:id="v_2">
+          <l>
+khaṃ preṅkhadbhiḥ kharāṃśoḥ prakharakharaśikhāḥ khaṇḍayan svair mayūkhaiḥ
+<caesura/>
+khelāsaṃkhyeṣu khañjīkṛtaraṇarasikaḥ saṃmukhānāṃ khanitram |
+          </l>
+          <l>
+khyātaḥ saukhyasya khāniḥ khalu kamitṛjuṣāṃ khecarīṇām akharvaḥ
+<caesura/>
+khelaty utkhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 ||
+          </l>
+        </lg>
+      </div>
+      <div n="3">
+        <lg type="verse" xml:id="v_3">
+          <l>
+gāḍhaṃ gātrasya guptigrahaṇam avagaṇayyāgrataḥ svargamārgaṃ
+<caesura/>
+grasyann asya grahāgresarakaraguṇitodagrajāgradgabhastiḥ |
+          </l>
+          <l>
+garvogragranthigotragrahilaripugaṇagrāsabhaṅgīgṛhīto
+<caesura/>
+garjaty agresarāgryagrahagilanaguruḥ saṃgare maṇḍalāgraḥ || 3 ||
+          </l>
+        </lg>
+      </div>
+      <div n="4">
+        <lg type="verse" xml:id="v_4">
+          <l>
+ghrāṇaṃ saṃgrāmalakṣmyā ghanasṛtiyaśasām aṅghrirujgho mahārgha<caesura/>syopaghnaḥ sāhasasyālaghuhṛdayalaghur bhītyaghaughasya vighnaḥ |
+          </l>
+          <l>
+ghoṭaḥ kīrter ghanābhāpaghanagajaghaṭāghātanair ghṛṇyanighno
+<caesura/>
+ghūrṇaty ujgharmaghṛṣṭiprakaraghṛṇisamāghrātighoro 'sya khaḍgaḥ || 4 ||
+        </l>
+        </lg>
+      </div>
+      <div n="5">
+        <lg type="verse" xml:id="v_5">
+          <l>
+caṇḍaś caṇḍīśacakṣuś cirabhṛtaviṣamārcidhvajāc cānubhāle
+<caesura/>
+caṇḍyāś cāmīkarābhe 'ñjanacayakhacitaṃ citrakaṃ kauryacañcuḥ |
+          </l>
+          <l>
+citraṃ svācāntavīrāsur api ravirucā cumbitaś cākacikyāc
+<caesura/>
+cakṣuḥkarmāṇi cūṣaty acirarucirucāṃ vañcako 'syāsir uccaiḥ || 5 ||
+        </l>
+        </lg>
+      </div>
+      <div n="6">
+        <lg type="verse" xml:id="v_6">
+          <l>
+chāyāvāñchānurūpocchalitaripuśucau chādanaṃ kṛcchravṛṣṭau
+<caesura/>
+chāyāvāhāśanes tacchalasamitilasacchauryakālālipuccham |
+          </l>
+          <l>
+chātacchāttripravīraḥ chiduragaṇacaṇaś chekahṛcchokakārī
+<caesura/>
+chāyākāntacchavīcchāvyatikaravaśato mūrcchatīddho 'sya khaḍgaḥ || 6 ||
+        </l>
+        </lg>
+        <p type="commentary" xml:id="c_6">
+...vittaś chiduragaṇacaṇaḥ | "tena vittaḥ-" iti caṇap | chekānāṃ nāgarāṇāṃ hṛcchokakārī ||
+        </p>
+      </div>
+      <div n="7">
+        <lg type="verse" xml:id="v_7">
+          <l>
+jaṅghālo jaitrajanyājirabhuvi janayañ jantujāte jvarārtiṃ
+<caesura/>
+jīvātur bāhujasya trijagati jayino dorbhujaṅgasya jihvā |
+          </l>
+          <l>
+jyājānir vyāgrajāgradgajaradanaśilābhañjanājasrayogyo
+<caesura/>
+jātajvālo jaṭāvān iha jayati jagajjitvaro 'muṣya khaḍgaḥ || 7 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_7">
+jam iti || amuṣya khaḍga iha loke jayati | kiṃvidhaḥ | jaitraṃ jayaśīlaṃ yaj janyaṃ saṃgrāmas tasyājirabhuvi jaṅghālaḥ | satvara ity arthaḥ || "jaṅghālo 'tijave" ity amaraḥ | jantujāte prāṇimātre jvarārti jvarapīḍāṃ janayan | trijagati trailokye jayinaḥ parākramavato bāhujasya kṣattriyasya jīvātur jīvanauṣadham | "jīvātur jīvanauṣadham" ity amaraḥ | punaḥ kiṃvidhaḥ | athavā trijagati jayino dorbhujaṅgasya bāhusarpasya jihvā | jyājānir vasudhājāniḥ || "jāyāyā niṅ" | "vasudhāmaurvyor jyā" iti medinī | vyāgrāś ca jāgradgajaradanāś ca śilāś ca tāsāṃ bhañjanaṃ tatrājasraṃ yogyaḥ | jātā jvālā yasmin sa tathā | ata eva jaṭāvān | jagajjitvaraḥ ||
+        </p>
+      </div>
+      <div n="8">
+        <lg type="verse" xml:id="v_8">
+          <l>
+jhātkārāñ jaitrajanye jhagiti janayato janmikarṇajvarārtiṃ
+<caesura/>
+jhañjhāvātānukārāñjhaṇajhaṇitijhaṇatkāriṇaḥ projjihānaḥ |
+          </l>
+          <l>
+jhāṣāṅkīṃ tām avasthāṃ jhagiti ripujanaṃ grāhayan dhūrjaṭīṣṭāṃ
+<caesura/>
+jhūrannamrāhiteṣūjjhitaraṇarabhasaṃ projjihīte 'sya khaḍgaḥ || 8 ||
+          </l>
+        </lg>
+        <p type="commentary" n="8" xml:id="c_8">
+jhād iti || asya khaḍga ujjhitaraṇarabhasaṃ saṃprās tādaraṃ yathātathā projjihīte gacchati | kiṃvidhaḥ | jaitrajanye jayaśīle saṃgrāme jhagiti jhātkārān anukaraṇaśabdān projjihānaḥ | kṛtavān ity arthaḥ | "ohāṅ gatau" | kiṃvidhāñ jhātkārān | jhañjhāvātānukārān suvṛṣṭikavātasadṛśān | punaḥ kiṃvidhān | jhaṇajhaṇitijhaṇatkāriṇaḥ | kiṃkurvan san | tāṃ prasiddhāṃ jhāṣāṅkīṃ mānmathīm avasthām | bhasmarūpām ity arthaḥ | ripujanaṃ vairilokaṃ jhagiti śīghraṃ grāhayan | kiṃvidhām avasthām | dhūrjaṭeḥ śaṃbhor iṣṭām | namrā ye 'hitās teṣu jhūraṃl lajjan |
+        </p>
+      </div>
+      <div n="9">
+        <lg type="verse" xml:id="v_9">
+          <l>
+ṭaṃkāroddhaṭṭitā yā jhaṭiti vighaṭayan koṭiśaś cāpayaṣṭīṣ 
+<caesura/>
+ṭaṅko vidviḍgirīṇāṃ karaṭikaṭakaṭāhātikuṭṭāgrakoṭiḥ |
+          </l>
+          <l>
+duṣkūṭair yaṣṭikūṭaiḥ kuṭukuṭilasaṭaiḥ paṭṭiśaiḥ koṭisaṃkhyaiḥ
+<caesura/>
+kheṭair durghāṭavāṭān pratibhaṭasubhaṭāṃṣ ṭīkate 'muṣya khaḍgaḥ || 9 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_9">
+ṭam iti || amuṣya khaḍgaḥ pratibhaṭasubhaṭān pratipakṣavīrān drāk śīghraṃ ṭīkate | tān prati gacchatīty arthaḥ | kiṃvidhaḥ | ṭaṃkāreṇa śabdenoddhaṭṭitāḥ prakaṭitāḥ yāḥ koṭiśo 'saṃkhyāś cāpayaṣṭīr jhaṭiti śīghraṃ vighaṭayan | punaḥ kiṃvidhaḥ | vidviṣāṃ girayas teṣāṃ ṭaṅko vidārakaḥ | punaḥ | karaṭino gajās teṣāṃ kaṭā gaṇḍasthalāni ta eva kaṭāhās tailādipākapātrāṇi teṣāṃ kuṭṭā piṣṭīkaraṇasamarthāgrakoṭir yasyeti | kiṃvidhān pratibhaṭasubhaṭān | duṣkūṭair duṣṭāgrair yaṣṭikūṭair yaṣṭisamūhaiḥ kaṭukuṭilasaṭaiḥ paṭṭiśaiḥ khaḍgaiḥ phalakair durghāṭo vāṭo mārgo yeṣāṃ te | koṭisaṃkhyair iti viśeṣaṇaṃ triṣv api yojyam ||
+        </p>
+      </div>
+      <div n="10">
+        <lg type="verse" xml:id="v_10">
+          <l>
+ṭhātkārī kaṇṭhasīmany atikaṭhinatare skandhapīṭhe kaṭhore
+<caesura/>
+pṛṣṭhāṣṭhīlānukāre śaṭhakamaṭhapateḥ kumbhapṛṣṭhe 'pi caibhe |
+          </l>
+          <l>
+drāgdrāghiṣṭhaḥ kaṭhoracchavijaraṭhataradyotasaṃghaṭṭamūrchat<caesura/>koṣṭhāḥ kāṣṭhāḥ prakurvan ripuśirasi luṭhaty etadīyaḥ kuṭhāraḥ || 10 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_10">
+ṭhātkārīti || etadīyaḥ kuṭhāro ripuśirasi drāk śīghraṃ luṭhati | kiṃvidhaḥ | aibhe hastisaṃbandhini kaṇṭhasīmani kaṇṭhasamīpadeśe ṭhātkārī śabdakartā | kiṃvidhe kaṇṭhasīmani | atikaṭhinatare | punaḥ kiṃvidhaḥ | kaṭhore skandhapīṭhe ṭhātkārī | punaḥ kiṃvidhaḥ | aibhe kumbhapṛṣṭhe ṭhātkārī | kiṃvidhe kumbhapṛṣṭhe | śaṭhakamaṭhapater dhūrtakacchapasya | "śaṭho dhattūrake dhūrte madhyasthapuruṣe 'lase" iti mahīpaḥ | pṛṣṭhāṣṭhīlānukāre pṛṣṭhasyāṣṭhīlaṃ tattulye | drāghiṣṭho dīrghaḥ | kaṭhoracchaviḥ sūryas tasya jaraṭhataro yo dyotaḥ prakāśas tasya saṃghaṭṭas tena mūrchat dviguṇībhavan | "jakṣityādayaḥ ṣaṭ" iti num na | kiṃ kurvan san | kāṣṭhā diśaḥ koṣṭhāḥ svādhīnāḥ prakurvan san | "koṣṭhaḥ kusūle cātmīye madhye kukṣer gṛhasya ca" iti medinī ||
+        </p>
+      </div>
+      <div n="11">
+        <lg type="verse" xml:id="v_11">
+          <l>
+ḍimbho daṇḍāyudhasya pradhanaghanataḍiccaṇḍadoḥ kuṇḍalīndra<caesura/>kṣveḍaḥ proddaṇḍadarpadviradananigaḍo ḍiṇḍimaḥ śauryabhartuḥ |
+          </l>
+          <l>
+asya prācaṇḍyabhāṇḍaṃ dhṛtamadhupagaladgaṇḍavetaṇḍaśuṇḍā<caesura/>kāṇḍaṃ khaṇḍaṃ vitanvan yudhi dhutajaḍimā hiṇḍate maṇḍalāgraḥ || 11 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_11">
+ḍim iti || asya maṇḍalāgro hiṇḍata itas tato gacchati | kiṃvidhaḥ | daṇḍāydhasya yamasya ḍimbhaḥ śiśuḥ | ‘potaḥ pāko 'rbhako ḍimbhaḥ’ ity amaraḥ | pradhanam eva saṃgrāma eva ghanataḍit tasyāś caṇḍador hastaḥ kuṇḍalīndraḥ śeṣas tat kṣveḍo garalam | ‘kṣveḍas tu garalaṃ viṣam’ ity amaraḥ | proddaṇḍo darpo yeṣāṃ te ye dviradanā gajās teṣāṃ nigaḍo 'ndukaḥ | śauryabhartur ḍiṇḍimaḥ sūcakavādyaviśeṣaḥ | pracaṇḍasya bhāvas tathā, tadbhāṇḍam adhikaraṇam | punaḥ kiṃvidhaḥ | yudhi saṃgrāme dhṛtā madhupā yais tair galantaḥ sravanto gaṇḍā yeṣāṃ te evaṃvidhā vetaṇḍā gajās teṣāṃ śuṇḍās tāsāṃ kāṇḍaṃ samūhaṃ khaṇḍaṃ chedaṃ vitanvan vistārayan | dhuto jaḍimā yena saḥ ||
+        </p>
+      </div>
+      <div n="12">
+        <lg type="verse" xml:id="v_12">
+          <l>
+ḍhakkāsvārūḍhakīrtiprasṛtisuvijayaśrīvivoḍhā nirūḍho 
+<caesura/>
+vāḍhaṃ soḍhātigāḍhapraharaṇasamitau līḍhakoṣṇāstrasīdhuḥ |
+          </l>
+          <l>
+rīḍhā gūḍhaprahartur draḍhimakulagṛhaṃ nyastaśastreṣu ṣaṇḍho 
+<caesura/>
+nirvyūḍhodgāḍhayuddhapratihatiṣu dṛḍhaṃ ḍhaukate 'muṣya khaḍgaḥ || 12 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_12">
+ḍheti || amuṣya khaḍgo nirvyūḍhodgāḍhayuddhā vīrās teṣāṃ pratihatayo vraṇās tāsu dṛḍhaṃ ḍhaukate pravartate | kiṃvidhaḥ | ḍhakkayā vijayamardalena suṣṭu ārūḍhā yā kīrtis tasyāḥ prasṛtiḥ prasaras tasyāṃ suvijayaśrīs tasyā vivoḍhā | nirūḍhaḥ khyātaḥ | atigāḍhapraharaṇā yā samitiḥ saṃgrāmas tatra vāḍhaṃ soḍhā sahanaśīlaḥ | punaḥ kiṃvidhaḥ | līḍham āsvāditaṃ koṣṇaṃ kiṃcid uṣṇaṃ yad astraṃ tad eva sīdhur madyaṃ yena | gūḍhaprahartur aprakaṭamāraṇakartū rīḍhāvamānanā | draḍhimnaḥ kulagṛhaṃ dṛḍhatāyā adhiṣṭhānam | nyastaśastreṣu tyaktāyudheṣu ṣaṇḍho niḥsāraḥ ||
+        </p>
+      </div>
+      <div n="13">
+        <lg type="verse" xml:id="v_13">
+          <l>
+prāṇā darpasya pāṇī raṇaśamanaśiśoḥ kārmaṇaṃ dveṣaṇānāṃ
+<caesura/>
+tūrṇaṃ sadvārabāṇavraṇakaraṇakṛtī kīrṇadurmarṣaṇārciḥ |
+          </l>
+          <l>
+koṣṇadviṭśoṇitāktaḥ kharakiraṇaghṛṇiśreṇiśāṇo 'ruṇaśrīr
+<caesura/>
+udgūrṇo vāraṇānāṃ gaṇam asṛṇi śṛṇāty asya tīkṣṇaḥ kṛpāṇaḥ || 13 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_13">
+prāṇā iti || asya tīkṣṇaḥ kṛpāṇo vāraṇānāṃ gajānāṃ gaṇaṃ samūham asṛṇi sṛṇirahitaṃ yathātathā śṛṇāti | śṝ hiṃsāyām | mārayatīty arthaḥ | kiṃvidhaḥ darpasya balasya prāṇāḥ | bahutvena nirdeśaḥ | raṇa eva śamanaśiśus tasya pāṇir hastaḥ | pāṇī raṇeti ‘ro rī’ iti ‘ḍhralope’ iti dīrghaḥ | dveṣaṇānāṃ śatrūṇām | ‘dviṣaddveṣaṇadurhṛdaḥ’ ity amaraḥ | kārmaṇaṃ mūlakarma | tūrṇaṃ śīghraṃ sad yad vārabāṇaṃ kavacaṃ | ‘kañcuko 'strīvārabāṇaḥ’ ity amaraḥ | tatra vraṇakaraṇaṃ tatra kuśalaḥ | kīrṇaṃ prasāritaṃ durmarṣaṇaṃ duḥsaham arcir yena | koṣṇaṃ yad dviṣatāṃ śoṇitaṃ raktaṃ tenāktaḥ siktaḥ | kharakiraṇaḥ śrīsūryas tasya ghṛṇayo mayūkhās teṣāṃ śreṇis tasyāḥ śāṇo gharṣanapāṣāṇaḥ | aruṇā śrīr yasya saḥ | udgūrṇa utthāpitaḥ || 
+        </p>
+      </div>
+      <div n="14">
+        <lg type="verse" xml:id="v_14">
+          <l>
+tṛpyaddantikṣitīndraṃ taralatarataratpattibhaṅgaṃ vighūrṇat<caesura/>tuṅgāśvāvartagartaṃ niśitatamamilatkuntasaṃtānacakram |
+          </l>
+          <l>
+tvaṅgattīkṣṇāsitūrvattimim anatidalacchaktiśuktiṃ raṇābdhiṃ 
+<caesura/>
+tāras tūrṇaṃ titīrṣus tṛṇalavavad arīn asya khaḍgas tṛṇeḍhi || 14 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_14">
+tṛpyad iti || asya khaḍgo 'rīñ śatrūṃs tṛnalavavat tṛṇeḍhi | mārayatīty arthaḥ | ‘tṛha hiṃsāyām’ | kiṃvidhaḥ | tūrṇaṃ śīghraṃ raṇābdhiṃ saṃgrāmasamudraṃ titīrṣus taraṇecchuḥ | ‘tṝ plavanataraṇayoḥ’ | tāra ujjvalaḥ | kiṃvidhaḥ raṇābdhiṃ | tṛpyanto dantina eva kṣitīndrāḥ parvato yasmiṃs tathā tam | taralatarā aticañcalās taranto ye pattayaḥ padātayas ta eva bhaṅgās taraṅgā yasmiṃs tam | vighūrṇantas tuṅgā ye 'śvās ta evāvartagartā yasmiṃs tam | … … … … | tvaṅgantas tīkṣṇā ye 'sayas ta eva tūrvattimayo yasminn iti tathā tam | anatidalacchaktaya eva śuktayo yasmiṃs tam ||     
+        </p>
+      </div>
+      <div n="15">
+        <lg type="verse" xml:id="v_15">
+          <l>
+sthūlaṃ sthūlaṃ śvasadbhiḥ prathitapṛthupṛṣadvīkṣaṇais tīrthamātraṃ
+<caesura/>
+saṃmanvānair apārthaṃ śithilaraṇakathair vepathuvyarthaśastraiḥ |
+          </l>
+          <l>
+saṃprāptaiḥ sthāṇusaṃsthāṃ prathitapathacarais trastanetrātithitvaṃ
+<caesura/>
+nītaḥ pratyarthisārthair vyathayati savidhasthān apīddho 'sya khaḍgaḥ || 15 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_15">
+sthūlam iti || asyeddhaḥ samṛddhaḥ khaḍgaḥ savidhasthān api samīpavartino 'pi vyathayati | kiṃvidhaḥ | pratyarthisārthaiḥ paripanthisamūhais trastāni yāni netrāṇi tatrātithitvaṃ nītaḥ | dṛṣṭa iti yāvat | kiṃvidhaiḥ pratyarthisārthaiḥ | sthūlaṃ sthūlaṃ dīrghaṃ dīrghaṃ śvasadbhiḥ | asahyatvāt | prathitapṛthu pṛṣanto bindavas tadyuktāni vīkṣaṇāni yeṣāṃ taiḥ | tīrthamātraṃ saṃmanvānaiḥ | apārthaṃ nirarthakaṃ śithilā raṇakathā yeṣāṃ te tathā taiḥ | vepathunā kampena vyarthāni śastrāṇi yeṣāṃ te taiḥ | ata eva sthāṇusaṃsthāṃ saṃprāptaiḥ | prathito yaḥ panthās tatra carantīti carās taiḥ | mahāpathas tu maraṇam iti ||    
+        </p>
+      </div>
+      <div n="16">
+        <lg type="verse" xml:id="v_16">
+          <l>
+dṛpyaddoḥkālakūṭadrumataruṇadalaṃ darpadantāvalendra<caesura/>drāghīyodānalekhā daradalitadalendīvaradroṇidehaḥ |
+          </l>
+          <l>
+dīvyannaidāghamadhyaṃdinadivasamaṇidyotaduṣprekṣyadīptir
+<caesura/>
+dauḥsthityaṃ dīrghadīrghaṃ dadad arisudṛśāṃ dīpyate 'muṣya khaḍgaḥ || 16 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_16"><hi>dṛpyad</hi> iti || <hi>amuṣya khaḍgo dīvyate</hi><note place="foot">The commentator seems to have a different reading from the verse.</note> krīḍate | kiṃvidhaḥ | <hi>dṛpyad</hi> yad <hi>dor</hi> bāhuḥ sa eva <hi>kālakūṭadrumo</hi> viṣatarus tasya <hi>taruṇadalaṃ</hi> navīnapatram | <hi>darpadantāvalendro</hi> hastīndras tasya <hi>drāghīyo</hi> dīrghā <hi>dānalekhā</hi> | <hi>daram</hi> īṣad <hi>dalitaṃ</hi> viśīrṇaṃ <hi>dalaṃ</hi> yasyaivaṃvidham <hi>indīvaraṃ</hi> tasya <hi>droṇir</hi> madhyabhāgas tadvad <hi>deho</hi> yasya sa tathā | śyāma iti yāvat | <hi>dīvyad</hi> yan <hi>naidāghamadhyaṃdinam</hi> uṣṇakālamadhyāhnaṃ tatra yo <hi>divasamaṇis</hi> tasya <hi>dyotaḥ</hi> prakāśas tena <hi>duṣprekṣyā</hi> <hi>dīptir</hi> yasya saḥ | <hi>arisudṛśāṃ</hi> vairistrīṇāṃ <hi>dīrghadīrgham</hi> atimahad <hi>dauḥsthyaṃ</hi> duḥsthasya bhāvas tathā tad <hi>dadat</hi> ||
+        </p>
+      </div>
+      <div n="17">
+        <lg type="verse" xml:id="v_17">
+          <l>
+dhairyasyādhārayaṣṭir dhṛtaviṣudhavadhūsādhvaso dhāma dhāmnāṃ
+<caesura/>
+dhūmaḥ krodhānalasya pradhanarathavarasyoddhuro dhūrdharo 'yam |
+          </l>
+          <l>
+dhīrodāttor dhvavāhā dharaṇidharadhṛtas tīkṣṇadhārādharo 'ddhā
+<caesura/>
+dhīrān auddhatyabhājo raṇadharaṇicarānasya dhūnoti khaḍgaḥ || 17 ||
+          </l>
+        </lg>
+        <p type="commentary" xml:id="c_17">
+dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃgrāmabhūmigatān dhīrān dhūnoti kampayati | kiṃvidhaḥ | dhairyasya guṇasyādhārayaṣṭiḥ | dhṛtaṃ viṣudhavadhūnāṃ devastrīṇāṃ sādhvasaṃ yena saḥ | dhāmnāṃ tejasāṃ dhāmādhiṣṭhānam | krodha evānalas tasya dhūmaḥ | pradhanaṃ saṃgrāmas tad eva rathavaras tasyoddhuro dhūrdharo bhāradhartā | dhīrodāttaḥ puruṣaśreṣṭhas tasyordhvavāhā hastaḥ | ‘bhujā vāhā’ iti strītvena nirdeśaḥ | dhīrodāttalakṣaṇaṃ rasakalikāyām ― ‘caturdhā puruṣaḥ ― dhīrodātto dhīralalito dhīraśānto dhīroddhataś ceti | tatra ― kṛpāvān atigambhīro vinītaś cāvikatthanaḥ | dhīrodāttaḥ sa vijñeyo rāmo dāśarathir yathā ||’ iti | dharaṇidhareṇa rājñā dhṛtaḥ | tīkṣṇadhārādharaḥ | ‘addhā’ ity aṅgīkāro 'vyayam ||
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

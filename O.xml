@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Khaḍgaśataka</title></title>
+            
+         <editor><persName>Daniele Cuneo</persName><orgName>Sorbonne Nouvelle</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bodleian Library, University of Oxford</orgName>
+                  </repository>
+                  <idno type="shelfmark">Or. d. 7</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript is a transcription of MS 588 in the Raghunath Temple collection.</summary>
+                  
+               <msItem xml:id="O" defective="false"><title xml:lang="sa">Khaḍgaśataka</title><author xml:lang="sa">Vināyaka Bhaṭṭa</author><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="manuscript">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="65"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="devanagari" medium="ink black"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   </facsimile>
+<text corresp="#O" xml:lang="sa"><body>
+            <div n="1">
+                <lg type="verse" xml:id="v_1">
+                    <l>
+kalpātikrūrakālabhrukuṭikuṭilatākalpakalpāgramuṣṭiḥ
+<caesura/>
+krudhyatkālīkaṭākṣāṅkita iva kalayan kāntim ekāntakālīm |
+                    </l>
+                    <l>
+krīḍaty asyākrameṇa krakacakṛtikṛtī kumbhikumbhāgrakūṭa<caesura/>kroḍeṣūtkṛttakaṇṭhotthitarudhirakaṇākīrṇakoṇaḥ kṛpāṇaḥ || 1 ||
+                    </l>
+                </lg>
+            </div>
+            <div n="2">
+                <lg type="verse" xml:id="v_2">
+                    <l>
+khaṃ preṅkhadbhiḥ kharāṃśoḥ prakharakharaśikhāḥ khaṇḍayan svair mayūkhaiḥ
+<caesura/>
+khelāsaṃkhyeṣu khaṅjīkṛtaraṇarasikaḥ saṃmukhānāṃ khanitram |
+                    </l>
+                    <l>
+khyātaḥ saukhyasya khāniḥ khalu kamitṛjuṣāṃ khecarīṇām akharvaḥ
+<caesura/>
+khelaty utkhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 ||
+                    </l>
+                </lg>
+            </div>
+            <div n="3">
+                <lg type="verse" xml:id="v_3">
+                    <l>
+gāḍha<gap n="1" unit="akṣara"/>trasya goptigrahaṇam avagaṇayyāgrataḥ svargamārgaṃ
+<caesura/>
+grasyantasya mahāgresarakaraguṇitodagrajāgradgabhastiḥ |
+                    </l>
+                    <l>
+garvogragranthigotragrahilaripugaṇa<gap n="2" unit="akṣara"/>bhaṅgīgṛhīto
+<caesura/>
+garjaty agresarāgryagrahagilanaguruḥ saṃgare maṇḍalāgraḥ || 3 ||
+                    </l>
+                </lg>
+            </div>
+            <div n="4">
+                <lg type="verse" xml:id="v_4">
+                    <l>
+ghrāṇaṃ saṃgrāmalakṣmyā ghanasṛtiyaśasām aṅghri<add>ri</add><gap quantity="2"/>dyo ma<add>ha</add><gap quantity="2"/><caesura/><gap quantity="3"/> sāhasasyālaghuhṛdayalaghur bhītyaghaughasya vighnaḥ |
+                    </l>
+                    <l>
+ghoṭaḥ kīrter ghanābhāpaghanagajaghaṭāghātanair ghṛṇyanighno
+<caesura/>
+ghūrṇaty u<gap quantity="8"/>ghṛṇisamāghrātighoro 'sya khaḍgaḥ || 4 ||
+                    </l>
+                </lg>
+             </div>
+             <div n="5">
+                <lg type="verse" xml:id="v_5">
+                    <l>
+caṃḍaś caṃḍīśacakṣuś cirabhṛtaviṣamārccidhvajāc cānubhāle
+<caesura/>
+caṃḍyāś cāmīkarā<gap quantity="1"/>janacayarava<add>citaṃ</add> <gap quantity="2"/> kauryacaṃcuḥ |
+                    </l>
+                    <l>
+citraṃ svācāṃtavīrāsur api ra<del quantity="1"/>virucā cuṃbitaś cākacikyāc
+<caesura/>
+cakṣuṣkarmāṇi cūṣaty acirarucirucāṃ vaṃcako syāsir uccaiḥ || 5 ||
+                    </l>
+                </lg>
+             </div>
+             <div n="6">
+                <lg type="verse" xml:id="v_6">
+                    <l>
+<add>sevā</add>yā<add>kṣudra</add>rūpocchalitaripuśucau chādanaṃ kṛcchra<subst><del>deśe</del><add>vṛṣṭau</add></subst>
+<caesura/>
+chāyāvāhāśanesracchalasamiti lasacchauryakālālipuccham |
+                    </l>
+                    <l>
+<add>bhrā</add>tacchāttri<gap quantity="4"/>duragaṇa<add>kṣa</add>ṇaś chekahṛcchokakārī
+<caesura/>
+chāyākāntacchavīcchāvyatikaravaśato mūrcchatīddho 'sya khaḍgaḥ || 6 ||
+                    </l>
+                </lg>
+             </div>
+             <div n="7">
+                <lg type="verse" xml:id="v_7">
+                    <l>
+jaṃghālo jaitrajanyājirabhuvi <add>janayañ jantujāte</add> jvarārtiṃ
+<caesura/>
+jīvātur bāhujasya trijagati jayino dorbhujaṅgasya jihvā |
+                    </l>
+                    <l>
+                      jyājānir vyāgrajāgradgajaradanaśilābhaṃjanāja<pb n="5"/><add>srayogyo</add>
+<caesura/>
+                      <add>jā</add>tajvālo jaṭāvān iha jayati jagajjitvaro muṣya khaḍgaḥ || 7 ||
+                    </l>
+                </lg>
+             </div>
+             <div n="8">
+                <lg type="verse" xml:id="v_8">
+                    <l>
+<pb n="34"/>jhātkārān_ jaitrajanye jhagiti janayato ja<add>nmi</add>karṇajvarārtiṃ
+<caesura/>
+jhañjhāvātā<add>nukārā</add>n_ jhaṇajhaṇitijhaṇatkāriṇaḥ pro<subst><del>rmmi</del><add>jji</add></subst>hānaḥ |
+                    </l>
+                    <l>
+jhāṣāṅkīṃ tām avasthāṃ jhaṭiti ripujanaṃ grāhayan_ dhūrjaṭīṣṭā<add>ṃ</add>
+<caesura/>
+jhūra<add>nna</add><subst><del>vrā</del><add>mrā</add></subst>hiteṣūjjhitaraṇarabhasaṃ projjihīte sya khaḍgaḥ || 8 ||
+                    </l>
+                
+</lg>
+             </div>
+             <div n="9">
+                <lg type="verse" xml:id="v_9">
+                    <l>
+ṭaṃkāroddhaṭṭitā yā jhaṭiti vighaṭayan_ koṭiśaś cāpayaṣṭ<subst><del>i</del><add>ī</add></subst>ṣ
+<caesura/>
+ṭaṃko <add place="right-margin">vidviḍ<note place="right-margin">dviṭ</note>girīṇāṃ</add> <hi>vairiparbatānāṃ</hi>  karaṭikaṭakaṭā<add>hā</add>ti<add>ku</add>dāgrakoṭiḥ |
+                    </l>
+                    <l>
+duḥkūṭair yaṣṭikūtaiḥ kuṭukuṭilasaṭaiḥ paṭṭiśaiḥ koṭisaṃkhyaiḥ
+<caesura/>
+kheṭair durghāṭavāṭān_ pratibhaṭasubhaṭāṃṣ ṭīkate muṣya khaḍgaḥ || 9 ||
+                    </l>
+                
+</lg>
+             </div>
+             <div n="10">
+                <lg type="verse" xml:id="v_10">
+                    <l>
+ṭhātkārī kaṃṭhasīmanyatikaṭhinatare skaṃdhapīṭhe kaṭhore
+<caesura/>
+pṛṣṭhāṣṭīlānukāre śaṭhakamaṭhapateḥ kuṃbhapṛṣṭhe 'pi caibhe |
+                    </l>
+                    <l>
+drā<choice><orig>ka</orig><corr>k</corr></choice>drāghiṣṭhaḥ kaṭhoracchavijara<subst>ṭh<del>e</del><add>a</add></subst>tara<add>dyo</add>tasaṃgha<add>ṭṭa</add>mūrcha<caesura/>tkoṣṭhāḥ kāṣṭhāḥ prakurvvan_ ripuśirasi luṭhaty etadīyaḥ kuṭhāraḥ || 10 ||
+                    </l>
+                
+</lg>
+             </div>
+             <div n="11">
+                <lg type="verse" xml:id="v_11">
+                    <l>
+ḍiṃbho daṇḍāyudhasya pradhanaghanataḍiccaṃḍadoḥ kuṃḍalīṃdra<caesura/><subs><del>kṣve</del><add>pro</add></subs>ddaṃḍadarpadviradananigaḍo ḍiṃḍimaḥ śauryabharttuḥ |
+                    </l>
+                    <l>
+asya prācaṃḍyabhāṃḍaṃ <unclear>dhṛ</unclear>tamadhupagaladgaṃḍavetuṃḍaśuṃḍā<caesura/>kāṃḍaṃ khaṃḍaṃ vitanvan_ yudhi dhutajaḍimā hiṃḍate maṃḍalāgraḥ || 11 ||
+                    </l>
+                
+</lg>
+             </div>
+             <div n="12">
+                <lg type="verse" xml:id="v_12">
+                    <l>
+ḍhakkāsvārūḍhakīrttiprasṛtisuvijayaśrīvivoḍhā nirūḍho 
+<caesura/>
+vāḍhaṃ soḍhātigāḍhapraharaṇasamitau līḍhakoṣṇāstrasīdhuḥ |
+                    </l>
+                    <l>
+<add>rīḍhā</add> gūḍhapraharttur draḍhimakulagṛhaṃ nyastaśastreṣu ṣaṃḍho 
+<caesura/>
+nirvyūḍhodgāḍhayuddhapratihatisu dṛḍhaṃ ḍhaukate muṣya khaḍgaḥ || 12 ||
+                    </l>
+                
+</lg>
+             </div>
+
+             <div n="13">
+                <lg type="verse" xml:id="v_13">
+                    <l>
+<pb n="36"/>prāṇā darpasya pāṇī <add>raṇaśamana</add>śiśo kārmaṇaṃ dveṣaṇānāṃ
+<caesura/>
+tūrṇaṃ sadvārabāṇavraṇakaraṇakṛtī kīrṇadurmarṣaṇārciḥ |
+                    </l>
+                    <l>
+koṣṇa<del>di</del><add>dvi</add>ṭ_śoṇi<unclear>tā</unclear>ktaḥ kharakiraṇaghṛṇiśreṇi<add>śāṇo ’ruṇaśrī</add>r
+<caesura/>
+udgūrṇo vāraṇānāṃ gaṇam asṛṇi śṛṇāty asya tīkṣṇaḥ kṛpāṇaḥ || 13 ||
+                    </l>
+                
+</lg>
+             </div>
+
+             <div n="14">
+                <lg type="verse" xml:id="v_14">
+                    <l>
+tṛpyaddaṃtikṣitīṃdraṃ taralatarataratpattibhaṃgaṃ vighūrṇat<caesura/>tuṃgā<add>śvā</add>varttagarttaṃ niśitatamamilatkuṃtasaṃtānacakram |
+                    </l>
+                    <l>
+tvaṃgattīkṣṇāsitūrvattimim anatidalacchaktiśuktiṃ raṇā<del>rcci</del><add>bdhiṃ</add> 
+<caesura/>
+tāras tīrṇaṃ titīrṣu<add>s tṛṇala</add>vavad arīn asya khaḍgaḥ stṛṇeḍhi || 14 ||
+                    </l>
+                
+</lg>
+             </div>
+
+             <div n="15">
+                <lg type="verse" xml:id="v_15">
+                    <l>
+sthūlaṃ sthūlaṃ śvasadbhiḥ prathitapṛthupṛṣadvīkṣaṇais tīrthamātraṃ
+<caesura/>
+saṃ<add>manvā</add>nair apārthaṃ śithilaraṇaka<add>thair ve</add>pathuvyarthaśastraiḥ |
+                    </l>
+                    <l>
+saṃprāptaiḥ sthāṇusaṃsthāṃ prathitapathacarais trastanetrātithitvaṃ
+<caesura/>
+nītaḥ pratyarthisārthair vyathayati savidhasthān apīddho sya khaḍgaḥ || 15 ||
+                    </l>
+                
+</lg>
+             </div>
+
+             <div n="16">
+                <lg type="verse" xml:id="v_16">
+                    <l>
+dṛpyad<add>doḥ</add>kālakūṭadrumataruṇadalaṃ darpadaṃtāvaleṃdra<caesura/>drāghīyodānalekhā daradalitadaleṃdīvaradroṇidehaḥ |
+                    </l>
+                    <l>
+dīvyannaidādyamadhyaṃdinadivasamaṇidyota<add>duḥ</add>prekṣyadīpti<caesura/>dausthityaṃ dīrghadīrghaṃ dadadarisudṛsāṃ dīpyate muṣya khaḍgaḥ || 16 ||
+                    </l>
+                
+</lg>
+             </div>
+</body></text></TEI>
