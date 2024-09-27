@@ -88,36 +88,38 @@
    <facsimile>
    </facsimile>
 <text corresp="#O" xml:lang="sa"><body>
+            <milestone n="1r" unit="folio"/>
+            <p><lb n="1"/>śrīgaṇeśāya namaḥ</p>
             <div n="1">
                 <lg type="verse" xml:id="v_1">
                     <l>
-kalpātikrūrakālabhrukuṭikuṭilatākalpakalpāgramuṣṭiḥ
+kalpātikrūra<lb n="2"/>kālabhrukuṭikuṭilatākalpakalpā<lb n="3"/>gramuṣṭiḥ
 <caesura/>
-krudhyatkālīkaṭākṣāṅkita iva kalayan kāntim ekāntakālīm |
+krudhyatkālīkaṭākṣāṃki<lb n="4"/>ta sukala...nim ekāṃtakālī |
                     </l>
                     <l>
-krīḍaty asyākrameṇa krakacakṛtikṛtī kumbhikumbhāgrakūṭa<caesura/>kroḍeṣūtkṛttakaṇṭhotthitarudhirakaṇākīrṇakoṇaḥ kṛpāṇaḥ || 1 ||
+<lb n="5"/>krīḍaty asyākrameṇa krakacakṛti-<lb n="6"/>kṛtī kuṃtikuṃbhāgrakūṭa<caesura/>kroḍeṣūtkṛtta-<lb n="6"/>kaṃṭhotthitarudhirakaṇākīrṇako<lb n="7"/>ṇaḥ kṛpāṇaḥ || 1 ||
                     </l>
                 </lg>
             </div>
             <div n="2">
                 <lg type="verse" xml:id="v_2">
                     <l>
-khaṃ preṅkhadbhiḥ kharāṃśoḥ prakharakharaśikhāḥ khaṇḍayan svair mayūkhaiḥ
+khaṃ preṃkhadbhiḥ kha<lb n="8"/>rāṃśoḥ prakharakharaśikhā khaṃḍayan svai<lb n="9"/>r mayūkhaiḥ
 <caesura/>
-khelāsaṃkhyeṣu khaṅjīkṛtaraṇarasikaḥ saṃmukhānāṃ khanitram |
+khelāsaṃkhyeṣu khaṃjīkṛta<lb n="10"/>raṇarasikaḥ saṃmukhānāṃ khamitraṃ |
                     </l>
                     <l>
-khyātaḥ saukhyasya khāniḥ khalu kamitṛjuṣāṃ khecarīṇām akharvaḥ
+khyātaḥ saukhyasya khāniḥ khalu ka-<pb n="2r"/><lb n="1"/>mitṛjuṣāṃ khecarīṇām akharvaḥ
 <caesura/>
-khelaty utkhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 ||
+<lb n="2"/>khelaty utkhātakhatakhaḍgapratiyuvasu <lb n="3"/>khanatkāravān asya khaḍgaḥ || 2 ||
                     </l>
                 </lg>
             </div>
             <div n="3">
                 <lg type="verse" xml:id="v_3">
                     <l>
-gāḍha<gap n="1" unit="akṣara"/>trasya goptigrahaṇam avagaṇayyāgrataḥ svargamārgaṃ
+gāḍha..trasya goptigrahaṇam avagaṇayyāgrataḥ svargamārgaṃ
 <caesura/>
 grasyantasya mahāgresarakaraguṇitodagrajāgradgabhastiḥ |
                     </l>

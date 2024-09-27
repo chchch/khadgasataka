@@ -18,13 +18,62 @@
             </summary>
           </msContents>
         </msDesc>
-<listWit><witness xml:id="B" source="B.xml"><abbr type="siglum">B</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title></expan><witness xml:id="Bac" type="ac"><abbr type="siglum">Bac</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan></witness><witness xml:id="Bpc" type="pc"><abbr type="siglum">Bpc</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan></witness></witness><witness xml:id="C1" source="C1.xml"><abbr type="siglum">C1</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title></expan></witness><witness xml:id="Cc" source="Cc.xml"><abbr type="siglum">Cc</abbr><expan>A Descriptive Catalogue of the Sanskrit Manuscripts in the Collection of the Asiatic Society of Bengal, Volume VII: Kāvya Manuscripts</expan></witness><witness xml:id="Ed" source="Ed.xml"><abbr type="siglum">Ed</abbr><expan>Khaḍgaśataka</expan></witness><witness xml:id="KEd" source="KEd.xml"><abbr type="siglum">KEd</abbr><expan>
-          <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
-        </expan><witness xml:id="KEdac" type="ac"><abbr type="siglum">KEdac</abbr><expan>
-          <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
-         [ante correctionem]</expan></witness><witness xml:id="KEdpc" type="pc"><abbr type="siglum">KEdpc</abbr><expan>
-          <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
-         [post correctionem]</expan></witness></witness><witness xml:id="O" source="O.xml"><abbr type="siglum">O</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title></expan><witness xml:id="Oac" type="ac"><abbr type="siglum">Oac</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan></witness><witness xml:id="Opc" type="pc"><abbr type="siglum">Opc</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan></witness></witness><witness xml:id="R" source="R.xml"><abbr type="siglum">R</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title></expan><witness xml:id="Rac" type="ac"><abbr type="siglum">Rac</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan></witness><witness xml:id="Rpc" type="pc"><abbr type="siglum">Rpc</abbr><expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan></witness></witness></listWit>
+        <listWit>
+          <witness xml:id="B" source="B.xml">
+            <abbr type="siglum">B</abbr>
+            <expan>MS 3006, Anup Sanskrit Library, Bikaner</expan>
+            <witness xml:id="Bac" type="ac">
+              <abbr type="siglum">Bpc</abbr>
+              <expan>MS 3006, Anup Sanskrit Library, Bikaner [post correctionem]</expan>
+            </witness>
+            <witness xml:id="Bpc" type="pc">
+              <abbr type="siglum">Bpc</abbr>
+              <expan>MS 3006, Anup Sanskrit Library, Bikaner [post correctionem]</expan>
+            </witness>
+          </witness>
+          <witness xml:id="C1" source="C1.xml">
+            <abbr type="siglum">C1</abbr>
+            <expan>MS G6024, Asiatic Society of Bengal</expan>
+          </witness>
+          <witness xml:id="Cc" source="Cc.xml">
+            <abbr type="siglum">Cc</abbr>
+            <expan>A Descriptive Catalogue of the Sanskrit Manuscripts in the Collection of the Asiatic Society of Bengal, Volume VII: Kāvya Manuscripts</expan>
+          </witness>
+          <witness xml:id="Ed" source="Ed.xml">
+            <abbr type="siglum">Ed</abbr>
+            <expan>Cuneo &amp; Li edition</expan>
+          </witness>
+          <witness xml:id="KEd" source="KEd.xml">
+            <abbr type="siglum">KEd</abbr>
+            <expan>
+              <title xml:lang="sa">Kāvyamālā, ekādaśo gucchakaḥ</title>
+            </expan>
+          </witness>
+          <witness xml:id="O" source="O.xml">
+            <abbr type="siglum">O</abbr>
+            <expan>MS Or. d. 7, Bodleian Library, Oxford</expan>
+            <witness xml:id="Oac" type="ac">
+              <abbr type="siglum">O<hi rend="subscript">ac</hi></abbr>
+              <expan>MS Or. d. 7, Bodleian Library, Oxford [ante correctionem]</expan>
+            </witness>
+            <witness xml:id="Opc" type="pc">
+              <abbr type="siglum">O<hi rend="subscript">pc</hi></abbr>
+              <expan>MS Or. d. 7, Bodleian Library, Oxford [post correctionem]</expan>
+            </witness>
+          </witness>
+          <witness xml:id="R" source="R.xml">
+            <abbr type="siglum">R</abbr>
+            <expan>MS 588, Raghunath Temple, Kashmir</expan>
+            <witness xml:id="Rac" type="ac">
+              <abbr type="siglum">R<hi rend="subscript">ac</hi></abbr>
+              <expan>MS 588, Raghunath Temple, Kashmir [ante correctionem]</expan>
+            </witness>
+            <witness xml:id="Rpc" type="pc">
+              <abbr type="siglum">R<hi rend="subscript">pc</hi></abbr>
+              <expan>MS 588, Raghunath Temple, Kashmir [post correctionem]</expan>
+            </witness>
+          </witness>
+        </listWit>
       </sourceDesc>
     </fileDesc>
     <revisionDesc/>
@@ -32,11 +81,11 @@
   <!--text xml:lang="sa" corresp="#Ed" type="edition"-->
   <text xml:lang="sa" type="edition">
     <body>
-      <div n="1">
-<lg type="verse" xml:id="v_1" source="alignments/v_1.xml">
-    <l><app><lem wit="#KEd #Rac #Rpc #B #Cc #O"> kalpāti</lem><rdg wit="#C1"> || kalpāṃti</rdg></app>krūrakālabhrukuṭikuṭilatākalpa<app><lem wit="#KEd #Rac #Rpc #C1 #Cc #O">kalpāgramuṣṭiḥ</lem><rdg wit="#B">kalpā<gap quantity="2" unit="akṣara" reason="lost"/>ṣṭiḥ </rdg></app><caesura/> <app><lem wit="#Rac #Rpc #C1 #Cc #O">krudhyatkālīkaṭākṣāṅkita iva</lem><rdg wit="#KEd">krudhyatkālīkaṭākṣāṅkita[sa]</rdg><rdg wit="#B">kru<gap quantity="6" unit="akṣara" reason="lost"/>nkita iva </rdg></app> <app><lem wit="#B #C1 #O">kalayan kāntim</lem><rdg wit="#KEd">kala........nim</rdg><rdg wit="#Rac #Rpc">kala<gap quantity="2" unit="akṣara" reason="lost"/>tim </rdg><rdg wit="#Cc">kalayat kāntim </rdg></app> <app><lem wit="#C1 #Cc #O">ekāntakālīm |</lem><rdg wit="#KEd">e(ṣe)kāntakālī | </rdg><rdg wit="#Rac #Rpc">ekāṃtakālī | </rdg><rdg wit="#B">ekāṃtakālī || </rdg></app></l>
-    <l><app><lem wit="#KEd #Rac #Rpc #Cc #O">krīḍaty asyākrameṇa</lem><rdg wit="#B">krī‡‡yākrameṇa </rdg><rdg wit="#C1">krīḍety asyākrameṇa </rdg></app> <app><lem wit="#KEd #Rac #Rpc #C1 #Cc #O">krakacakṛtikṛtī</lem><rdg wit="#B">‡kacakṛtikṛtī </rdg></app> <app><lem wit="#Rpc #B #Cc #O">kumbhikumbhāgra</lem><rdg wit="#KEd">kunti(mbhi)kumbhāgra</rdg><rdg wit="#Rac">kuṃbhikuṃbhāṃgra</rdg><rdg wit="#C1">kruṃbhikuṃbhāgra</rdg></app><app><lem wit="#KEd #Rac #Rpc #B #O">kūṭa<caesura/></lem><rdg wit="#C1">kruṭa</rdg><rdg wit="#Cc">kūṭaḥ </rdg></app><app><lem wit="#KEd #Rac #Rpc #O">kroḍeṣūtkṛttakaṇṭhotthita</lem><rdg wit="#B">kroḍeṣūtkaṃ<gap quantity="3" reason="lost" unit="aḳsara"/>smita</rdg><rdg wit="#C1">kroḍe pūtkṛttakaṃṭhotthita</rdg><rdg wit="#Cc">kroḍe phutkṛttakaṇṭhojjhita</rdg></app>rudhirakaṇākīrṇakoṇaḥ <app><lem wit="#KEd #B #C1 #Cc #O">kṛpāṇaḥ || 1 ||</lem><rdg wit="#Rac #Rpc">kṛpā<gap quantity="2" unit="akṣara" reason="lost"/> || 1 || </rdg></app> </l>
-    </lg>
+ <div n="1">
+    <lg type="verse" xml:id="v_1" source="alignments/v_1.xml">
+      <l><app><lem wit="#KEd #R #O #B #Cc"> kalpāti</lem><rdg wit="#C1"> || kalpāṃti</rdg></app>krūrakālabhrukuṭikuṭilatākalpa<app><lem wit="#KEd #R #O #C1 #Cc">kalpāgramuṣṭiḥ</lem><rdg wit="#B">kalpā‡‡ṣṭiḥ </rdg></app> <caesura/> <app><lem wit="#R #C1 #Cc">krudhyatkālīkaṭākṣāṅkita iva</lem><rdg wit="#KEd">krudhyatkālīkaṭākṣāṅkita[sa]</rdg><rdg wit="#O">krudhyatkālīkaṭākṣāṃkita su</rdg><rdg wit="#B">kru‡‡‡‡‡kṣāṃkita iva </rdg></app> <app><lem wit="#B #C1">kalayan</lem><rdg wit="#KEd">kala........</rdg><rdg wit="#R">kala‡‡</rdg><rdg wit="#O">kala...</rdg><rdg wit="#Cc">kalayat </rdg></app> <app><lem wit="#B #Cc">kāntim</lem><rdg wit="#KEd">nim</rdg><rdg wit="#R">tim </rdg><rdg wit="#O">nim </rdg><rdg wit="#C1">kāṃnim </rdg></app> <app><lem wit="#B #C1 #Cc">ekāntakālīm |</lem><rdg wit="#KEd">e(ṣe)kāntakālī | </rdg><rdg wit="#R #O">ekāṃtakālī | </rdg></app></l>
+      <l><app><lem wit="#KEd #R #O #Cc">krīḍaty asyākrameṇa</lem><rdg wit="#B">krī‡‡yākrameṇa </rdg><rdg wit="#C1">krīḍety asyākrameṇa </rdg></app><app><lem wit="#KEd #R #O #C1 #Cc">krakacakṛtikṛtī</lem><rdg wit="#B">‡kacakṛtikṛtī </rdg></app><app><lem wit="#Rpc #B #Cc">kumbhikumbhāgra</lem><rdg wit="#KEd">kunti(mbhi)kumbhāgra</rdg><rdg wit="#Rac">kuṃbhikuṃbhāṃgra</rdg><rdg wit="#O">kuṃtikuṃbhāgra</rdg><rdg wit="#C1">kruṃbhikuṃbhāgra</rdg></app><app><lem wit="#KEd #R #O #B">kūṭa<caesura/></lem><rdg wit="#C1">kruṭa</rdg><rdg wit="#Cc">kūṭaḥ </rdg></app><app><lem wit="#KEd #R #O">kroḍeṣūtkṛttakaṇṭhotthita</lem><rdg wit="#B">kroḍeṣūtkaṃ‡‡‡tthita</rdg><rdg wit="#C1">kroḍe pūtkṛttakaṃṭhotthita</rdg><rdg wit="#Cc">kroḍe phutkṛttakaṇṭhojjhita</rdg></app>rudhirakaṇākīrṇakoṇaḥ <app><lem wit="#KEd #O #B #C1 #Cc">kṛpāṇaḥ || 1 ||</lem><rdg wit="#R">kṛpā‡‡ || 1 || </rdg></app> </l> 
+        </lg>
       </div>
       <div n="2">
         <lg type="verse" xml:id="v_2">
