@@ -83,8 +83,8 @@
   <text xml:lang="sa" type="edition">
     <body>
     <div n="1">
-      <div xml:id="v_1" rend="parallel">
-        <lg type="edition" source="alignments/v_1.xml">
+      <div rend="parallel">
+        <lg type="edition" xml:id="v_1" source="alignments/v_1.xml">
           <l><app><lem wit="#KEd #R #O #B #Cc"> kalpāti</lem><rdg wit="#C1">kalpāṃti</rdg></app>krūrakālabhrukuṭikuṭilatākalpa<app><lem wit="#KEd #R #O #C1 #Cc">kalpāgramuṣṭiḥ</lem><rdg wit="#B">kalpā<gap reason="lost" unit="akṣara" quantity="2"/>ṣṭiḥ </rdg></app> <caesura/> <app><lem wit="#R #C1 #Cc">krudhyatkālīkaṭākṣāṅkita iva</lem><rdg wit="#KEd">krudhyatkālīkaṭākṣāṅkita[sa]</rdg><rdg wit="#O">krudhyatkālīkaṭākṣāṃkita su</rdg><rdg wit="#B">kru<gap reason="lost" unit="akṣara" quantity="5"/>kṣāṃkita iva </rdg></app> <app><lem wit="#B">kalayan kāntim</lem><rdg wit="#KEd">kala........nim</rdg><rdg wit="#R">kala<gap reason="lost" unit="akṣara" quantity="2"/>tim</rdg><rdg wit="#O">kala...nim</rdg><rdg wit="#C1">kalayan kāṃnim</rdg><rdg wit="#Cc">kalayat kāntim</rdg></app> <app><lem wit="#B #C1 #Cc">ekāntakālīm</lem><rdg wit="#KEd">e(ṣe)kāntakālī</rdg><rdg wit="#R #O">ekāṃtakālī</rdg></app> |</l>
           <l><app><lem wit="#KEd #R #O #Cc">krīḍaty asyākrameṇa</lem><rdg wit="#B">krī<gap reason="lost" unit="akṣara" quantity="2"/>yākrameṇa </rdg><rdg wit="#C1">krīḍety asyākrameṇa </rdg></app> <app><lem wit="#KEd #R #O #C1 #Cc">krakacakṛtikṛtī</lem><rdg wit="#B"><gap quantity="1" unit="akṣara" reason="lost"/>kacakṛtikṛtī </rdg></app> <app><lem wit="#Rpc #B #Cc">kumbhikumbhāgra</lem><rdg wit="#KEd">kunti(mbhi)kumbhāgra</rdg><rdg wit="#Rac">kuṃbhikuṃbhāṃgra</rdg><rdg wit="#O">kuṃtikuṃbhāgra</rdg><rdg wit="#C1">kruṃbhikuṃbhāgra</rdg></app><app><lem wit="#KEd #R #O #B">kūṭa<caesura/></lem><rdg wit="#C1">kruṭa</rdg><rdg wit="#Cc">kūṭaḥ </rdg></app><app><lem wit="#KEd #R #O">kroḍeṣūtkṛttakaṇṭhotthita</lem><rdg wit="#B">kroḍeṣūtkaṃ<gap reason="lost" unit="akṣara" quantity="3"/>tthita</rdg><rdg wit="#C1">kroḍe pūtkṛttakaṃṭhotthita</rdg><rdg wit="#Cc">kroḍe phutkṛttakaṇṭhojjhita</rdg></app>rudhirakaṇākīrṇakoṇaḥ <app><lem wit="#KEd #O #B #C1 #Cc">kṛpāṇaḥ</lem><rdg wit="#R">kṛpā<gap reason="lost" unit="akṣara" quantity="2"/></rdg></app> || 1 ||</l> 
         </lg>
@@ -98,7 +98,7 @@
       </div>
       <div n="2">
         <div rend="parallel">
-            <lg type="verse" xml:id="v_2">
+            <lg type="edition" xml:id="v_2">
               <l>
     khaṃ preṅkhadbhiḥ kharāṃśoḥ prakharakharaśikhāḥ khaṇḍayan svair mayūkhaiḥ
     <caesura/>
@@ -110,7 +110,7 @@
     khelaty utkhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 ||
               </l>
             </lg>
-            <lg xml:lang="en">
+            <lg type="translation" xml:lang="en">
                 <l>
 Shattering the impossibly hot flames of the sun with its rays swinging across the sky,
                 </l>
