@@ -97,18 +97,34 @@
         </div>
       </div>
       <div n="2">
-        <lg type="verse" xml:id="v_2">
-          <l>
-khaṃ preṅkhadbhiḥ kharāṃśoḥ prakharakharaśikhāḥ khaṇḍayan svair mayūkhaiḥ
-<caesura/>
-khelāsaṃkhyeṣu khañjīkṛtaraṇarasikaḥ saṃmukhānāṃ khanitram |
-          </l>
-          <l>
-khyātaḥ saukhyasya khāniḥ khalu kamitṛjuṣāṃ khecarīṇām akharvaḥ
-<caesura/>
-khelaty utkhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 ||
-          </l>
-        </lg>
+        <div rend="parallel">
+            <lg type="verse" xml:id="v_2">
+              <l>
+    khaṃ preṅkhadbhiḥ kharāṃśoḥ prakharakharaśikhāḥ khaṇḍayan svair mayūkhaiḥ
+    <caesura/>
+    khelāsaṃkhyeṣu khañjīkṛtaraṇarasikaḥ saṃmukhānāṃ khanitram |
+              </l>
+              <l>
+    khyātaḥ saukhyasya khāniḥ khalu kamitṛjuṣāṃ khecarīṇām akharvaḥ
+    <caesura/>
+    khelaty utkhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 ||
+              </l>
+            </lg>
+            <lg xml:lang="en">
+                <l>
+Shattering the impossibly hot flames of the sun with its rays swinging across the sky,
+                </l>
+                <l>
+it is the maimer of battle connoisseurs in the pleasures that are the conflicts. It is the shovel for the enemies.
+                </l>
+                <l>
+It is a celebrated mine of happiness, crucial for the celestial nymphs devoted to their lovers.
+                </l>
+                <l>
+By making a clanging sound, his sword plays upon the rival youngsters (male prostitutes) of unsheathed/smashed swords.   
+                </l>
+            </lg>
+          </div>
       </div>
       <div n="3">
         <lg type="verse" xml:id="v_3">
