@@ -98,18 +98,14 @@
       </div>
       <div n="2">
         <div rend="parallel">
-            <lg type="edition" xml:id="v_2">
-              <l>
-    khaṃ preṅkhadbhiḥ kharāṃśoḥ prakharakharaśikhāḥ khaṇḍayan svair mayūkhaiḥ
-    <caesura/>
-    khelāsaṃkhyeṣu khañjīkṛtaraṇarasikaḥ saṃmukhānāṃ khanitram |
-              </l>
-              <l>
-    khyātaḥ saukhyasya khāniḥ khalu kamitṛjuṣāṃ khecarīṇām akharvaḥ
-    <caesura/>
-    khelaty utkhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 ||
-              </l>
-            </lg>
+            <lg type="edition" xml:id="v_2" source="alignments/v_2.xml">
+                <l>khaṃ <app><lem wit="#KEd #R #O #B">preṅkhadbhiḥ</lem><rdg wit="#C1">prekhadbhiḥ </rdg></app> <app><lem wit="#KEd">kharāṃśoḥ prakharakharaśikhāḥ</lem><rdg wit="#R #O">kharāṃśoḥ prakharakharaśikhā </rdg><rdg wit="#B">kharāṃ<gap reason="lost" unit="akṣara" quantity="3"/>varakhara<gap reason="lost" unit="akṣara" quantity="1"/>khā </rdg><rdg wit="#C1">kharāṃśoḥ prakharakeraśikhāḥ </rdg></app> khaṇḍayan svair <app><lem wit="#KEd #R #O #C1">mayūkhaiḥ</lem><rdg wit="#B">mayūṣai </rdg></app>
+                <caesura/>
+<app><lem wit="#KEd #R #O #Bpc #C1">khelāsaṃkhyeṣu</lem><rdg wit="#Bac">khelāsaṃkhyaiṣu </rdg></app> khañjīkṛtaraṇarasikaḥ saṃmukhānāṃ <app><lem wit="#R #B #C1">khanitram</lem><rdg wit="#KEd">khami(ni)ttram</rdg><rdg wit="#O">khamitraṃ</rdg></app> |</l>
+                <l><app><lem wit="#KEd #R #O #B">khyātaḥ</lem><rdg wit="#C1">khyātta'</rdg></app> saukhyasya khāniḥ <app><lem wit="#KEd #R #O #C1">khalu kamitṛjuṣāṃ</lem><rdg wit="#B">kha<gap reason="lost" unit="akṣara" quantity="3"/>tṛjuṣāṃ </rdg></app> khecarīṇām <app><lem wit="#KEd #R #O #C1">akharvaḥ</lem><rdg wit="#B">akharvaṃ </rdg></app>
+                    <caesura/>
+khelaty <app><lem wit="#KEd #R #B">utkhātakhaḍga</lem><rdg wit="#O">utkhātakhatakhaḍga</rdg><rdg wit="#C1">uśvātakhaḍgaḥ </rdg></app>pratiyuvasu <app><lem wit="#KEd #R #O #B">khanatkāravān</lem><rdg wit="#C1">khanatkākhān </rdg></app> asya khaḍgaḥ || 2 || </l>
+                </lg>
             <lg type="translation" xml:lang="en">
                 <l>
 Shattering the impossibly hot flames of the sun with its rays swinging across the sky,
