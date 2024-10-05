@@ -24,11 +24,11 @@
             <abbr type="siglum">B</abbr>
             <expan>MS 3006, Anup Sanskrit Library, Bikaner</expan>
             <witness xml:id="Bac" type="ac">
-              <abbr type="siglum">Bpc</abbr>
-              <expan>MS 3006, Anup Sanskrit Library, Bikaner [post correctionem]</expan>
+              <abbr type="siglum">B<hi rend="subscript">ac</hi></abbr>
+              <expan>MS 3006, Anup Sanskrit Library, Bikaner [ante correctionem]</expan>
             </witness>
             <witness xml:id="Bpc" type="pc">
-              <abbr type="siglum">Bpc</abbr>
+              <abbr type="siglum">B<hi rend="subscript">pc</hi></abbr>
               <expan>MS 3006, Anup Sanskrit Library, Bikaner [post correctionem]</expan>
             </witness>
           </witness>
@@ -90,7 +90,7 @@
         </lg>
         <lg type="translation" xml:lang="en">
 <l>As if adorned by its crossguard, curved like the contracted brow of cruel Kāla at the end of time,</l>
-<l rend="indent">it assumes an absolute black splendour, as if branded by a sidelong glance from a sulking Kālī.</l>
+<l rend="indent">it assumes an absolute black splendour, as though branded by a sidelong glance from a sulking Kālī.</l>
 <l>Master at hacking straight down the middle of the crest between elephants’ temples,</l>
 <l rend="indent">his sword — edge splattered with blood gushing from severed throats — plays.</l>
           </lg>
@@ -101,23 +101,23 @@
             <lg type="edition" xml:id="v_2" source="alignments/v_2.xml">
                 <l>khaṃ <app><lem wit="#KEd #R #O #B">preṅkhadbhiḥ</lem><rdg wit="#C1">prekhadbhiḥ </rdg></app> <app><lem wit="#KEd">kharāṃśoḥ prakharakharaśikhāḥ</lem><rdg wit="#R #O">kharāṃśoḥ prakharakharaśikhā </rdg><rdg wit="#B">kharāṃ<gap reason="lost" unit="akṣara" quantity="3"/>varakhara<gap reason="lost" unit="akṣara" quantity="1"/>khā </rdg><rdg wit="#C1">kharāṃśoḥ prakharakeraśikhāḥ </rdg></app> khaṇḍayan svair <app><lem wit="#KEd #R #O #C1">mayūkhaiḥ</lem><rdg wit="#B">mayūṣai </rdg></app>
                 <caesura/>
-<app><lem wit="#KEd #R #O #Bpc #C1">khelāsaṃkhyeṣu</lem><rdg wit="#Bac">khelāsaṃkhyaiṣu </rdg></app> khañjīkṛtaraṇarasikaḥ saṃmukhānāṃ <app><lem wit="#R #B #C1">khanitram</lem><rdg wit="#KEd">khami(ni)ttram</rdg><rdg wit="#O">khamitraṃ</rdg></app> |</l>
+<app><lem wit="#KEd #R #O #Bpc #C1">khelāsaṃkhyeṣu</lem><rdg wit="#Bac">khelāsaṃkhyaiṣu </rdg></app> khañjīkṛtaraṇarasikaḥ<app><note place="apparatus" xml:lang="en">Cf. <title xml:lang="sa">Bālarāmāyaṇa</title> 4.64, <q xml:lang="sa">kṛtaraṇarasikakṣatriyakṣodakeliḥ</q>.</note></app> saṃmukhānāṃ <app><lem wit="#R #B #C1">khanitram</lem><rdg wit="#KEd">khami(ni)ttram</rdg><rdg wit="#O">khamitraṃ</rdg></app> |</l>
                 <l><app><lem wit="#KEd #R #O #B">khyātaḥ</lem><rdg wit="#C1">khyātta'</rdg></app> saukhyasya khāniḥ <app><lem wit="#KEd #R #O #C1">khalu kamitṛjuṣāṃ</lem><rdg wit="#B">kha<gap reason="lost" unit="akṣara" quantity="3"/>tṛjuṣāṃ </rdg></app> khecarīṇām <app><lem wit="#KEd #R #O #C1">akharvaḥ</lem><rdg wit="#B">akharvaṃ </rdg></app>
                     <caesura/>
 khelaty <app><lem wit="#KEd #R #B">utkhātakhaḍga</lem><rdg wit="#O">utkhātakhatakhaḍga</rdg><rdg wit="#C1">uśvātakhaḍgaḥ </rdg></app>pratiyuvasu <app><lem wit="#KEd #R #O #B">khanatkāravān</lem><rdg wit="#C1">khanatkākhān </rdg></app> asya khaḍgaḥ || 2 || </l>
                 </lg>
             <lg type="translation" xml:lang="en">
                 <l>
-Shattering the impossibly hot flames of the sun with its rays swinging across the sky,
+Shattering the fierce rays of the sun with its own, sweeping the sky,
                 </l>
                 <l>
-it is the maimer of battle connoisseurs in the pleasures that are the conflicts. It is the shovel for the enemies.
+It emasculates the lovers of war in carnal battles, excavator of enemies.
                 </l>
                 <l>
-It is a celebrated mine of happiness, crucial for the celestial nymphs devoted to their lovers.
+Famed mine of bliss, vast enough for the khecarīs devoted to their lover,
                 </l>
                 <l>
-By making a clanging sound, his sword plays upon the rival youngsters (male prostitutes) of unsheathed/smashed swords.   
+his sword — drilling out his young rivals, swords unsheathed — plays.
                 </l>
             </lg>
           </div>
