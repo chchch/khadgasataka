@@ -79,8 +79,8 @@
     </fileDesc>
     <revisionDesc/>
   </teiHeader>
-  <!--text xml:lang="sa" corresp="#Ed" type="edition"-->
-  <text xml:lang="sa" type="edition">
+  <text xml:lang="sa" corresp="#Ed" type="edition">
+  <!--text xml:lang="sa" type="edition"-->
     <body>
     <div n="1">
       <div rend="parallel">
@@ -123,18 +123,22 @@ his sword — drilling out his young rivals, swords unsheathed — plays.
           </div>
       </div>
       <div n="3">
-        <lg type="verse" xml:id="v_3">
-          <l>
-gāḍhaṃ gātrasya guptigrahaṇam avagaṇayyāgrataḥ svargamārgaṃ
-<caesura/>
-grasyann asya grahāgresarakaraguṇitodagrajāgradgabhastiḥ |
-          </l>
-          <l>
-garvogragranthigotragrahilaripugaṇagrāsabhaṅgīgṛhīto
-<caesura/>
-garjaty agresarāgryagrahagilanaguruḥ saṃgare maṇḍalāgraḥ || 3 ||
-          </l>
-        </lg>
+        <div rend="parallel">
+            <lg xml:id="v_3" source="alignments/v_3.xml">
+                <l><app><lem wit="#R #B #C1"> gāḍhaṃ gātrasya</lem><rdg wit="#O"> gāḍha..trasya </rdg><rdg wit="#KEd"> gātrasya ............</rdg></app> <app><lem wit="#R #B #C1">guptigrahaṇam</lem><rdg wit="#O">goptigrahaṇam </rdg><rdg wit="#KEd">ptigrahaṇam </rdg></app> <app><lem wit="#R #O #KEd">avagaṇayyāgrataḥ svargamārgaṃ</lem><rdg wit="#B">avagatā<gap quantity="3" unit="akṣara" reason="lost"/>svargamārgaṃ </rdg><rdg wit="#C1">eva gaṇayyāgrataḥ svargamārgaṃ </rdg></app>
+                <caesura/>
+<app><lem wit="#R #C1">grasyatrasya</lem><rdg wit="#O">grasyantasya </rdg><rdg wit="#KEd">grasyannasya(?) </rdg><rdg wit="#B">grasyann asya </rdg></app><app><lem wit="#R #Bpc #C1">grahāgresara</lem><rdg wit="#O #KEd">mahāgresara</rdg><rdg wit="#Bac">grahāgregresara</rdg></app>karaguṇitodagra<app><lem wit="#R #O #KEd #C1">jāgradgabhastiḥ</lem><rdg wit="#B">jāgradbhabhastiḥ</rdg></app> |</l>
+                <l><app><lem wit="#R #O #KEd #Bpc">garvogragranthi</lem><rdg wit="#Bac">garvogragrethi</rdg><rdg wit="#C1">gardhogragraṃthi</rdg></app>gotragrahila<app><lem wit="#R #B #C1">ripugaṇagrāsabhaṅgīgṛhīto</lem><rdg wit="#O">ripu....bhaṃgīgṛhīto </rdg><rdg wit="#KEd">ripu............bhaṅgīgṛhīto </rdg></app>
+                <caesura/>
+garjaty <app><lem wit="#R #O #KEd #B">agresarāgrya</lem><rdg wit="#C1">agresarāgrā</rdg></app>grahagilanaguruḥ saṃgare maṇḍalāgraḥ || 3 ||</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+<l>Complete concealment of the body; giving up the path of heaven before it,</l>
+<l>its fierce, waking rays are intensified by those of the moon, in fear of being consumed.</l>
+<l>As if swallowing the enemy host obsessed with high birth, the firm fetters of their pride,</l>
+<l>the scimitar roars in battle, guru of devouring the greatest of planets.</l>
+            </lg>
+        </div>
       </div>
       <div n="4">
         <lg type="verse" xml:id="v_4">
