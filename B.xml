@@ -107,12 +107,12 @@ kru<gap quantity="6" unit="akṣara" reason="damage"/>kṣāṃkita iva kalayan 
             <div n="2">
                 <lg type="verse" xml:id="v_2">
                     <l>
-khaṃ <note place="right-margin">ikhi gatau <unclear>2</unclear></note>preṃkhadbhiḥ kha<lb n="3"/>rāṃ<gap quantity="1" unit="akṣara" reason="damage"/>varakhara<gap quantity="3" unit="akṣara" reason="damage"/>khā khaṃḍayan svair mayūṣai
+khaṃ <note place="right-margin">ikhi gatau <unclear>2</unclear></note>preṃkhadbhiḥ kha<lb n="3"/>rāṃ<gap quantity="3" unit="akṣara" reason="damage"/>varakhara<gap quantity="1" unit="akṣara" reason="damage"/>khā khaṃḍayan svair mayūṣai
 <caesura/>
-khelāsaṃ<subst>khy<del>ai</del><add rend="implied">e</add></subst>ṣu khaṃjīkṛtaraṇarasikaḥ saṃmukhānāṃ khanitraṃ ||
+khelāsaṃ<subst>khy<del>ai</del><add rend="implied">e</add></subst>ṣu khaṃjīkṛtara<unclear>ṇa</unclear>rasikaḥ saṃmukhānāṃ khanitraṃ ||
                     </l>
                     <l>
-khyātaḥ saukhyasya khāniḥ <note place="left-margin">kāmukajuṣāṃ<gap quantity="1" unit="akṣara" reason="damage"/></note>kha<lb n="4"/><gap quantity="2" unit="akṣara" reason="damage"/>tṛjuṣāṃ khecarīṇām akharvaṃ
+khyātaḥ saukhyasya khāniḥ <note place="left-margin">kāmukajuṣāṃ<gap quantity="1" unit="akṣara" reason="damage"/></note>kha<lb n="4"/><gap quantity="3" unit="akṣara" reason="damage"/>tṛjuṣāṃ khecarīṇām akharvaṃ
 <caesura/>
 khelaty ukhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 ||
                     </l>
@@ -126,9 +126,9 @@ gāḍhaṃ gātrasya guptigrahaṇam avagatā<lb n="5"/><gap quantity="3" unit=
 grasyann asya grahā<del>gre</del>gresarakaraguṇitodagrajāgradbhabhastiḥ ||
                     </l>
                     <l>
-garvogra<subst><orig>graṃ</orig><corr>graṃ</corr></subst>thigotragrahilaripugaṇagrāsabhaṃgīgṛ<lb n="6"/>hīto<note place="right-margin">prakāraḥ 4</note>
+                      garvogra<subst><del><unclear>gre</unclear></del><add place="above">graṃ</add></subst>thigotragrahilaripugaṇagrāsabhaṃgī<note place="right-margin">prakāraḥ 4</note>gṛ<lb n="6"/>hīto
 <caesura/>
-garjaty agresarāgrāgrahagilanaguruḥ saṃgare maṃḍalāgraḥ | 3 ||
+ garjaty agresarā<unclear>grya</unclear>grahagilanaguruḥ saṃgare maṃḍalāgraḥ | 3 ||
                     </l>
                 </lg>
             </div>
