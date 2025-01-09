@@ -560,10 +560,10 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <lem wit="#C1 #B">mahārghasyopaghnaḥ</lem>
     <rdgGrp select="#KEd #Oac">
       <rdg type="main">ma(?)...<caesura/>.......</rdg>
-      <rdg type="minor" wit="#Oac">ma<pb n="3r"/><lb n="1"/>..<caesura/>..</rdg>
+      <rdg type="minor" wit="#Oac">ma<pb n="3r" type="page"/><lb n="1"/>..<caesura/>..</rdg>
     </rdgGrp>
     <rdg wit="#R">maha<gap quantity="2" unit="akṣara" reason="lost"/><caesura/><lb n="7"/><unclear>paghnaḥ</unclear></rdg>
-    <rdg wit="#Opc">maha<pb n="3r"/><lb n="1"/>..<caesura/>..</rdg>
+    <rdg wit="#Opc">maha<pb n="3r" type="page"/><lb n="1"/>..<caesura/>..</rdg>
   </app>
   <app corresp="149,159">
     <lem wit="#KEd #O #R #B">ghaṭāghāta</lem>
@@ -583,7 +583,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
       <rdg type="main">u................ra</rdg>
       <rdg type="minor" wit="#O">u<note place="right-margin">2 (ka)</note>.......ra</rdg>
     </rdgGrp>
-    <rdg wit="#R">u<gap quantity="7" unit="akṣara" reason="lost"/><pb n="1v"/><lb n="1"/>ra</rdg>
+    <rdg wit="#R">u<gap quantity="7" unit="akṣara" reason="lost"/><pb n="1v" type="folio"/><lb n="1"/>ra</rdg>
   </app>
   <app corresp="204,224">
     <lem wit="#KEd #O #R">ghṛṇisamāghrātighoro</lem>
