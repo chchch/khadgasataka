@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="Ed">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="Ed">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -8,6 +6,7 @@
         <title type="sub">Preliminary critical edition &amp; translation</title>
         <title type="sub">Daniele Cuneo &amp; Charles Li</title>
       </titleStmt>
+      <publicationStmt><p>Unpublished.</p></publicationStmt>
       <sourceDesc>
         <msDesc xml:lang="en">
           <msIdentifier>
@@ -19,76 +18,95 @@
             </summary>
           </msContents>
         </msDesc>
-        <listWit>
-          <witness xml:id="B" source="B.xml">
-            <abbr type="siglum">B</abbr>
-            <expan>MS 3006, Anup Sanskrit Library, Bikaner</expan>
-            <witness xml:id="Bac" type="ac">
-              <abbr type="siglum">B<hi rend="subscript">ac</hi></abbr>
-              <expan>MS 3006, Anup Sanskrit Library, Bikaner [ante correctionem]</expan>
-            </witness>
-            <witness xml:id="Bpc" type="pc">
-              <abbr type="siglum">B<hi rend="subscript">pc</hi></abbr>
-              <expan>MS 3006, Anup Sanskrit Library, Bikaner [post correctionem]</expan>
-            </witness>
-          </witness>
-          <witness xml:id="C1" source="C1.xml">
-            <abbr type="siglum">C<hi rend="subscript">1</hi></abbr>
-            <expan>MS G6024, Asiatic Society of Bengal</expan>
-          </witness>
-          <witness xml:id="Cc" source="Cc.xml">
-            <abbr type="siglum">C<hi rend="subscript">c</hi></abbr>
-            <expan>A Descriptive Catalogue of the Sanskrit Manuscripts in the Collection of the Asiatic Society of Bengal, Volume VII: Kāvya Manuscripts</expan>
-          </witness>
-          <witness xml:id="Ed" source="Ed.xml">
-            <abbr type="siglum">Ed</abbr>
-            <expan>Cuneo &amp; Li edition</expan>
-          </witness>
-          <witness xml:id="KEd" source="KEd.xml">
-            <abbr type="siglum">K<hi rend="superscript">Ed</hi></abbr>
-            <expan>
-              <title xml:lang="sa">Kāvyamālā, ekādaśo gucchakaḥ</title>
-            </expan>
-          </witness>
-          <witness xml:id="O" source="O.xml">
-            <abbr type="siglum">O</abbr>
-            <expan>MS Or. d. 7, Bodleian Library, Oxford</expan>
-            <witness xml:id="Oac" type="ac">
-              <abbr type="siglum">O<hi rend="subscript">ac</hi></abbr>
-              <expan>MS Or. d. 7, Bodleian Library, Oxford [ante correctionem]</expan>
-            </witness>
-            <witness xml:id="Opc" type="pc">
-              <abbr type="siglum">O<hi rend="subscript">pc</hi></abbr>
-              <expan>MS Or. d. 7, Bodleian Library, Oxford [post correctionem]</expan>
-            </witness>
-          </witness>
-          <witness xml:id="R" source="R.xml">
-            <abbr type="siglum">R</abbr>
-            <expan>MS 588, Raghunath Temple, Kashmir</expan>
-            <witness xml:id="Rac" type="ac">
-              <abbr type="siglum">R<hi rend="subscript">ac</hi></abbr>
-              <expan>MS 588, Raghunath Temple, Kashmir [ante correctionem]</expan>
-            </witness>
-            <witness xml:id="Rpc" type="pc">
-              <abbr type="siglum">R<hi rend="subscript">pc</hi></abbr>
-              <expan>MS 588, Raghunath Temple, Kashmir [post correctionem]</expan>
-            </witness>
-          </witness>
-        </listWit>
+<listWit>
+  <witness xml:id="B" source="witnesses/B.xml">
+    <abbr type="siglum">B</abbr>
+    <expan>
+      <title xml:lang="sa">Khaḍgaśataka</title>
+    </expan>
+    <listWit>
+      <witness xml:id="Bac" n="ac">
+        <abbr type="siglum">Bac</abbr>
+        <expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan>
+      </witness>
+      <witness xml:id="Bpc" n="pc">
+        <abbr type="siglum">Bpc</abbr>
+        <expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan>
+      </witness>
+    </listWit>
+  </witness>
+  <witness xml:id="C1" source="witnesses/C1.xml">
+    <abbr type="siglum">C1</abbr>
+    <expan>
+      <title xml:lang="sa">Khaḍgaśataka</title>
+    </expan>
+  </witness>
+  <witness xml:id="Cc" source="witnesses/Cc.xml">
+    <abbr type="siglum">Cc</abbr>
+    <expan>A Descriptive Catalogue of the Sanskrit Manuscripts in the Collection of the Asiatic Society of Bengal, Volume VII: Kāvya Manuscripts</expan>
+  </witness>
+  <witness xml:id="KEd" source="witnesses/KEd.xml">
+    <abbr type="siglum">KEd</abbr>
+    <expan>
+      <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
+    </expan>
+    <listWit>
+      <witness xml:id="KEdac" n="ac">
+        <abbr type="siglum">KEdac</abbr>
+        <expan><title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title> [ante correctionem]</expan>
+      </witness>
+      <witness xml:id="KEdpc" n="pc">
+        <abbr type="siglum">KEdpc</abbr>
+        <expan><title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title> [post correctionem]</expan>
+      </witness>
+    </listWit>
+  </witness>
+  <witness xml:id="O" source="witnesses/O.xml">
+    <abbr type="siglum">O</abbr>
+    <expan>
+      <title xml:lang="sa">Khaḍgaśataka</title>
+    </expan>
+    <listWit>
+      <witness xml:id="Oac" n="ac">
+        <abbr type="siglum">Oac</abbr>
+        <expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan>
+      </witness>
+      <witness xml:id="Opc" n="pc">
+        <abbr type="siglum">Opc</abbr>
+        <expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan>
+      </witness>
+    </listWit>
+  </witness>
+  <witness xml:id="R" source="witnesses/R.xml">
+    <abbr type="siglum">R</abbr>
+    <expan>
+      <title xml:lang="sa">Khaḍgaśataka</title>
+    </expan>
+    <listWit>
+      <witness xml:id="Rac" n="ac">
+        <abbr type="siglum">Rac</abbr>
+        <expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan>
+      </witness>
+      <witness xml:id="Rpc" n="pc">
+        <abbr type="siglum">Rpc</abbr>
+        <expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan>
+      </witness>
+    </listWit>
+  </witness>
+<witness xml:id="Ed" source="Ed.xml"><abbr type="siglum">Ed</abbr><expan>The <title xml:lang="sa">Khaḍgaśataka</title> of <persName xml:lang="sa">Vināyaka Bhaṭṭa</persName></expan></witness></listWit>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc/>
+    <revisionDesc><change/></revisionDesc>
   </teiHeader>
-  <text xml:lang="sa" corresp="#Ed" type="edition">
-  <!--text xml:lang="sa" type="edition"-->
+  <text xml:lang="sa" type="edition">
     <body>
     <div n="1">
       <div rend="parallel">
-        <lg type="edition" xml:id="v_1" source="alignments/v_1.xml">
-          <l><app><lem wit="#KEd #R #O #B #Cc"> kalpāti</lem><rdg wit="#C1">kalpāṃti</rdg></app>krūrakālabhrukuṭikuṭilatākalpa<app><lem wit="#KEd #R #O #C1 #Cc">kalpāgramuṣṭiḥ</lem><rdg wit="#B">kalpā<gap reason="lost" unit="akṣara" quantity="2"/>ṣṭiḥ </rdg></app> <caesura/> <app><lem wit="#R #C1 #Cc">krudhyatkālīkaṭākṣāṅkita iva</lem><rdg wit="#KEd">krudhyatkālīkaṭākṣāṅkita[sa]</rdg><rdg wit="#O">krudhyatkālīkaṭākṣāṃkita su</rdg><rdg wit="#B">kru<gap reason="lost" unit="akṣara" quantity="5"/>kṣāṃkita iva </rdg></app> <app><lem wit="#B">kalayan kāntim</lem><rdg wit="#KEd">kala........nim</rdg><rdg wit="#R">kala<gap reason="lost" unit="akṣara" quantity="2"/>tim</rdg><rdg wit="#O">kala...nim</rdg><rdg wit="#C1">kalayan kāṃnim</rdg><rdg wit="#Cc">kalayat kāntim</rdg></app> <app><lem wit="#B #C1 #Cc">ekāntakālīm</lem><rdg wit="#KEd">e(ṣe)kāntakālī</rdg><rdg wit="#R #O">ekāṃtakālī</rdg></app> |</l>
-          <l><app><lem wit="#KEd #R #O #Cc">krīḍaty asyākrameṇa</lem><rdg wit="#B">krī<gap reason="lost" unit="akṣara" quantity="2"/>yākrameṇa </rdg><rdg wit="#C1">krīḍety asyākrameṇa </rdg></app> <app><lem wit="#KEd #R #O #C1 #Cc">krakacakṛtikṛtī</lem><rdg wit="#B"><gap quantity="1" unit="akṣara" reason="lost"/>kacakṛtikṛtī </rdg></app> <app><lem wit="#Rpc #B #Cc">kumbhikumbhāgra</lem><rdg wit="#KEd">kunti(mbhi)kumbhāgra</rdg><rdg wit="#Rac">kuṃbhikuṃbhāṃgra</rdg><rdg wit="#O">kuṃtikuṃbhāgra</rdg><rdg wit="#C1">kruṃbhikuṃbhāgra</rdg></app><app><lem wit="#KEd #R #O #B">kūṭa<caesura/></lem><rdg wit="#C1">kruṭa</rdg><rdg wit="#Cc">kūṭaḥ </rdg></app><app><lem wit="#KEd #R #O">kroḍeṣūtkṛttakaṇṭhotthita</lem><rdg wit="#B">kroḍeṣūtkaṃ<gap reason="lost" unit="akṣara" quantity="3"/>tthita</rdg><rdg wit="#C1">kroḍe pūtkṛttakaṃṭhotthita</rdg><rdg wit="#Cc">kroḍe phutkṛttakaṇṭhojjhita</rdg></app>rudhirakaṇākīrṇakoṇaḥ <app><lem wit="#KEd #O #B #C1 #Cc">kṛpāṇaḥ</lem><rdg wit="#R">kṛpā<gap reason="lost" unit="akṣara" quantity="2"/></rdg></app> || 1 ||</l> 
+        <lg xml:id="v_1">
+          <l>kalpātikrūrakālabhrukuṭikuṭilatākalpakalpāgramuṣṭiḥ <caesura/> krudhyatkālīkaṭākṣāṅkita iva kalayan kāntim ekāntakālīm |</l>
+          <l>krīḍaty asyākrameṇa krakacakṛtikṛtī kumbhikumbhāgrakūṭa<caesura/>kroḍeṣūtkṛttakaṇṭhotthitarudhirakaṇākīrṇakoṇaḥ kṛpāṇaḥ || 1 ||</l> 
         </lg>
-        <lg type="translation" xml:lang="en">
+        <lg xml:lang="en">
 <l>As if adorned by its crossguard, curved like the contracted brow of cruel Kāla at the end of time,</l>
 <l rend="indent">it assumes an absolute black splendour, as though branded by a sidelong glance from a sulking Kālī.</l>
 <l>Master at hacking straight down the middle of the crest between elephants’ temples,</l>
@@ -97,14 +115,14 @@
         </div>
       </div>
       <div n="2">
-        <div rend="parallel">
-            <lg type="edition" xml:id="v_2" source="alignments/v_2.xml">
-                <l>khaṃ <app><lem wit="#KEd #R #O #B">preṅkhadbhiḥ</lem><rdg wit="#C1">prekhadbhiḥ </rdg></app> <app><lem wit="#KEd">kharāṃśoḥ prakharakharaśikhāḥ</lem><rdg wit="#R #O">kharāṃśoḥ prakharakharaśikhā </rdg><rdg wit="#B">kharāṃ<gap reason="lost" unit="akṣara" quantity="3"/>varakhara<gap reason="lost" unit="akṣara" quantity="1"/>khā </rdg><rdg wit="#C1">kharāṃśoḥ prakharakeraśikhāḥ </rdg></app> khaṇḍayan svair <app><lem wit="#KEd #R #O #C1">mayūkhaiḥ</lem><rdg wit="#B">mayūṣai </rdg></app>
+        <div xml:id="v_2">
+            <lg type="edition">
+                <l>khaṃ preṅkhadbhiḥ kharāṃśoḥ prakharakharaśikhāḥ khaṇḍayan svair mayūkhaiḥ
                 <caesura/>
-<app><lem wit="#KEd #R #O #Bpc #C1">khelāsaṃkhyeṣu</lem><rdg wit="#Bac">khelāsaṃkhyaiṣu </rdg></app> khañjīkṛtaraṇarasikaḥ<app><note place="apparatus" xml:lang="en">Cf. <title xml:lang="sa">Bālarāmāyaṇa</title> 4.64, <q xml:lang="sa">kṛtaraṇarasikakṣatriyakṣodakeliḥ</q>.</note></app> saṃmukhānāṃ <app><lem wit="#R #B #C1">khanitram</lem><rdg wit="#KEd">khami(ni)ttram</rdg><rdg wit="#O">khamitraṃ</rdg></app> |</l>
-                <l><app><lem wit="#KEd #R #O #B">khyātaḥ</lem><rdg wit="#C1">khyātta'</rdg></app> saukhyasya khāniḥ <app><lem wit="#KEd #R #O #C1">khalu kamitṛjuṣāṃ</lem><rdg wit="#B">kha<gap reason="lost" unit="akṣara" quantity="3"/>tṛjuṣāṃ </rdg></app> khecarīṇām <app><lem wit="#KEd #R #O #C1">akharvaḥ</lem><rdg wit="#B">akharvaṃ </rdg></app>
+khelāsaṃkhyeṣu khañjīkṛtaraṇarasikaḥ<app><note xml:lang="en">Cf. <title xml:lang="sa">Bālarāmāyaṇa</title> 4.64, <q xml:lang="sa">kṛtaraṇarasikakṣatriyakṣodakeliḥ</q>.</note></app> saṃmukhānāṃ khanitram |</l>
+                <l>khyātaḥ saukhyasya khāniḥ khalu kamitṛjuṣāṃ khecarīṇām akharvaḥ
                     <caesura/>
-khelaty <app><lem wit="#KEd #R #B">utkhātakhaḍga</lem><rdg wit="#O">utkhātakhatakhaḍga</rdg><rdg wit="#C1">uśvātakhaḍgaḥ </rdg></app>pratiyuvasu <app><lem wit="#KEd #R #O #B">khanatkāravān</lem><rdg wit="#C1">khanatkākhān </rdg></app> asya khaḍgaḥ || 2 || </l>
+khelaty utkhātakhaḍgapratiyuvasu khanatkāravān asya khaḍgaḥ || 2 || </l>
                 </lg>
             <lg type="translation" xml:lang="en">
                 <l>
@@ -125,28 +143,32 @@ his sword — drilling out his young rivals, swords unsheathed — plays.
       <div n="3">
         <div rend="parallel">
             <lg xml:id="v_3" source="alignments/v_3.xml">
-                <l><app><lem wit="#R #B #C1"> gāḍhaṃ gātrasya</lem><rdg wit="#O"> gāḍha..trasya </rdg><rdg wit="#KEd"> gātrasya ............</rdg></app> <app><lem wit="#R #B #C1">guptigrahaṇam</lem><rdg wit="#O">goptigrahaṇam </rdg><rdg wit="#KEd">ptigrahaṇam </rdg></app> <app><lem wit="#R #O #KEd">avagaṇayyāgrataḥ svargamārgaṃ</lem><rdg wit="#B">avagatā<gap quantity="3" unit="akṣara" reason="lost"/>svargamārgaṃ </rdg><rdg wit="#C1">eva gaṇayyāgrataḥ svargamārgaṃ </rdg></app>
+                <l>
+gāḍhaṃ gātrasya guptigrahaṇam avagaṇayyāgrataḥ svargamārgaṃ
                 <caesura/>
-<app><lem wit="#R #C1">grasyatrasya</lem><rdg wit="#O">grasyantasya </rdg><rdg wit="#KEd">grasyannasya(?) </rdg><rdg wit="#B">grasyann asya </rdg></app><app><lem wit="#R #Bpc #C1">grahāgresara</lem><rdg wit="#O #KEd">mahāgresara</rdg><rdg wit="#Bac">grahāgregresara</rdg></app>karaguṇitodagra<app><lem wit="#R #O #KEd #C1">jāgradgabhastiḥ</lem><rdg wit="#B">jāgradbhabhastiḥ</rdg></app> |</l>
-                <l><app><lem wit="#R #O #KEd #Bpc">garvogragranthi</lem><rdg wit="#Bac">garvogragrethi</rdg><rdg wit="#C1">gardhogragraṃthi</rdg></app>gotragrahila<app><lem wit="#R #B #C1">ripugaṇagrāsabhaṅgīgṛhīto</lem><rdg wit="#O">ripu....bhaṃgīgṛhīto </rdg><rdg wit="#KEd">ripu............bhaṅgīgṛhīto </rdg></app>
+grasyatrasyagrahāgresarakaraguṇitodagrajāgradgabhastiḥ |
+                </l>
+                <l>
+garvogragranthigotragrahilaripugaṇagrāsabhaṅgīgṛhīto
                 <caesura/>
-garjaty <app><lem wit="#R #O #KEd #B">agresarāgrya</lem><rdg wit="#C1">agresarāgrā</rdg></app>grahagilanaguruḥ saṃgare maṇḍalāgraḥ || 3 ||</l>
+garjaty agresarāgryagrahagilanaguruḥ saṃgare maṇḍalāgraḥ || 3 ||
+                </l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>Complete concealment of the body; giving up the path of heaven before it,</l>
 <l>its fierce, waking rays are intensified by those of the moon, in fear of being consumed.</l>
 <l>As if swallowing the enemy host obsessed with high birth, the firm fetters of their pride,</l>
 <l>the scimitar roars in battle, guru of devouring the greatest of planets.</l>
             </lg>
-        </div>
+        </div>        
       </div>
       <div n="4">
         <div rend="parallel">
-        <lg xml:id="v_4" source="alignments/v_4.xml">
-<l><app><lem wit="#B #C1 #O #KEd"> ghrāṇaṃ</lem><rdg wit="#R"> prāṇaṃ </rdg></app> saṃgrāmalakṣmyā <app><lem wit="#B #O #KEd #R">ghana</lem><rdg wit="#C1">ghrana</rdg></app><app><lem wit="#B #C1 #O #R">sṛtiyaśasām</lem><rdg wit="#KEd">sṛtiyaśasām</rdg></app> <app><lem wit="#B #C1">aṅghrir udgho mahārgha<caesura/>syopaghnaḥ</lem><rdg wit="#Oac">aghritān_dyo ma....</rdg><rdg wit="#Opc">aghriḍitān_dyo maha....</rdg><rdg wit="#KEd">aṅghi[tā]nghoma(?)..........</rdg><rdg wit="#R">aṃghrirut_gho maha<gap quantity="2" reason="lost" unit="akṣara"/>paghnaḥ </rdg></app> sāhasasyālaghuhṛdayalaghur bhītyaghaughasya vighnaḥ |</l>
-<l>ghoṭaḥ kīrter ghanābhāpaghanagaja<app><lem wit="#B #O #KEd #R">ghaṭāghātanairghṛṇyanighno</lem><rdg wit="#C1">ghaṭādyājanaiḥrghṛṇyanighno</rdg><note xml:lang="en">Cf. <title xml:lang="sa">Vyaktiviveka</title>: <q xml:lang="sa">tasya niratiśaya śauryaśālitvena ghorataranairghṛṇyanighnatayā ca prasiddheḥ</q> (ed. Śāstrī 1909, <ref target="https://archive.org/details/TSS005VyaktivivekaOfRajanakaTGSastri1909_201809/page/n81/mode/1up">47</ref>).</note></app> <caesura/>ghūrṇaty <app><lem>udgharmaghṛṣṭiprakaraghṛṇi</lem><rdg wit="#B #C1">uj_gharmaghṛṣṭiprakharaghṛṇi</rdg><rdg wit="#O">u.......raghṛṇi</rdg><rdg wit="#KEd">u................raghṛṇi</rdg><rdg wit="#R">u<gap quantity="7" reason="lost" unit="akṣara"/>raghṛṇi</rdg></app><app><lem wit="#O #KEd #R">samāghrātighoro</lem><rdg wit="#B #C1">samāghnātighoro </rdg><note xml:lang="en">Cf. <title xml:lang="sa">Śrīśivarahasya</title>: <q xml:lang="sa">ghṛṇibhir apaghṛṇaiḥ gharmaghṛṣṭair ghanānte</q> (ed. Swaminatha Atreya 2016, <ref target="https://archive.org/details/shiv-rahasyam-amsas-iv-v-vi-series-no.-175-thanjavur-sarasvati-mahal-series/page/n217/mode/1up">138</ref>).</note></app> 'sya <app><lem wit="#B #O #KEd #R">khaḍgaḥ</lem><rdg wit="#C1">khaḍga</rdg></app> || 4 ||</l>
+        <lg xml:id="v_4">
+<l> ghrāṇaṃ saṃgrāmalakṣmyā ghanasṛtiyaśasām aṅghrir udgho mahārgha<caesura/>syopaghnaḥ sāhasasyālaghuhṛdayalaghur bhītyaghaughasya vighnaḥ |</l>
+<l>ghoṭaḥ kīrter ghanābhāpaghanagajaghaṭāghātanairghṛṇyanighno <caesura/>ghūrṇaty udgharmaghṛṣṭiprakaraghṛṇisamāghrātighoro 'sya khaḍgaḥ || 4 ||</l>
         </lg>
-        <lg type="translation" xml:lang="en">
+        <lg xml:lang="en">
 <l>The scent of glory in battle ― the foot of those famed for uninterrupted movement ― the excellence of the great offering ―</l>
 <l>support of violence, light but heavy-hearted — obstacle against the flood of fear and evil,</l>
 <l>the horse of fame ― subservient to the cruelty of slashing through the temples of cloud-bodied elephants,</l>
@@ -155,7 +177,7 @@ garjaty <app><lem wit="#R #O #KEd #B">agresarāgrya</lem><rdg wit="#C1">agresar�
         </div>
       </div>
       <div n="5">
-        <lg type="verse" xml:id="v_5">
+        <lg xml:id="v_5">
           <l>
 caṇḍaś caṇḍīśacakṣuś cirabhṛtaviṣamārcidhvajāc cānubhāle
 <caesura/>
@@ -181,7 +203,7 @@ chātacchāttripravīraḥ chiduragaṇacaṇaś chekahṛcchokakārī
 chāyākāntacchavīcchāvyatikaravaśato mūrcchatīddho 'sya khaḍgaḥ || 6 ||
         </l>
         </lg>
-        <p type="commentary" xml:id="c_6">
+        <p xml:id="c_6">
 ...vittaś chiduragaṇacaṇaḥ | "tena vittaḥ-" iti caṇap | chekānāṃ nāgarāṇāṃ hṛcchokakārī ||
         </p>
       </div>
@@ -198,7 +220,7 @@ jyājānir vyāgrajāgradgajaradanaśilābhañjanājasrayogyo
 jātajvālo jaṭāvān iha jayati jagajjitvaro 'muṣya khaḍgaḥ || 7 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_7">
+        <p xml:id="c_7">
 jam iti || amuṣya khaḍga iha loke jayati | kiṃvidhaḥ | jaitraṃ jayaśīlaṃ yaj janyaṃ saṃgrāmas tasyājirabhuvi jaṅghālaḥ | satvara ity arthaḥ || "jaṅghālo 'tijave" ity amaraḥ | jantujāte prāṇimātre jvarārti jvarapīḍāṃ janayan | trijagati trailokye jayinaḥ parākramavato bāhujasya kṣattriyasya jīvātur jīvanauṣadham | "jīvātur jīvanauṣadham" ity amaraḥ | punaḥ kiṃvidhaḥ | athavā trijagati jayino dorbhujaṅgasya bāhusarpasya jihvā | jyājānir vasudhājāniḥ || "jāyāyā niṅ" | "vasudhāmaurvyor jyā" iti medinī | vyāgrāś ca jāgradgajaradanāś ca śilāś ca tāsāṃ bhañjanaṃ tatrājasraṃ yogyaḥ | jātā jvālā yasmin sa tathā | ata eva jaṭāvān | jagajjitvaraḥ ||
         </p>
       </div>
@@ -215,7 +237,7 @@ jhāṣāṅkīṃ tām avasthāṃ jhagiti ripujanaṃ grāhayan dhūrjaṭī�
 jhūrannamrāhiteṣūjjhitaraṇarabhasaṃ projjihīte 'sya khaḍgaḥ || 8 ||
           </l>
         </lg>
-        <p type="commentary" n="8" xml:id="c_8">
+        <p n="8" xml:id="c_8">
 jhād iti || asya khaḍga ujjhitaraṇarabhasaṃ saṃprās tādaraṃ yathātathā projjihīte gacchati | kiṃvidhaḥ | jaitrajanye jayaśīle saṃgrāme jhagiti jhātkārān anukaraṇaśabdān projjihānaḥ | kṛtavān ity arthaḥ | "ohāṅ gatau" | kiṃvidhāñ jhātkārān | jhañjhāvātānukārān suvṛṣṭikavātasadṛśān | punaḥ kiṃvidhān | jhaṇajhaṇitijhaṇatkāriṇaḥ | kiṃkurvan san | tāṃ prasiddhāṃ jhāṣāṅkīṃ mānmathīm avasthām | bhasmarūpām ity arthaḥ | ripujanaṃ vairilokaṃ jhagiti śīghraṃ grāhayan | kiṃvidhām avasthām | dhūrjaṭeḥ śaṃbhor iṣṭām | namrā ye 'hitās teṣu jhūraṃl lajjan |
         </p>
       </div>
@@ -232,7 +254,7 @@ duṣkūṭair yaṣṭikūṭaiḥ kuṭukuṭilasaṭaiḥ paṭṭiśaiḥ ko
 kheṭair durghāṭavāṭān pratibhaṭasubhaṭāṃṣ ṭīkate 'muṣya khaḍgaḥ || 9 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_9">
+        <p xml:id="c_9">
 ṭam iti || amuṣya khaḍgaḥ pratibhaṭasubhaṭān pratipakṣavīrān drāk śīghraṃ ṭīkate | tān prati gacchatīty arthaḥ | kiṃvidhaḥ | ṭaṃkāreṇa śabdenoddhaṭṭitāḥ prakaṭitāḥ yāḥ koṭiśo 'saṃkhyāś cāpayaṣṭīr jhaṭiti śīghraṃ vighaṭayan | punaḥ kiṃvidhaḥ | vidviṣāṃ girayas teṣāṃ ṭaṅko vidārakaḥ | punaḥ | karaṭino gajās teṣāṃ kaṭā gaṇḍasthalāni ta eva kaṭāhās tailādipākapātrāṇi teṣāṃ kuṭṭā piṣṭīkaraṇasamarthāgrakoṭir yasyeti | kiṃvidhān pratibhaṭasubhaṭān | duṣkūṭair duṣṭāgrair yaṣṭikūṭair yaṣṭisamūhaiḥ kaṭukuṭilasaṭaiḥ paṭṭiśaiḥ khaḍgaiḥ phalakair durghāṭo vāṭo mārgo yeṣāṃ te | koṭisaṃkhyair iti viśeṣaṇaṃ triṣv api yojyam ||
         </p>
       </div>
@@ -247,7 +269,7 @@ pṛṣṭhāṣṭhīlānukāre śaṭhakamaṭhapateḥ kumbhapṛṣṭhe 'pi
 drāgdrāghiṣṭhaḥ kaṭhoracchavijaraṭhataradyotasaṃghaṭṭamūrchat<caesura/>koṣṭhāḥ kāṣṭhāḥ prakurvan ripuśirasi luṭhaty etadīyaḥ kuṭhāraḥ || 10 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_10">
+        <p xml:id="c_10">
 ṭhātkārīti || etadīyaḥ kuṭhāro ripuśirasi drāk śīghraṃ luṭhati | kiṃvidhaḥ | aibhe hastisaṃbandhini kaṇṭhasīmani kaṇṭhasamīpadeśe ṭhātkārī śabdakartā | kiṃvidhe kaṇṭhasīmani | atikaṭhinatare | punaḥ kiṃvidhaḥ | kaṭhore skandhapīṭhe ṭhātkārī | punaḥ kiṃvidhaḥ | aibhe kumbhapṛṣṭhe ṭhātkārī | kiṃvidhe kumbhapṛṣṭhe | śaṭhakamaṭhapater dhūrtakacchapasya | "śaṭho dhattūrake dhūrte madhyasthapuruṣe 'lase" iti mahīpaḥ | pṛṣṭhāṣṭhīlānukāre pṛṣṭhasyāṣṭhīlaṃ tattulye | drāghiṣṭho dīrghaḥ | kaṭhoracchaviḥ sūryas tasya jaraṭhataro yo dyotaḥ prakāśas tasya saṃghaṭṭas tena mūrchat dviguṇībhavan | "jakṣityādayaḥ ṣaṭ" iti num na | kiṃ kurvan san | kāṣṭhā diśaḥ koṣṭhāḥ svādhīnāḥ prakurvan san | "koṣṭhaḥ kusūle cātmīye madhye kukṣer gṛhasya ca" iti medinī ||
         </p>
       </div>
@@ -260,7 +282,7 @@ drāgdrāghiṣṭhaḥ kaṭhoracchavijaraṭhataradyotasaṃghaṭṭamūrchat
 asya prācaṇḍyabhāṇḍaṃ dhṛtamadhupagaladgaṇḍavetaṇḍaśuṇḍā<caesura/>kāṇḍaṃ khaṇḍaṃ vitanvan yudhi dhutajaḍimā hiṇḍate maṇḍalāgraḥ || 11 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_11">
+        <p xml:id="c_11">
 ḍim iti || asya maṇḍalāgro hiṇḍata itas tato gacchati | kiṃvidhaḥ | daṇḍāydhasya yamasya ḍimbhaḥ śiśuḥ | ‘potaḥ pāko 'rbhako ḍimbhaḥ’ ity amaraḥ | pradhanam eva saṃgrāma eva ghanataḍit tasyāś caṇḍador hastaḥ kuṇḍalīndraḥ śeṣas tat kṣveḍo garalam | ‘kṣveḍas tu garalaṃ viṣam’ ity amaraḥ | proddaṇḍo darpo yeṣāṃ te ye dviradanā gajās teṣāṃ nigaḍo 'ndukaḥ | śauryabhartur ḍiṇḍimaḥ sūcakavādyaviśeṣaḥ | pracaṇḍasya bhāvas tathā, tadbhāṇḍam adhikaraṇam | punaḥ kiṃvidhaḥ | yudhi saṃgrāme dhṛtā madhupā yais tair galantaḥ sravanto gaṇḍā yeṣāṃ te evaṃvidhā vetaṇḍā gajās teṣāṃ śuṇḍās tāsāṃ kāṇḍaṃ samūhaṃ khaṇḍaṃ chedaṃ vitanvan vistārayan | dhuto jaḍimā yena saḥ ||
         </p>
       </div>
@@ -277,7 +299,7 @@ rīḍhā gūḍhaprahartur draḍhimakulagṛhaṃ nyastaśastreṣu ṣaṇḍ
 nirvyūḍhodgāḍhayuddhapratihatiṣu dṛḍhaṃ ḍhaukate 'muṣya khaḍgaḥ || 12 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_12">
+        <p xml:id="c_12">
 ḍheti || amuṣya khaḍgo nirvyūḍhodgāḍhayuddhā vīrās teṣāṃ pratihatayo vraṇās tāsu dṛḍhaṃ ḍhaukate pravartate | kiṃvidhaḥ | ḍhakkayā vijayamardalena suṣṭu ārūḍhā yā kīrtis tasyāḥ prasṛtiḥ prasaras tasyāṃ suvijayaśrīs tasyā vivoḍhā | nirūḍhaḥ khyātaḥ | atigāḍhapraharaṇā yā samitiḥ saṃgrāmas tatra vāḍhaṃ soḍhā sahanaśīlaḥ | punaḥ kiṃvidhaḥ | līḍham āsvāditaṃ koṣṇaṃ kiṃcid uṣṇaṃ yad astraṃ tad eva sīdhur madyaṃ yena | gūḍhaprahartur aprakaṭamāraṇakartū rīḍhāvamānanā | draḍhimnaḥ kulagṛhaṃ dṛḍhatāyā adhiṣṭhānam | nyastaśastreṣu tyaktāyudheṣu ṣaṇḍho niḥsāraḥ ||
         </p>
       </div>
@@ -294,7 +316,7 @@ koṣṇadviṭśoṇitāktaḥ kharakiraṇaghṛṇiśreṇiśāṇo 'ruṇaś
 udgūrṇo vāraṇānāṃ gaṇam asṛṇi śṛṇāty asya tīkṣṇaḥ kṛpāṇaḥ || 13 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_13">
+        <p xml:id="c_13">
 prāṇā iti || asya tīkṣṇaḥ kṛpāṇo vāraṇānāṃ gajānāṃ gaṇaṃ samūham asṛṇi sṛṇirahitaṃ yathātathā śṛṇāti | śṝ hiṃsāyām | mārayatīty arthaḥ | kiṃvidhaḥ darpasya balasya prāṇāḥ | bahutvena nirdeśaḥ | raṇa eva śamanaśiśus tasya pāṇir hastaḥ | pāṇī raṇeti ‘ro rī’ iti ‘ḍhralope’ iti dīrghaḥ | dveṣaṇānāṃ śatrūṇām | ‘dviṣaddveṣaṇadurhṛdaḥ’ ity amaraḥ | kārmaṇaṃ mūlakarma | tūrṇaṃ śīghraṃ sad yad vārabāṇaṃ kavacaṃ | ‘kañcuko 'strīvārabāṇaḥ’ ity amaraḥ | tatra vraṇakaraṇaṃ tatra kuśalaḥ | kīrṇaṃ prasāritaṃ durmarṣaṇaṃ duḥsaham arcir yena | koṣṇaṃ yad dviṣatāṃ śoṇitaṃ raktaṃ tenāktaḥ siktaḥ | kharakiraṇaḥ śrīsūryas tasya ghṛṇayo mayūkhās teṣāṃ śreṇis tasyāḥ śāṇo gharṣanapāṣāṇaḥ | aruṇā śrīr yasya saḥ | udgūrṇa utthāpitaḥ || 
         </p>
       </div>
@@ -309,7 +331,7 @@ tvaṅgattīkṣṇāsitūrvattimim anatidalacchaktiśuktiṃ raṇābdhiṃ
 tāras tūrṇaṃ titīrṣus tṛṇalavavad arīn asya khaḍgas tṛṇeḍhi || 14 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_14">
+        <p xml:id="c_14">
 tṛpyad iti || asya khaḍgo 'rīñ śatrūṃs tṛnalavavat tṛṇeḍhi | mārayatīty arthaḥ | ‘tṛha hiṃsāyām’ | kiṃvidhaḥ | tūrṇaṃ śīghraṃ raṇābdhiṃ saṃgrāmasamudraṃ titīrṣus taraṇecchuḥ | ‘tṝ plavanataraṇayoḥ’ | tāra ujjvalaḥ | kiṃvidhaḥ raṇābdhiṃ | tṛpyanto dantina eva kṣitīndrāḥ parvato yasmiṃs tathā tam | taralatarā aticañcalās taranto ye pattayaḥ padātayas ta eva bhaṅgās taraṅgā yasmiṃs tam | vighūrṇantas tuṅgā ye 'śvās ta evāvartagartā yasmiṃs tam | … … … … | tvaṅgantas tīkṣṇā ye 'sayas ta eva tūrvattimayo yasminn iti tathā tam | anatidalacchaktaya eva śuktayo yasmiṃs tam ||     
         </p>
       </div>
@@ -326,7 +348,7 @@ saṃprāptaiḥ sthāṇusaṃsthāṃ prathitapathacarais trastanetrātithitva
 nītaḥ pratyarthisārthair vyathayati savidhasthān apīddho 'sya khaḍgaḥ || 15 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_15">
+        <p xml:id="c_15">
 sthūlam iti || asyeddhaḥ samṛddhaḥ khaḍgaḥ savidhasthān api samīpavartino 'pi vyathayati | kiṃvidhaḥ | pratyarthisārthaiḥ paripanthisamūhais trastāni yāni netrāṇi tatrātithitvaṃ nītaḥ | dṛṣṭa iti yāvat | kiṃvidhaiḥ pratyarthisārthaiḥ | sthūlaṃ sthūlaṃ dīrghaṃ dīrghaṃ śvasadbhiḥ | asahyatvāt | prathitapṛthu pṛṣanto bindavas tadyuktāni vīkṣaṇāni yeṣāṃ taiḥ | tīrthamātraṃ saṃmanvānaiḥ | apārthaṃ nirarthakaṃ śithilā raṇakathā yeṣāṃ te tathā taiḥ | vepathunā kampena vyarthāni śastrāṇi yeṣāṃ te taiḥ | ata eva sthāṇusaṃsthāṃ saṃprāptaiḥ | prathito yaḥ panthās tatra carantīti carās taiḥ | mahāpathas tu maraṇam iti ||    
         </p>
       </div>
@@ -341,7 +363,7 @@ dīvyannaidāghamadhyaṃdinadivasamaṇidyotaduṣprekṣyadīptir
 dauḥsthityaṃ dīrghadīrghaṃ dadad arisudṛśāṃ dīpyate 'muṣya khaḍgaḥ || 16 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_16"><hi>dṛpyad</hi> iti || <hi>amuṣya khaḍgo dīvyate</hi><note place="foot">The commentator seems to have a different reading from the verse.</note> krīḍate | kiṃvidhaḥ | <hi>dṛpyad</hi> yad <hi>dor</hi> bāhuḥ sa eva <hi>kālakūṭadrumo</hi> viṣatarus tasya <hi>taruṇadalaṃ</hi> navīnapatram | <hi>darpadantāvalendro</hi> hastīndras tasya <hi>drāghīyo</hi> dīrghā <hi>dānalekhā</hi> | <hi>daram</hi> īṣad <hi>dalitaṃ</hi> viśīrṇaṃ <hi>dalaṃ</hi> yasyaivaṃvidham <hi>indīvaraṃ</hi> tasya <hi>droṇir</hi> madhyabhāgas tadvad <hi>deho</hi> yasya sa tathā | śyāma iti yāvat | <hi>dīvyad</hi> yan <hi>naidāghamadhyaṃdinam</hi> uṣṇakālamadhyāhnaṃ tatra yo <hi>divasamaṇis</hi> tasya <hi>dyotaḥ</hi> prakāśas tena <hi>duṣprekṣyā</hi> <hi>dīptir</hi> yasya saḥ | <hi>arisudṛśāṃ</hi> vairistrīṇāṃ <hi>dīrghadīrgham</hi> atimahad <hi>dauḥsthyaṃ</hi> duḥsthasya bhāvas tathā tad <hi>dadat</hi> ||
+        <p xml:id="c_16"><hi>dṛpyad</hi> iti || <hi>amuṣya khaḍgo dīvyate</hi><note place="foot">The commentator seems to have a different reading from the verse.</note> krīḍate | kiṃvidhaḥ | <hi>dṛpyad</hi> yad <hi>dor</hi> bāhuḥ sa eva <hi>kālakūṭadrumo</hi> viṣatarus tasya <hi>taruṇadalaṃ</hi> navīnapatram | <hi>darpadantāvalendro</hi> hastīndras tasya <hi>drāghīyo</hi> dīrghā <hi>dānalekhā</hi> | <hi>daram</hi> īṣad <hi>dalitaṃ</hi> viśīrṇaṃ <hi>dalaṃ</hi> yasyaivaṃvidham <hi>indīvaraṃ</hi> tasya <hi>droṇir</hi> madhyabhāgas tadvad <hi>deho</hi> yasya sa tathā | śyāma iti yāvat | <hi>dīvyad</hi> yan <hi>naidāghamadhyaṃdinam</hi> uṣṇakālamadhyāhnaṃ tatra yo <hi>divasamaṇis</hi> tasya <hi>dyotaḥ</hi> prakāśas tena <hi>duṣprekṣyā</hi> <hi>dīptir</hi> yasya saḥ | <hi>arisudṛśāṃ</hi> vairistrīṇāṃ <hi>dīrghadīrgham</hi> atimahad <hi>dauḥsthyaṃ</hi> duḥsthasya bhāvas tathā tad <hi>dadat</hi> ||
         </p>
       </div>
       <div n="17">
@@ -357,10 +379,269 @@ dhīrodāttor dhvavāhā dharaṇidharadhṛtas tīkṣṇadhārādharo 'ddhā
 dhīrān auddhatyabhājo raṇadharaṇicarānasya dhūnoti khaḍgaḥ || 17 ||
           </l>
         </lg>
-        <p type="commentary" xml:id="c_17">
+        <p xml:id="c_17">
 dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃgrāmabhūmigatān dhīrān dhūnoti kampayati | kiṃvidhaḥ | dhairyasya guṇasyādhārayaṣṭiḥ | dhṛtaṃ viṣudhavadhūnāṃ devastrīṇāṃ sādhvasaṃ yena saḥ | dhāmnāṃ tejasāṃ dhāmādhiṣṭhānam | krodha evānalas tasya dhūmaḥ | pradhanaṃ saṃgrāmas tad eva rathavaras tasyoddhuro dhūrdharo bhāradhartā | dhīrodāttaḥ puruṣaśreṣṭhas tasyordhvavāhā hastaḥ | ‘bhujā vāhā’ iti strītvena nirdeśaḥ | dhīrodāttalakṣaṇaṃ rasakalikāyām ― ‘caturdhā puruṣaḥ ― dhīrodātto dhīralalito dhīraśānto dhīroddhataś ceti | tatra ― kṛpāvān atigambhīro vinītaś cāvikatthanaḥ | dhīrodāttaḥ sa vijñeyo rāmo dāśarathir yathā ||’ iti | dharaṇidhareṇa rājñā dhṛtaḥ | tīkṣṇadhārādharaḥ | ‘addhā’ ity aṅgīkāro 'vyayam ||
         </p>
       </div>
     </body>
   </text>
-</TEI>
+<standOff type="apparatus" corresp="#v_1" source="alignments/v_1.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag subtype="ignore">pc</tag>
+    <tag subtype="ignore">corr</tag>
+    <tag subtype="ignore">ex</tag>
+    <tag subtype="ignore">label</tag>
+    <tag subtype="ignore">note</tag>
+    <tag subtype="ignore">num</tag>
+    <tag subtype="ignore">locus</tag>
+    <tag subtype="ignore">metamark</tag>
+    <tag subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app corresp="0,7">
+    <lem wit="#KEd #O #R #Cc #B">kalpāti</lem>
+    <rdg wit="#C1">|| kalpāṃti</rdg>
+  </app>
+  <app corresp="37,51">
+    <lem wit="#KEd #O #R #Cc #C1">kalpāgramuṣṭiḥ</lem>
+    <rdg wit="#B">kalpā<note place="top-margin">iṣa<gap quantity="1" unit="akṣara" reason="damage"/></note><gap quantity="2" unit="akṣara" reason="damage"/>ṣṭiḥ</rdg>
+  </app>
+  <app corresp="51,67">
+    <lem wit="#KEd #O #R #Cc #C1">krudhyatkālīkaṭā</lem>
+    <rdg wit="#B"><caesura/> kru</rdg>
+  </app>
+  <app corresp="67,78">
+    <lem wit="#R #Cc #C1 #B">kṣāṅkita iva</lem>
+    <rdg wit="#KEd">kṣāṅkita[sa]</rdg>
+    <rdg wit="#O">kṣāṃki<lb n="4"/>ta su</rdg>
+  </app>
+  <app corresp="78,91">
+    <lem wit="#B">kalayan kāntim</lem>
+    <rdg wit="#C1">kalayan kāṃnim</rdg>
+    <rdg wit="#KEd">kala........nim</rdg>
+    <rdg wit="#O">kala...nim</rdg>
+    <rdg wit="#Cc">kalayat kāntim</rdg>
+    <rdg wit="#R">kala<gap reason="lost" quantity="2" unit="akṣara"/>tim</rdg>
+  </app>
+  <app corresp="91,103">
+    <lem wit="#Cc #C1 #B">ekāntakālīm |</lem>
+    <rdg wit="#KEd">e(ṣe)kāntakālī |</rdg>
+    <rdgGrp select="#O #R">
+      <rdg type="main">ekāṃtakālī |</rdg>
+      <rdg type="minor" wit="#R">e<lb n="2"/>kāṃta<unclear>kālī</unclear> |</rdg>
+    </rdgGrp>
+  </app>
+  <app corresp="103,121">
+    <lem wit="#KEd #O #R #Cc">krīḍaty asyākrameṇa</lem>
+    <rdg wit="#C1">krīḍety asyākrameṇa</rdg>
+    <rdg wit="#B"><lb n="2"/>krī<gap quantity="2" unit="akṣara" reason="damage"/>yākrameṇa</rdg>
+  </app>
+  <app corresp="121,136">
+    <lem wit="#KEd #O #R #Cc #C1">krakacakṛtikṛtī</lem>
+    <rdg wit="#B"><gap quantity="1" unit="akṣara" reason="damage"/>kacakṛtikṛtī</rdg>
+  </app>
+  <app corresp="136,148">
+    <lem wit="#Rpc #Cc #B">kumbhikumbhā</lem>
+    <rdg wit="#C1">kruṃbhikuṃbhā</rdg>
+    <rdg wit="#KEd">kunti(mbhi)kumbhā</rdg>
+    <rdg wit="#O">kuṃtikuṃbhā</rdg>
+    <rdg wit="#Rac">kuṃbhikuṃbhāṃ</rdg>
+  </app>
+  <app corresp="148,155">
+    <lem wit="#KEd #O #R #B">grakūṭa</lem>
+    <rdg wit="#C1">gra<lb n="3"/>kruṭa</rdg>
+    <rdg wit="#Cc">grakūṭaḥ</rdg>
+  </app>
+  <app corresp="155,180">
+    <lem wit="#KEd #O #R">kroḍeṣūtkṛttakaṇṭhotthita</lem>
+    <rdg wit="#C1"><caesura/>kroḍe pūtkṛttakaṃṭhotthita</rdg>
+    <rdg wit="#B"><caesura/>kroḍe<note place="top-margin">madhye 2</note>ṣūtkaṃ<gap quantity="3" unit="akṣara" reason="damage"/><unclear>tthi</unclear>ta</rdg>
+    <rdg wit="#Cc"><caesura/> <lb n="2"/>kroḍe phutkṛttakaṇṭhojjhita</rdg>
+  </app>
+  <app corresp="201,213">
+    <lem wit="#KEd #O #Cc #C1 #B">kṛpāṇaḥ || 1 ||</lem>
+    <rdg wit="#R">kṛpā<gap reason="lost" quantity="2" unit="akṣara"/> <lb n="3"/>|| 1 ||</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#v_2"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag subtype="ignore">pc</tag>
+    <tag subtype="ignore">corr</tag>
+    <tag subtype="ignore">ex</tag>
+    <tag subtype="ignore">label</tag>
+    <tag subtype="ignore">note</tag>
+    <tag subtype="ignore">num</tag>
+    <tag subtype="ignore">locus</tag>
+    <tag subtype="ignore">metamark</tag>
+    <tag subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app corresp="4,16">
+    <lem wit="#KEd #O #R #B">preṅkhadbhiḥ</lem>
+    <rdg wit="#C1">prekha<unclear>dbhiḥ</unclear></rdg>
+  </app>
+  <app corresp="16,25">
+    <lem wit="#KEd #O #R #C1">kharāṃśoḥ</lem>
+    <rdg wit="#B">kha<lb n="3"/>rāṃ</rdg>
+  </app>
+  <app corresp="25,53">
+    <lem wit="#KEd">prakharakharaśikhāḥ khaṇḍayan</lem>
+    <rdg wit="#O #R">prakharakharaśikhā khaṃḍayan</rdg>
+    <rdg wit="#B"><gap quantity="3" unit="akṣara" reason="damage"/>varakhara<gap quantity="1" unit="akṣara" reason="damage"/>khā khaṃḍayan</rdg>
+    <rdg wit="#C1">prakha<lb n="4"/>rakeraśikhāḥ khaṃḍayan</rdg>
+  </app>
+  <app corresp="58,67">
+    <lem wit="#KEd #O #R #C1">mayūkhaiḥ</lem>
+    <rdg wit="#B">mayūṣai</rdg>
+  </app>
+  <app corresp="67,81">
+    <lem wit="#KEd #O #R #C1 #Bpc">khelāsaṃkhyeṣu</lem>
+    <rdg wit="#Bac"><caesura/> khelāsaṃkhyaiṣu</rdg>
+  </app>
+  <app corresp="113,123">
+    <lem wit="#R #C1 #B">khanitram |</lem>
+    <rdg wit="#O">khamitraṃ |</rdg>
+    <rdg wit="#KEd">khami(ni)ttram |</rdg>
+  </app>
+  <app corresp="123,140">
+    <lem wit="#KEd #O #R #B">khyātaḥ saukhyasya</lem>
+    <rdg wit="#C1">khyātta<lb n="5"/>'saukhyasya</rdg>
+  </app>
+  <app corresp="146,162">
+    <lem wit="#KEd #O #R #C1">khalu kamitṛjuṣāṃ</lem>
+    <rdg wit="#B"><note place="left-margin">kāmukajuṣāṃ<gap quantity="1" unit="akṣara" reason="damage"/></note>kha<lb n="4"/><gap quantity="3" unit="akṣara" reason="damage"/>tṛjuṣāṃ</rdg>
+  </app>
+  <app corresp="172,180">
+    <lem wit="#KEd #O #R #C1">akharvaḥ</lem>
+    <rdg wit="#B">akharvaṃ</rdg>
+  </app>
+  <app corresp="187,200">
+    <lem wit="#KEd #R #B">utkhātakhaḍga</lem>
+    <rdg wit="#O">utkhātakhatakhaḍga</rdg>
+    <rdg wit="#C1">uśvātakha<unclear>ḍgaḥ</unclear></rdg>
+  </app>
+  <app corresp="211,224">
+    <lem wit="#KEd #O #R #B">khanatkāravān</lem>
+    <rdg wit="#C1">khanatkā<lb n="6"/>khān</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#v_4" source="alignments/v_4.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag subtype="ignore">pc</tag>
+    <tag subtype="ignore">corr</tag>
+    <tag subtype="ignore">ex</tag>
+    <tag subtype="ignore">label</tag>
+    <tag subtype="ignore">note</tag>
+    <tag subtype="ignore">num</tag>
+    <tag subtype="ignore">locus</tag>
+    <tag subtype="ignore">metamark</tag>
+    <tag subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app corresp="0,7">
+    <lem wit="#KEd #O #C1 #B">ghrāṇaṃ</lem>
+    <rdg wit="#R">prāṇaṃ</rdg>
+  </app>
+  <app corresp="22,38">
+    <lem wit="#O #R #B">ghanasṛtiyaśasām</lem>
+    <rdg wit="#C1">ghranasṛtiyaśasām</rdg>
+    <rdg wit="#KEd">ghanasṛtiyaśasām</rdg>
+  </app>
+  <app corresp="38,50">
+    <lem>aṅghrir udgho</lem>
+    <rdgGrp select="#R #C1 #B">
+      <rdg type="main">aṃghriru<lb n="2"/>j_gho</rdg>
+      <rdg type="minor" wit="#B">aṃghriruj_gho</rdg>
+      <rdg type="minor" wit="#R">a<unclear>ṃghrirut_</unclear>gho</rdg>
+    </rdgGrp>
+    <rdg wit="#KEd">aṅghi[tā]ngho</rdg>
+    <rdg wit="#Opc">aghri<unclear>ḍitān_</unclear>dyo</rdg>
+    <rdg wit="#Oac">aghri<unclear>tān_</unclear>dyo</rdg>
+  </app>
+  <app corresp="50,68">
+    <lem wit="#C1 #B">mahārghasyopaghnaḥ</lem>
+    <rdgGrp select="#KEd #Oac">
+      <rdg type="main">ma(?)...<caesura/>.......</rdg>
+      <rdg type="minor" wit="#Oac">ma<pb n="3r"/><lb n="1"/>..<caesura/>..</rdg>
+    </rdgGrp>
+    <rdg wit="#R">maha<gap quantity="2" unit="akṣara" reason="lost"/><caesura/><lb n="7"/><unclear>paghnaḥ</unclear></rdg>
+    <rdg wit="#Opc">maha<pb n="3r"/><lb n="1"/>..<caesura/>..</rdg>
+  </app>
+  <app corresp="149,159">
+    <lem wit="#KEd #O #R #B">ghaṭāghāta</lem>
+    <rdg wit="#C1">ghaṭādyāja</rdg>
+  </app>
+  <app corresp="159,175">
+    <lem wit="#KEd #O #R #B">nairghṛṇyanighno</lem>
+    <rdg wit="#C1">naiḥrghṛṇyanighno</rdg>
+  </app>
+  <app corresp="183,204">
+    <lem>udgharmaghṛṣṭiprakara</lem>
+    <rdgGrp select="#C1 #B">
+      <rdg type="main">uj_gharmaghṛṣṭiprakhara</rdg>
+      <rdg type="minor" wit="#B">u<lb n="8"/>j_gharmaghṛṣṭiprakhara</rdg>
+    </rdgGrp>
+    <rdgGrp select="#KEd #O">
+      <rdg type="main">u................ra</rdg>
+      <rdg type="minor" wit="#O">u<note place="right-margin">2 (ka)</note>.......ra</rdg>
+    </rdgGrp>
+    <rdg wit="#R">u<gap quantity="7" unit="akṣara" reason="lost"/><pb n="1v"/><lb n="1"/>ra</rdg>
+  </app>
+  <app corresp="204,224">
+    <lem wit="#KEd #O #R">ghṛṇisamāghrātighoro</lem>
+    <rdg wit="#C1 #B">ghṛṇisamāghnātighoro</rdg>
+  </app>
+  <app corresp="228,240">
+    <lem wit="#KEd #O #R #B">khaḍgaḥ || 4 ||</lem>
+    <rdg wit="#C1">khaḍga | 4 |</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#v_3" source="alignments/v_3.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag subtype="ignore">pc</tag>
+    <tag subtype="ignore">corr</tag>
+    <tag subtype="ignore">ex</tag>
+    <tag subtype="ignore">label</tag>
+    <tag subtype="ignore">note</tag>
+    <tag subtype="ignore">num</tag>
+    <tag subtype="ignore">locus</tag>
+    <tag subtype="ignore">metamark</tag>
+    <tag subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app corresp="0,27">
+    <lem wit="#R #C1 #B">gāḍhaṃ gātrasya guptigrahaṇam</lem>
+    <rdg wit="#KEd"><lb n="4"/>gātrasya ............ptigrahaṇam</rdg>
+    <rdg wit="#O">gāḍha..trasya goptigrahaṇam</rdg>
+  </app>
+  <app corresp="27,43">
+    <lem wit="#KEd #O #R">avagaṇayyāgrataḥ</lem>
+    <rdg wit="#B">avagatā</rdg>
+    <rdg wit="#C1">eva gaṇayyāgrataḥ</rdg>
+  </app>
+  <app corresp="55,79">
+    <lem wit="#R #C1">grasyatrasyagrahāgresara</lem>
+    <rdg wit="#KEd"><caesura/> <lb n="5"/>grasyannasya(?) mahāgresara</rdg>
+    <rdg wit="#O"><caesura/> grasyantasya <lb n="5"/>mahāgresara</rdg>
+    <rdg wit="#Bac"><caesura/> grasyann asya grahāgregresara</rdg>
+    <rdg wit="#Bpc"><caesura/> grasyann asya grahāgresara</rdg>
+  </app>
+  <app corresp="94,110">
+    <lem wit="#KEd #O #R #C1">jāgradgabhastiḥ |</lem>
+    <rdg wit="#B">jāgradbhabhastiḥ ||</rdg>
+  </app>
+  <app corresp="110,125">
+    <lem wit="#KEd #O #R #Bpc">garvogragranthi</lem>
+    <rdg wit="#Bac">garvogra<unclear>gre</unclear>thi</rdg>
+    <rdg wit="#C1">gardhogragraṃthi</rdg>
+  </app>
+  <app corresp="125,150">
+    <lem wit="#C1 #B">gotragrahilaripugaṇagrāsa</lem>
+    <rdgGrp select="#KEd #O">
+      <rdg type="main">gotragrahilaripu............</rdg>
+      <rdg type="minor" wit="#O">gotra<lb n="7"/>grahilaripu....</rdg>
+    </rdgGrp>
+    <rdg wit="#R">gotragrahilaripuga</rdg>
+  </app>
+  <app corresp="169,181">
+    <lem wit="#KEd #O #R #B">agresarāgrya</lem>
+    <rdg wit="#C1">agresarā<unclear>grā</unclear></rdg>
+  </app>
+</listApp></standOff></TEI>
