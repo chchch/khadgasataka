@@ -12,11 +12,10 @@
         <msDesc xml:lang="en">
           <msIdentifier>
             <!--idno type="URI"></idno-->
-            <idno type="siglum">Ed</idno>
           </msIdentifier>
           <msContents>
             <summary>
-              <p>This preliminary text is currently being edited by Danieleo Cuneo &amp; Charles Li.</p>
+              <p>This preliminary text is currently being edited by Daniele Cuneo &amp; Charles Li.</p>
             </summary>
           </msContents>
         </msDesc>
