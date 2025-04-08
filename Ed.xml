@@ -12,6 +12,7 @@
         <msDesc xml:lang="en">
           <msIdentifier>
             <!--idno type="URI"></idno-->
+            <idno type="siglum">Ed</idno>
           </msIdentifier>
           <msContents>
             <summary>
@@ -687,13 +688,16 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
 </listApp></standOff><standOff type="apparatus" corresp="#v_1" source="alignments/v_1.xml"><interp type="normalization">
   <desc type="tagfilters">
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
@@ -763,16 +767,23 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#B">kacakṛtikṛtī</rdg>
   </app>
-  <app corresp="136,155">
-    <rdgGrp type="lemma" select="#B #Rpc">
-      <lem>kumbhikumbhāgrakūṭa</lem>
-      <rdg type="minor" wit="#B #Rpc">kuṃbhikuṃbhāgrakūṭa</rdg>
+  <app corresp="136,142">
+    <rdgGrp type="lemma" select="#B #Cc #R">
+      <lem>kumbhi</lem>
+      <rdg type="minor" wit="#B #R">kuṃbhi</rdg>
     </rdgGrp>
-    <rdg wit="#C1">kruṃbhikuṃbhāgrakruṭa</rdg>
-    <rdg wit="#KEd">kuntimbhikumbhāgrakūṭa</rdg>
-    <rdg wit="#O">kuṃtikuṃbhāgrakūṭa</rdg>
-    <rdg wit="#Cc">kumbhikumbhāgrakūṭaḥ</rdg>
-    <rdg wit="#Rac">kuṃbhikuṃbhāṃgrakūṭa</rdg>
+    <rdg wit="#C1">kruṃbhi</rdg>
+    <rdg wit="#KEd">kuntimbhi</rdg>
+    <rdg wit="#O">kuṃti</rdg>
+  </app>
+  <app corresp="142,155">
+    <rdgGrp type="lemma" select="#B #KEd #O #Rpc">
+      <lem>kumbhāgrakūṭa</lem>
+      <rdg type="minor" wit="#B #O #Rpc">kuṃbhāgrakūṭa</rdg>
+    </rdgGrp>
+    <rdg wit="#C1">kuṃbhāgrakruṭa</rdg>
+    <rdg wit="#Cc">kumbhāgrakūṭaḥ</rdg>
+    <rdg wit="#Rac">kuṃbhāṃgrakūṭa</rdg>
   </app>
   <app corresp="155,180">
     <rdgGrp type="lemma" select="#KEd #O #R">
