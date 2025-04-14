@@ -28,37 +28,37 @@
     </expan>
     <listWit>
       <witness xml:id="Bac" n="ac">
-        <abbr type="siglum">Bac</abbr>
+        <abbr type="siglum">B<hi rend="superscript"><hi rend="italic">ac</hi></hi></abbr>
         <expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan>
       </witness>
       <witness xml:id="Bpc" n="pc">
-        <abbr type="siglum">Bpc</abbr>
+        <abbr type="siglum">B<hi rend="superscript"><hi rend="italic">pc</hi></hi></abbr>
         <expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan>
       </witness>
     </listWit>
   </witness>
   <witness xml:id="C1" source="witnesses/C1.xml">
-    <abbr type="siglum">C1</abbr>
+    <abbr type="siglum">C<hi rend="subscript"><hi rend="italic">1</hi></hi></abbr>
     <expan>
       <title xml:lang="sa">Khaḍgaśataka</title>
     </expan>
   </witness>
   <witness xml:id="Cc" source="witnesses/Cc.xml">
-    <abbr type="siglum">Cc</abbr>
+    <abbr type="siglum">C<hi rend="subscript"><hi rend="italic">c</hi></hi></abbr>
     <expan>A Descriptive Catalogue of the Sanskrit Manuscripts in the Collection of the Asiatic Society of Bengal, Volume VII: Kāvya Manuscripts</expan>
   </witness>
   <witness xml:id="KEd" source="witnesses/KEd.xml">
-    <abbr type="siglum">KEd</abbr>
+    <abbr type="siglum">K<hi rend="superscript"><hi rend="italic">Ed</hi></hi></abbr>
     <expan>
       <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
     </expan>
     <listWit>
       <witness xml:id="KEdac" n="ac">
-        <abbr type="siglum">KEdac</abbr>
+        <abbr type="siglum">K<hi rend="superscript"><hi rend="italic">Edac</hi></hi></abbr>
         <expan><title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title> [ante correctionem]</expan>
       </witness>
       <witness xml:id="KEdpc" n="pc">
-        <abbr type="siglum">KEdpc</abbr>
+        <abbr type="siglum">K<hi rend="superscript"><hi rend="italic">Edpc</hi></hi></abbr>
         <expan><title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title> [post correctionem]</expan>
       </witness>
     </listWit>
@@ -70,11 +70,11 @@
     </expan>
     <listWit>
       <witness xml:id="Oac" n="ac">
-        <abbr type="siglum">Oac</abbr>
+        <abbr type="siglum">O<hi rend="superscript"><hi rend="italic">ac</hi></hi></abbr>
         <expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan>
       </witness>
       <witness xml:id="Opc" n="pc">
-        <abbr type="siglum">Opc</abbr>
+        <abbr type="siglum">O<hi rend="superscript"><hi rend="italic">pc</hi></hi></abbr>
         <expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan>
       </witness>
     </listWit>
@@ -86,11 +86,11 @@
     </expan>
     <listWit>
       <witness xml:id="Rac" n="ac">
-        <abbr type="siglum">Rac</abbr>
+        <abbr type="siglum">R<hi rend="superscript"><hi rend="italic">ac</hi></hi></abbr>
         <expan><title xml:lang="sa">Khaḍgaśataka</title> [ante correctionem]</expan>
       </witness>
       <witness xml:id="Rpc" n="pc">
-        <abbr type="siglum">Rpc</abbr>
+        <abbr type="siglum">R<hi rend="superscript"><hi rend="italic">pc</hi></hi></abbr>
         <expan><title xml:lang="sa">Khaḍgaśataka</title> [post correctionem]</expan>
       </witness>
     </listWit>
@@ -392,24 +392,24 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <tag subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app corresp="0,7">
+  <app loc="0,7">
     <lem wit="#KEd #O #R #Cc #B">kalpāti</lem>
     <rdg wit="#C1">|| kalpāṃti</rdg>
   </app>
-  <app corresp="37,51">
+  <app loc="37,51">
     <lem wit="#KEd #O #R #Cc #C1">kalpāgramuṣṭiḥ</lem>
     <rdg wit="#B">kalpā<note place="top-margin">iṣa<gap quantity="1" unit="akṣara" reason="damage"/></note><gap quantity="2" unit="akṣara" reason="damage"/>ṣṭiḥ</rdg>
   </app>
-  <app corresp="51,67">
+  <app loc="51,67">
     <lem wit="#KEd #O #R #Cc #C1">krudhyatkālīkaṭā</lem>
     <rdg wit="#B"><caesura/> kru</rdg>
   </app>
-  <app corresp="67,78">
+  <app loc="67,78">
     <lem wit="#R #Cc #C1 #B">kṣāṅkita iva</lem>
     <rdg wit="#KEd">kṣāṅkita[sa]</rdg>
     <rdg wit="#O">kṣāṃki<lb n="4"/>ta su</rdg>
   </app>
-  <app corresp="78,91">
+  <app loc="78,91">
     <lem wit="#B">kalayan kāntim</lem>
     <rdg wit="#C1">kalayan kāṃnim</rdg>
     <rdg wit="#KEd">kala........nim</rdg>
@@ -417,7 +417,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#Cc">kalayat kāntim</rdg>
     <rdg wit="#R">kala<gap reason="lost" quantity="2" unit="akṣara"/>tim</rdg>
   </app>
-  <app corresp="91,103">
+  <app loc="91,103">
     <lem wit="#Cc #C1 #B">ekāntakālīm |</lem>
     <rdg wit="#KEd">e(ṣe)kāntakālī |</rdg>
     <rdgGrp select="#O #R">
@@ -425,34 +425,34 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
       <rdg type="minor" wit="#R">e<lb n="2"/>kāṃta<unclear>kālī</unclear> |</rdg>
     </rdgGrp>
   </app>
-  <app corresp="103,121">
+  <app loc="103,121">
     <lem wit="#KEd #O #R #Cc">krīḍaty asyākrameṇa</lem>
     <rdg wit="#C1">krīḍety asyākrameṇa</rdg>
     <rdg wit="#B"><lb n="2"/>krī<gap quantity="2" unit="akṣara" reason="damage"/>yākrameṇa</rdg>
   </app>
-  <app corresp="121,136">
+  <app loc="121,136">
     <lem wit="#KEd #O #R #Cc #C1">krakacakṛtikṛtī</lem>
     <rdg wit="#B"><gap quantity="1" unit="akṣara" reason="damage"/>kacakṛtikṛtī</rdg>
   </app>
-  <app corresp="136,148">
+  <app loc="136,148">
     <lem wit="#Rpc #Cc #B">kumbhikumbhā</lem>
     <rdg wit="#C1">kruṃbhikuṃbhā</rdg>
     <rdg wit="#KEd">kunti(mbhi)kumbhā</rdg>
     <rdg wit="#O">kuṃtikuṃbhā</rdg>
     <rdg wit="#Rac">kuṃbhikuṃbhāṃ</rdg>
   </app>
-  <app corresp="148,155">
+  <app loc="148,155">
     <lem wit="#KEd #O #R #B">grakūṭa</lem>
     <rdg wit="#C1">gra<lb n="3"/>kruṭa</rdg>
     <rdg wit="#Cc">grakūṭaḥ</rdg>
   </app>
-  <app corresp="155,180">
+  <app loc="155,180">
     <lem wit="#KEd #O #R">kroḍeṣūtkṛttakaṇṭhotthita</lem>
     <rdg wit="#C1"><caesura/>kroḍe pūtkṛttakaṃṭhotthita</rdg>
     <rdg wit="#B"><caesura/>kroḍe<note place="top-margin">madhye 2</note>ṣūtkaṃ<gap quantity="3" unit="akṣara" reason="damage"/><unclear>tthi</unclear>ta</rdg>
     <rdg wit="#Cc"><caesura/> <lb n="2"/>kroḍe phutkṛttakaṇṭhojjhita</rdg>
   </app>
-  <app corresp="201,213">
+  <app loc="201,213">
     <lem wit="#KEd #O #Cc #C1 #B">kṛpāṇaḥ || 1 ||</lem>
     <rdg wit="#R">kṛpā<gap reason="lost" quantity="2" unit="akṣara"/> <lb n="3"/>|| 1 ||</rdg>
   </app>
@@ -469,51 +469,51 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <tag subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app corresp="4,16">
+  <app loc="4,16">
     <lem wit="#KEd #O #R #B">preṅkhadbhiḥ</lem>
     <rdg wit="#C1">prekha<unclear>dbhiḥ</unclear></rdg>
   </app>
-  <app corresp="16,25">
+  <app loc="16,25">
     <lem wit="#KEd #O #R #C1">kharāṃśoḥ</lem>
     <rdg wit="#B">kha<lb n="3"/>rāṃ</rdg>
   </app>
-  <app corresp="25,53">
+  <app loc="25,53">
     <lem wit="#KEd">prakharakharaśikhāḥ khaṇḍayan</lem>
     <rdg wit="#O #R">prakharakharaśikhā khaṃḍayan</rdg>
     <rdg wit="#B"><gap quantity="3" unit="akṣara" reason="damage"/>varakhara<gap quantity="1" unit="akṣara" reason="damage"/>khā khaṃḍayan</rdg>
     <rdg wit="#C1">prakha<lb n="4"/>rakeraśikhāḥ khaṃḍayan</rdg>
   </app>
-  <app corresp="58,67">
+  <app loc="58,67">
     <lem wit="#KEd #O #R #C1">mayūkhaiḥ</lem>
     <rdg wit="#B">mayūṣai</rdg>
   </app>
-  <app corresp="67,81">
+  <app loc="67,81">
     <lem wit="#KEd #O #R #C1 #Bpc">khelāsaṃkhyeṣu</lem>
     <rdg wit="#Bac"><caesura/> khelāsaṃkhyaiṣu</rdg>
   </app>
-  <app corresp="113,123">
+  <app loc="113,123">
     <lem wit="#R #C1 #B">khanitram |</lem>
     <rdg wit="#O">khamitraṃ |</rdg>
     <rdg wit="#KEd">khami(ni)ttram |</rdg>
   </app>
-  <app corresp="123,140">
+  <app loc="123,140">
     <lem wit="#KEd #O #R #B">khyātaḥ saukhyasya</lem>
     <rdg wit="#C1">khyātta<lb n="5"/>'saukhyasya</rdg>
   </app>
-  <app corresp="146,162">
+  <app loc="146,162">
     <lem wit="#KEd #O #R #C1">khalu kamitṛjuṣāṃ</lem>
     <rdg wit="#B"><note place="left-margin">kāmukajuṣāṃ<gap quantity="1" unit="akṣara" reason="damage"/></note>kha<lb n="4"/><gap quantity="3" unit="akṣara" reason="damage"/>tṛjuṣāṃ</rdg>
   </app>
-  <app corresp="172,180">
+  <app loc="172,180">
     <lem wit="#KEd #O #R #C1">akharvaḥ</lem>
     <rdg wit="#B">akharvaṃ</rdg>
   </app>
-  <app corresp="187,200">
+  <app loc="187,200">
     <lem wit="#KEd #R #B">utkhātakhaḍga</lem>
     <rdg wit="#O">utkhātakhatakhaḍga</rdg>
     <rdg wit="#C1">uśvātakha<unclear>ḍgaḥ</unclear></rdg>
   </app>
-  <app corresp="211,224">
+  <app loc="211,224">
     <lem wit="#KEd #O #R #B">khanatkāravān</lem>
     <rdg wit="#C1">khanatkā<lb n="6"/>khān</rdg>
   </app>
@@ -533,19 +533,19 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app corresp="0,7">
+  <app loc="0,7">
     <rdgGrp type="lemma" select="#B #C1 #KEd #O">
       <lem>ghrāṇaṃ</lem>
       <rdg type="minor" wit="#KEd"><lb n="9"/>ghrāṇaṃ</rdg>
     </rdgGrp>
     <rdg wit="#R">prāṇaṃ</rdg>
   </app>
-  <app corresp="22,38">
+  <app loc="22,38">
     <lem wit="#B #O #R">ghanasṛtiyaśasām</lem>
     <rdg wit="#C1">ghranasṛtiyaśasām</rdg>
     <rdg wit="#KEd">ghanasṛtiyaśasām</rdg>
   </app>
-  <app corresp="38,50">
+  <app loc="38,50">
     <lem>aṅghrir udgho</lem>
     <rdgGrp select="#B #C1">
       <rdg type="main">aṃghrirujgho</rdg>
@@ -557,7 +557,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#Opc">aghriḍitāndyo</rdg>
     <rdg wit="#KEd">aṅghitāngho</rdg>
   </app>
-  <app corresp="50,68">
+  <app loc="50,68">
     <rdgGrp type="lemma" select="#B #C1">
       <lem>mahārghasyopaghnaḥ</lem>
       <rdg type="minor" wit="#C1">mahārgha<caesura/>syopaghnaḥ</rdg>
@@ -571,11 +571,11 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#Opc">maha</rdg>
   </app>
-  <app corresp="149,159">
+  <app loc="149,159">
     <lem wit="#B #KEd #O #R">ghaṭāghāta</lem>
     <rdg wit="#C1">ghaṭādyāja</rdg>
   </app>
-  <app corresp="159,175">
+  <app loc="159,175">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>nairghṛṇyanighno</lem>
       <rdg type="minor" wit="#B">nairghṛṇyanighno<note place="bottom-margin">nighna āyattaḥ 6</note></rdg>
@@ -583,7 +583,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#C1">naiḥrghṛṇyanighno</rdg>
   </app>
-  <app corresp="183,204">
+  <app loc="183,204">
     <lem>udgharmaghṛṣṭiprakara</lem>
     <rdgGrp select="#B #C1">
       <rdg type="main">ujgharmaghṛṣṭiprakhara</rdg>
@@ -597,14 +597,14 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
       <rdg type="minor" wit="#KEd">u................ra</rdg>
     </rdgGrp>
   </app>
-  <app corresp="209,224">
+  <app loc="209,224">
     <rdgGrp type="lemma" select="#KEd #O #R">
       <lem>samāghrātighoro</lem>
       <rdg type="minor" wit="#KEd">samāghrāti ghoro</rdg>
     </rdgGrp>
     <rdg wit="#B #C1">samāghnātighoro</rdg>
   </app>
-  <app corresp="228,240">
+  <app loc="228,240">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>khaḍgaḥ || 4 ||</lem>
       <rdg type="minor" wit="#B"><unclear>kha</unclear>ḍgaḥ || 4 ||</rdg>
@@ -624,7 +624,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app corresp="0,19">
+  <app loc="0,19">
     <rdgGrp type="lemma" select="#B #C1 #R">
       <lem>gāḍhaṃ gātrasya gupti</lem>
       <rdg type="minor" wit="#R"><unclear>gāḍhaṃ gātrasya gu</unclear><lb n="5"/>pti</rdg>
@@ -632,7 +632,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#KEd">gātrasya pti</rdg>
     <rdg wit="#O">gāḍhatrasya gopti</rdg>
   </app>
-  <app corresp="27,43">
+  <app loc="27,43">
     <rdgGrp type="lemma" select="#KEd #O #R">
       <lem>avagaṇayyāgrataḥ</lem>
       <rdg type="minor" wit="#O">avagaṇa<lb n="4"/>yyāgrataḥ</rdg>
@@ -640,7 +640,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#B">avagatā</rdg>
     <rdg wit="#C1">eva gaṇayyāgrataḥ</rdg>
   </app>
-  <app corresp="55,79">
+  <app loc="55,79">
     <rdgGrp type="lemma" select="#C1 #R">
       <lem>grasyatrasyagrahāgresara</lem>
       <rdg type="minor" wit="#R"><caesura/> grasyatrasyagrahāgresara</rdg>
@@ -651,7 +651,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#Bac"> grasyann asya grahāgregresara</rdg>
     <rdg wit="#Bpc"> grasyann asya grahāgresara</rdg>
   </app>
-  <app corresp="94,110">
+  <app loc="94,110">
     <rdgGrp type="lemma" select="#C1 #KEd #O #R">
       <lem>jāgradgabhastiḥ |</lem>
       <rdg type="minor" wit="#O">jā<lb n="6"/>gradgabhastiḥ |</rdg>
@@ -659,7 +659,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#B">jāgradbhabhastiḥ </rdg>
   </app>
-  <app corresp="110,125">
+  <app loc="110,125">
     <rdgGrp type="lemma" select="#Bpc #KEd #O #R">
       <lem>garvogragranthi</lem>
       <rdg type="minor" wit="#KEd"><lb n="6"/>garvogragranthi</rdg>
@@ -669,7 +669,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#Bac">garvogragrethi</rdg>
     <rdg wit="#C1">gardhogragraṃthi</rdg>
   </app>
-  <app corresp="137,150">
+  <app loc="137,150">
     <lem wit="#B #C1">ripugaṇagrāsa</lem>
     <rdgGrp select="#KEd #O">
       <rdg type="main">ripu</rdg>
@@ -678,7 +678,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#R">ripuga</rdg>
   </app>
-  <app corresp="169,181">
+  <app loc="169,181">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>agresarāgrya</lem>
       <rdg type="minor" wit="#B">agresarā<unclear>grya</unclear></rdg>
@@ -701,7 +701,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app corresp="0,7">
+  <app loc="0,7">
     <rdgGrp type="lemma" select="#B #Cc #KEd #O #R">
       <lem>kalpāti</lem>
       <rdg type="minor" wit="#KEd"><lb n="12"/>kalpāti</rdg>
@@ -709,14 +709,14 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#C1"> kalpāṃti</rdg>
   </app>
-  <app corresp="37,51">
+  <app loc="37,51">
     <rdgGrp type="lemma" select="#C1 #Cc #KEd #O #R">
       <lem>kalpāgramuṣṭiḥ</lem>
       <rdg type="minor" wit="#O">kalpā<lb n="3"/>gramuṣṭiḥ</rdg>
     </rdgGrp>
     <rdg wit="#B">kalpāṣṭiḥ</rdg>
   </app>
-  <app corresp="51,78">
+  <app loc="51,78">
     <rdgGrp type="lemma" select="#C1 #Cc #R">
       <lem>krudhyatkālīkaṭākṣāṅkita iva</lem>
       <rdg type="minor" wit="#C1"><caesura/> krudhyatkālī<lb n="2"/>kaṭākṣāṃkita iva</rdg>
@@ -727,7 +727,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#O"> krudhyatkālīkaṭākṣāṃkita su</rdg>
     <rdg wit="#B"> krukṣāṃkita iva</rdg>
   </app>
-  <app corresp="78,91">
+  <app loc="78,91">
     <rdgGrp type="lemma" select="#B">
       <lem>kalayan kāntim</lem>
       <rdg type="minor" wit="#B">kalayan kāṃtim</rdg>
@@ -738,7 +738,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#Cc">kalayat kāntim</rdg>
     <rdg wit="#R">kalatim</rdg>
   </app>
-  <app corresp="91,103">
+  <app loc="91,103">
     <rdgGrp type="lemma" select="#B #C1 #Cc">
       <lem>ekāntakālīm |</lem>
       <rdg type="minor" wit="#B #C1">ekāṃtakālīṃ ||</rdg>
@@ -750,7 +750,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
       <rdg type="minor" wit="#R">e<lb n="2"/>kāṃta<unclear>kālī</unclear> |</rdg>
     </rdgGrp>
   </app>
-  <app corresp="103,121">
+  <app loc="103,121">
     <rdgGrp type="lemma" select="#Cc #KEd #O #R">
       <lem>krīḍaty asyākrameṇa</lem>
       <rdg type="minor" wit="#KEd"><lb n="14"/>krīḍaty asyākrameṇa</rdg>
@@ -760,14 +760,14 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#C1">krīḍety asyākrameṇa</rdg>
     <rdg wit="#B">krīyākrameṇa</rdg>
   </app>
-  <app corresp="121,136">
+  <app loc="121,136">
     <rdgGrp type="lemma" select="#C1 #Cc #KEd #O #R">
       <lem>krakacakṛtikṛtī</lem>
       <rdg type="minor" wit="#O">krakacakṛti-<lb n="6"/>kṛtī</rdg>
     </rdgGrp>
     <rdg wit="#B">kacakṛtikṛtī</rdg>
   </app>
-  <app corresp="136,142">
+  <app loc="136,142">
     <rdgGrp type="lemma" select="#B #Cc #R">
       <lem>kumbhi</lem>
       <rdg type="minor" wit="#B #R">kuṃbhi</rdg>
@@ -776,7 +776,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#KEd">kuntimbhi</rdg>
     <rdg wit="#O">kuṃti</rdg>
   </app>
-  <app corresp="142,155">
+  <app loc="142,155">
     <rdgGrp type="lemma" select="#B #KEd #O #Rpc">
       <lem>kumbhāgrakūṭa</lem>
       <rdg type="minor" wit="#B #O #Rpc">kuṃbhāgrakūṭa</rdg>
@@ -785,7 +785,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#Cc">kumbhāgrakūṭaḥ</rdg>
     <rdg wit="#Rac">kuṃbhāṃgrakūṭa</rdg>
   </app>
-  <app corresp="155,180">
+  <app loc="155,180">
     <rdgGrp type="lemma" select="#KEd #O #R">
       <lem>kroḍeṣūtkṛttakaṇṭhotthita</lem>
       <rdg type="minor" wit="#KEd"><caesura/><lb n="15"/>kroḍeṣūtkṛttakaṇṭhotthita</rdg>
@@ -796,7 +796,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#B">kroḍeṣūtkaṃtthita</rdg>
     <rdg wit="#Cc"> kroḍe phutkṛttakaṇṭhojjhita</rdg>
   </app>
-  <app corresp="201,213">
+  <app loc="201,213">
     <rdgGrp type="lemma" select="#B #C1 #Cc #KEd #O">
       <lem>kṛpāṇaḥ || 1 ||</lem>
       <rdg type="minor" wit="#Cc">kṛpāṇaḥ ||</rdg>
@@ -816,7 +816,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app corresp="4,16">
+  <app loc="4,16">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>preṅkhadbhiḥ</lem>
       <rdg type="minor" wit="#O #R">preṃkhadbhiḥ</rdg>
@@ -824,24 +824,24 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#C1">prekhadbhiḥ</rdg>
   </app>
-  <app corresp="16,25">
+  <app loc="16,25">
     <rdgGrp type="lemma" select="#C1 #KEd #O #R">
       <lem>kharāṃśoḥ</lem>
       <rdg type="minor" wit="#O">kha<lb n="8"/>rāṃśoḥ</rdg>
     </rdgGrp>
     <rdg wit="#B">kharāṃ</rdg>
   </app>
-  <app corresp="25,44">
+  <app loc="25,44">
     <lem wit="#KEd">prakharakharaśikhāḥ</lem>
     <rdg wit="#O #R">prakharakharaśikhā</rdg>
     <rdg wit="#B">varakharakhā</rdg>
     <rdg wit="#C1">prakharakeraśikhāḥ</rdg>
   </app>
-  <app corresp="58,67">
+  <app loc="58,67">
     <lem wit="#C1 #KEd #O #R">mayūkhaiḥ</lem>
     <rdg wit="#B">mayūṣai</rdg>
   </app>
-  <app corresp="67,81">
+  <app loc="67,81">
     <rdgGrp type="lemma" select="#Bpc #C1 #KEd #O #R">
       <lem>khelāsaṃkhyeṣu</lem>
       <rdg type="minor" wit="#Bpc #C1 #O #R"><caesura/> khelāsaṃkhyeṣu</rdg>
@@ -849,7 +849,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#Bac"> khelāsaṃkhyaiṣu</rdg>
   </app>
-  <app corresp="113,123">
+  <app loc="113,123">
     <rdgGrp type="lemma" select="#B #C1 #R">
       <lem>khanitram |</lem>
       <rdg type="minor" wit="#R">kha<unclear>ni</unclear>traṃ |</rdg>
@@ -858,7 +858,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdg wit="#O">khamitraṃ </rdg>
     <rdg wit="#KEd">khaminittram </rdg>
   </app>
-  <app corresp="123,130">
+  <app loc="123,130">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>khyātaḥ</lem>
       <rdg type="minor" wit="#R">
@@ -868,24 +868,24 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     </rdgGrp>
     <rdg wit="#C1">khyātta'</rdg>
   </app>
-  <app corresp="146,162">
+  <app loc="146,162">
     <rdgGrp type="lemma" select="#C1 #KEd #O #R">
       <lem>khalu kamitṛjuṣāṃ</lem>
       <rdg type="minor" wit="#O">khalu ka-<pb n="2r" type="page"/><lb n="1"/>mitṛjuṣāṃ</rdg>
     </rdgGrp>
     <rdg wit="#B">khatṛjuṣāṃ</rdg>
   </app>
-  <app corresp="172,180">
+  <app loc="172,180">
     <lem wit="#C1 #KEd #O #R">akharvaḥ</lem>
     <rdg wit="#B">akharvaṃ</rdg>
   </app>
-  <app corresp="187,200">
+  <app loc="187,200">
     <lem wit="#KEd #R">utkhātakhaḍga</lem>
     <rdg wit="#O">utkhātakhatakhaḍga</rdg>
     <rdg wit="#B">ukhātakhaḍga</rdg>
     <rdg wit="#C1">uśvātakhaḍgaḥ</rdg>
   </app>
-  <app corresp="211,224">
+  <app loc="211,224">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>khanatkāravān</lem>
       <rdg type="minor" wit="#O"><lb n="3"/>khanatkāravān</rdg>
