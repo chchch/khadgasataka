@@ -100,7 +100,7 @@
     </fileDesc>
     <revisionDesc><change/></revisionDesc>
   </teiHeader>
-  <text xml:lang="sa" type="edition">
+  <text xml:lang="sa-Latn-t-sa-Deva" type="edition">
     <body>
       <div rend="parallel">
         <lg xml:id="v_1">
@@ -536,7 +536,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
   <app loc="0,7">
     <rdgGrp type="lemma" select="#B #C1 #KEd #O">
       <lem>ghrāṇaṃ</lem>
-      <rdg type="minor" wit="#KEd"><lb n="9"/>ghrāṇaṃ</rdg>
+      <rdg type="minor" wit="#KEd"><lb xmlns="http://www.tei-c.org/ns/1.0" n="9"/>ghrāṇaṃ</rdg>
     </rdgGrp>
     <rdg wit="#R">prāṇaṃ</rdg>
   </app>
@@ -549,27 +549,27 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <lem>aṅghrir udgho</lem>
     <rdgGrp select="#B #C1">
       <rdg type="main">aṃghrirujgho</rdg>
-      <rdg type="minor" wit="#C1">aṃghriru<lb n="2"/>j_gho</rdg>
+      <rdg type="minor" wit="#C1">aṃghriru<lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>j_gho</rdg>
       <rdg type="minor" wit="#B">aṃghriruj_gho</rdg>
     </rdgGrp>
-    <rdg wit="#R">aṃghrirutgho</rdg>
-    <rdg wit="#Oac">aghritāndyo</rdg>
-    <rdg wit="#Opc">aghriḍitāndyo</rdg>
-    <rdg wit="#KEd">aṅghitāngho</rdg>
+    <rdg wit="#R">a<unclear xmlns="http://www.tei-c.org/ns/1.0">ṃghrirut_</unclear>gho</rdg>
+    <rdg wit="#Oac">aghri<unclear xmlns="http://www.tei-c.org/ns/1.0">tān_</unclear>dyo</rdg>
+    <rdg wit="#Opc">aghri<unclear xmlns="http://www.tei-c.org/ns/1.0">ḍitān_</unclear>dyo</rdg>
+    <rdg wit="#KEd">aṅghi[tā]ngho</rdg>
   </app>
   <app loc="50,68">
     <rdgGrp type="lemma" select="#B #C1">
       <lem>mahārghasyopaghnaḥ</lem>
-      <rdg type="minor" wit="#C1">mahārgha<caesura/>syopaghnaḥ</rdg>
-      <rdg type="minor" wit="#B">mahārgha<caesura/>syo<lb n="7"/>paghnaḥ</rdg>
+      <rdg type="minor" wit="#C1">mahārgha<caesura xmlns="http://www.tei-c.org/ns/1.0"/>syopaghnaḥ</rdg>
+      <rdg type="minor" wit="#B">mahārgha<caesura xmlns="http://www.tei-c.org/ns/1.0"/>syo<lb xmlns="http://www.tei-c.org/ns/1.0" n="7"/>paghnaḥ</rdg>
     </rdgGrp>
-    <rdg wit="#R">mahapaghnaḥ</rdg>
+    <rdg wit="#R">maha<gap xmlns="http://www.tei-c.org/ns/1.0" quantity="2" unit="akṣara" reason="lost"/><caesura xmlns="http://www.tei-c.org/ns/1.0"/><lb xmlns="http://www.tei-c.org/ns/1.0" n="7"/><unclear xmlns="http://www.tei-c.org/ns/1.0">paghnaḥ</unclear></rdg>
     <rdgGrp select="#KEd #Oac">
       <rdg type="main">ma</rdg>
-      <rdg type="minor" wit="#Oac">ma<pb n="3r" type="page"/><lb n="1"/>..<caesura/>..</rdg>
-      <rdg type="minor" wit="#KEd">ma(?)...<caesura/>.......</rdg>
+      <rdg type="minor" wit="#Oac">ma<pb xmlns="http://www.tei-c.org/ns/1.0" n="3r" type="page"/><lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>..<caesura xmlns="http://www.tei-c.org/ns/1.0"/>..</rdg>
+      <rdg type="minor" wit="#KEd">ma(?)...<caesura xmlns="http://www.tei-c.org/ns/1.0"/>.......</rdg>
     </rdgGrp>
-    <rdg wit="#Opc">maha</rdg>
+    <rdg wit="#Opc">maha<pb xmlns="http://www.tei-c.org/ns/1.0" n="3r" type="page"/><lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>..<caesura xmlns="http://www.tei-c.org/ns/1.0"/>..</rdg>
   </app>
   <app loc="149,159">
     <lem wit="#B #KEd #O #R">ghaṭāghāta</lem>
@@ -578,8 +578,8 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
   <app loc="159,175">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>nairghṛṇyanighno</lem>
-      <rdg type="minor" wit="#B">nairghṛṇyanighno<note place="bottom-margin">nighna āyattaḥ 6</note></rdg>
-      <rdg type="minor" wit="#O">nairghṛṇya<lb n="4"/>nighno</rdg>
+      <rdg type="minor" wit="#B">nairghṛṇyanighno<note xmlns="http://www.tei-c.org/ns/1.0" place="bottom-margin">nighna āyattaḥ 6</note></rdg>
+      <rdg type="minor" wit="#O">nairghṛṇya<lb xmlns="http://www.tei-c.org/ns/1.0" n="4"/>nighno</rdg>
     </rdgGrp>
     <rdg wit="#C1">naiḥrghṛṇyanighno</rdg>
   </app>
@@ -588,12 +588,12 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdgGrp select="#B #C1">
       <rdg type="main">ujgharmaghṛṣṭiprakhara</rdg>
       <rdg type="minor" wit="#C1">uj_gharmaghṛṣṭiprakhara</rdg>
-      <rdg type="minor" wit="#B">u<lb n="8"/>j_gharmaghṛṣṭiprakhara</rdg>
+      <rdg type="minor" wit="#B">u<lb xmlns="http://www.tei-c.org/ns/1.0" n="8"/>j_gharmaghṛṣṭiprakhara</rdg>
     </rdgGrp>
-    <rdg wit="#R">ura</rdg>
+    <rdg wit="#R">u<gap xmlns="http://www.tei-c.org/ns/1.0" quantity="7" unit="akṣara" reason="lost"/><pb xmlns="http://www.tei-c.org/ns/1.0" n="1v" type="folio"/><lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>ra</rdg>
     <rdgGrp select="#KEd #O">
       <rdg type="main">ura</rdg>
-      <rdg type="minor" wit="#O">u<note place="right-margin">2 (ka)</note>.......ra</rdg>
+      <rdg type="minor" wit="#O">u<note xmlns="http://www.tei-c.org/ns/1.0" place="right-margin">2 (ka)</note>.......ra</rdg>
       <rdg type="minor" wit="#KEd">u................ra</rdg>
     </rdgGrp>
   </app>
@@ -607,9 +607,9 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
   <app loc="228,240">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>khaḍgaḥ || 4 ||</lem>
-      <rdg type="minor" wit="#B"><unclear>kha</unclear>ḍgaḥ || 4 ||</rdg>
+      <rdg type="minor" wit="#B"><unclear xmlns="http://www.tei-c.org/ns/1.0">kha</unclear>ḍgaḥ || 4 ||</rdg>
     </rdgGrp>
-    <rdg wit="#C1">khaḍga   </rdg>
+    <rdg wit="#C1">khaḍga | 4 |</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#v_3" source="alignments/v_3.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -627,46 +627,46 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
   <app loc="0,19">
     <rdgGrp type="lemma" select="#B #C1 #R">
       <lem>gāḍhaṃ gātrasya gupti</lem>
-      <rdg type="minor" wit="#R"><unclear>gāḍhaṃ gātrasya gu</unclear><lb n="5"/>pti</rdg>
+      <rdg type="minor" wit="#R"><unclear xmlns="http://www.tei-c.org/ns/1.0">gāḍhaṃ gātrasya gu</unclear><lb xmlns="http://www.tei-c.org/ns/1.0" n="5"/>pti</rdg>
     </rdgGrp>
-    <rdg wit="#KEd">gātrasya pti</rdg>
-    <rdg wit="#O">gāḍhatrasya gopti</rdg>
+    <rdg wit="#KEd"><lb xmlns="http://www.tei-c.org/ns/1.0" n="4"/>gātrasya ............pti</rdg>
+    <rdg wit="#O">gāḍha..trasya gopti</rdg>
   </app>
   <app loc="27,43">
     <rdgGrp type="lemma" select="#KEd #O #R">
       <lem>avagaṇayyāgrataḥ</lem>
-      <rdg type="minor" wit="#O">avagaṇa<lb n="4"/>yyāgrataḥ</rdg>
+      <rdg type="minor" wit="#O">avagaṇa<lb xmlns="http://www.tei-c.org/ns/1.0" n="4"/>yyāgrataḥ</rdg>
     </rdgGrp>
-    <rdg wit="#B">avagatā</rdg>
+    <rdg wit="#B">avagatā<lb xmlns="http://www.tei-c.org/ns/1.0" n="5"/><gap xmlns="http://www.tei-c.org/ns/1.0" quantity="3" unit="akṣara" reason="damage"/></rdg>
     <rdg wit="#C1">eva gaṇayyāgrataḥ</rdg>
   </app>
   <app loc="55,79">
     <rdgGrp type="lemma" select="#C1 #R">
       <lem>grasyatrasyagrahāgresara</lem>
-      <rdg type="minor" wit="#R"><caesura/> grasyatrasyagrahāgresara</rdg>
-      <rdg type="minor" wit="#C1"><caesura/> grasyatrasyagrahāgresa<lb n="7"/>ra</rdg>
+      <rdg type="minor" wit="#R"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> grasyatrasyagrahāgresara</rdg>
+      <rdg type="minor" wit="#C1"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> grasyatrasyagrahāgresa<lb xmlns="http://www.tei-c.org/ns/1.0" n="7"/>ra</rdg>
     </rdgGrp>
-    <rdg wit="#KEd"> grasyannasya mahāgresara</rdg>
-    <rdg wit="#O"> grasyantasya mahāgresara</rdg>
-    <rdg wit="#Bac"> grasyann asya grahāgregresara</rdg>
-    <rdg wit="#Bpc"> grasyann asya grahāgresara</rdg>
+    <rdg wit="#KEd"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> <lb xmlns="http://www.tei-c.org/ns/1.0" n="5"/>grasyannasya(?) mahāgresara</rdg>
+    <rdg wit="#O"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> grasyantasya <lb xmlns="http://www.tei-c.org/ns/1.0" n="5"/>mahāgresara</rdg>
+    <rdg wit="#Bac"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> grasyann asya grahāgregresara</rdg>
+    <rdg wit="#Bpc"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> grasyann asya grahāgresara</rdg>
   </app>
   <app loc="94,110">
     <rdgGrp type="lemma" select="#C1 #KEd #O #R">
       <lem>jāgradgabhastiḥ |</lem>
-      <rdg type="minor" wit="#O">jā<lb n="6"/>gradgabhastiḥ |</rdg>
+      <rdg type="minor" wit="#O">jā<lb xmlns="http://www.tei-c.org/ns/1.0" n="6"/>gradgabhastiḥ |</rdg>
       <rdg type="minor" wit="#C1">jāgradgabhastiḥ ||</rdg>
     </rdgGrp>
-    <rdg wit="#B">jāgradbhabhastiḥ </rdg>
+    <rdg wit="#B">jāgradbhabhastiḥ ||</rdg>
   </app>
   <app loc="110,125">
     <rdgGrp type="lemma" select="#Bpc #KEd #O #R">
       <lem>garvogragranthi</lem>
-      <rdg type="minor" wit="#KEd"><lb n="6"/>garvogragranthi</rdg>
+      <rdg type="minor" wit="#KEd"><lb xmlns="http://www.tei-c.org/ns/1.0" n="6"/>garvogragranthi</rdg>
       <rdg type="minor" wit="#Bpc #O">garvogragraṃthi</rdg>
       <rdg type="minor" wit="#R">garvvogragraṃthi</rdg>
     </rdgGrp>
-    <rdg wit="#Bac">garvogragrethi</rdg>
+    <rdg wit="#Bac">garvogra<unclear xmlns="http://www.tei-c.org/ns/1.0">gre</unclear>thi</rdg>
     <rdg wit="#C1">gardhogragraṃthi</rdg>
   </app>
   <app loc="137,150">
@@ -676,14 +676,14 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
       <rdg type="minor" wit="#KEd">ripu............</rdg>
       <rdg type="minor" wit="#O">ripu....</rdg>
     </rdgGrp>
-    <rdg wit="#R">ripuga</rdg>
+    <rdg wit="#R">ripuga<gap xmlns="http://www.tei-c.org/ns/1.0" reason="lost" quantity="3" unit="akṣara"/></rdg>
   </app>
   <app loc="169,181">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>agresarāgrya</lem>
-      <rdg type="minor" wit="#B">agresarā<unclear>grya</unclear></rdg>
+      <rdg type="minor" wit="#B">agresarā<unclear xmlns="http://www.tei-c.org/ns/1.0">grya</unclear></rdg>
     </rdgGrp>
-    <rdg wit="#C1">agresarāgrā</rdg>
+    <rdg wit="#C1">agresarā<unclear xmlns="http://www.tei-c.org/ns/1.0">grā</unclear></rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#v_1" source="alignments/v_1.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -704,28 +704,28 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
   <app loc="0,7">
     <rdgGrp type="lemma" select="#B #Cc #KEd #O #R">
       <lem>kalpāti</lem>
-      <rdg type="minor" wit="#KEd"><lb n="12"/>kalpāti</rdg>
-      <rdg type="minor" wit="#Cc"><lb n="28"/>kalpāti</rdg>
+      <rdg type="minor" wit="#KEd"><lb xmlns="http://www.tei-c.org/ns/1.0" n="12"/>kalpāti</rdg>
+      <rdg type="minor" wit="#Cc"><lb xmlns="http://www.tei-c.org/ns/1.0" n="28"/>kalpāti</rdg>
     </rdgGrp>
-    <rdg wit="#C1"> kalpāṃti</rdg>
+    <rdg wit="#C1">|| kalpāṃti</rdg>
   </app>
   <app loc="37,51">
     <rdgGrp type="lemma" select="#C1 #Cc #KEd #O #R">
       <lem>kalpāgramuṣṭiḥ</lem>
-      <rdg type="minor" wit="#O">kalpā<lb n="3"/>gramuṣṭiḥ</rdg>
+      <rdg type="minor" wit="#O">kalpā<lb xmlns="http://www.tei-c.org/ns/1.0" n="3"/>gramuṣṭiḥ</rdg>
     </rdgGrp>
-    <rdg wit="#B">kalpāṣṭiḥ</rdg>
+    <rdg wit="#B">kalpā<note xmlns="http://www.tei-c.org/ns/1.0" place="top-margin">iṣa<gap quantity="1" unit="akṣara" reason="damage"/></note><gap xmlns="http://www.tei-c.org/ns/1.0" quantity="2" unit="akṣara" reason="damage"/>ṣṭiḥ</rdg>
   </app>
   <app loc="51,78">
     <rdgGrp type="lemma" select="#C1 #Cc #R">
       <lem>krudhyatkālīkaṭākṣāṅkita iva</lem>
-      <rdg type="minor" wit="#C1"><caesura/> krudhyatkālī<lb n="2"/>kaṭākṣāṃkita iva</rdg>
-      <rdg type="minor" wit="#Cc"><caesura/> <lb n="29"/>krudhyatkālīkaṭākṣāṅkita iva</rdg>
-      <rdg type="minor" wit="#R"><caesura/> krudhyatkālīkaṭākṣāṃkita iva</rdg>
+      <rdg type="minor" wit="#C1"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> krudhyatkālī<lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>kaṭākṣāṃkita iva</rdg>
+      <rdg type="minor" wit="#Cc"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> <lb xmlns="http://www.tei-c.org/ns/1.0" n="29"/>krudhyatkālīkaṭākṣāṅkita iva</rdg>
+      <rdg type="minor" wit="#R"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> krudhyatkālīkaṭākṣāṃkita iva</rdg>
     </rdgGrp>
-    <rdg wit="#KEd"> krudhyatkālīkaṭākṣāṅkitasa</rdg>
-    <rdg wit="#O"> krudhyatkālīkaṭākṣāṃkita su</rdg>
-    <rdg wit="#B"> krukṣāṃkita iva</rdg>
+    <rdg wit="#KEd"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> <lb xmlns="http://www.tei-c.org/ns/1.0" n="13"/>krudhyatkālīkaṭākṣāṅkita[sa]</rdg>
+    <rdg wit="#O"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> krudhyatkālīkaṭākṣāṃki<lb xmlns="http://www.tei-c.org/ns/1.0" n="4"/>ta su</rdg>
+    <rdg wit="#B"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> kru<gap xmlns="http://www.tei-c.org/ns/1.0" quantity="6" unit="akṣara" reason="damage"/>kṣāṃkita iva</rdg>
   </app>
   <app loc="78,91">
     <rdgGrp type="lemma" select="#B">
@@ -733,39 +733,39 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
       <rdg type="minor" wit="#B">kalayan kāṃtim</rdg>
     </rdgGrp>
     <rdg wit="#C1">kalayan kāṃnim</rdg>
-    <rdg wit="#KEd">kalanim</rdg>
-    <rdg wit="#O">kalanim</rdg>
+    <rdg wit="#KEd">kala........nim</rdg>
+    <rdg wit="#O">kala...nim</rdg>
     <rdg wit="#Cc">kalayat kāntim</rdg>
-    <rdg wit="#R">kalatim</rdg>
+    <rdg wit="#R">kala<gap xmlns="http://www.tei-c.org/ns/1.0" reason="lost" quantity="2" unit="akṣara"/>tim</rdg>
   </app>
   <app loc="91,103">
     <rdgGrp type="lemma" select="#B #C1 #Cc">
       <lem>ekāntakālīm |</lem>
       <rdg type="minor" wit="#B #C1">ekāṃtakālīṃ ||</rdg>
     </rdgGrp>
-    <rdg wit="#KEd">eṣekāntakālī </rdg>
+    <rdg wit="#KEd">e(ṣe)kāntakālī |</rdg>
     <rdgGrp select="#O #R">
       <rdg type="main">ekāṃtakālī </rdg>
       <rdg type="minor" wit="#O">ekāṃtakālī |</rdg>
-      <rdg type="minor" wit="#R">e<lb n="2"/>kāṃta<unclear>kālī</unclear> |</rdg>
+      <rdg type="minor" wit="#R">e<lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>kāṃta<unclear xmlns="http://www.tei-c.org/ns/1.0">kālī</unclear> |</rdg>
     </rdgGrp>
   </app>
   <app loc="103,121">
     <rdgGrp type="lemma" select="#Cc #KEd #O #R">
       <lem>krīḍaty asyākrameṇa</lem>
-      <rdg type="minor" wit="#KEd"><lb n="14"/>krīḍaty asyākrameṇa</rdg>
-      <rdg type="minor" wit="#O"><lb n="5"/>krīḍaty asyākrameṇa</rdg>
-      <rdg type="minor" wit="#Cc"><pb n="455" facs="480" type="page"/> <lb n="1"/>krīḍaty asyākrameṇa</rdg>
+      <rdg type="minor" wit="#KEd"><lb xmlns="http://www.tei-c.org/ns/1.0" n="14"/>krīḍaty asyākrameṇa</rdg>
+      <rdg type="minor" wit="#O"><lb xmlns="http://www.tei-c.org/ns/1.0" n="5"/>krīḍaty asyākrameṇa</rdg>
+      <rdg type="minor" wit="#Cc"><pb xmlns="http://www.tei-c.org/ns/1.0" n="455" facs="480" type="page"/> <lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>krīḍaty asyākrameṇa</rdg>
     </rdgGrp>
     <rdg wit="#C1">krīḍety asyākrameṇa</rdg>
-    <rdg wit="#B">krīyākrameṇa</rdg>
+    <rdg wit="#B"><lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>krī<gap xmlns="http://www.tei-c.org/ns/1.0" quantity="2" unit="akṣara" reason="damage"/>yākrameṇa</rdg>
   </app>
   <app loc="121,136">
     <rdgGrp type="lemma" select="#C1 #Cc #KEd #O #R">
       <lem>krakacakṛtikṛtī</lem>
-      <rdg type="minor" wit="#O">krakacakṛti-<lb n="6"/>kṛtī</rdg>
+      <rdg type="minor" wit="#O">krakacakṛti-<lb xmlns="http://www.tei-c.org/ns/1.0" n="6"/>kṛtī</rdg>
     </rdgGrp>
-    <rdg wit="#B">kacakṛtikṛtī</rdg>
+    <rdg wit="#B"><gap xmlns="http://www.tei-c.org/ns/1.0" quantity="1" unit="akṣara" reason="damage"/>kacakṛtikṛtī</rdg>
   </app>
   <app loc="136,142">
     <rdgGrp type="lemma" select="#B #Cc #R">
@@ -773,7 +773,7 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
       <rdg type="minor" wit="#B #R">kuṃbhi</rdg>
     </rdgGrp>
     <rdg wit="#C1">kruṃbhi</rdg>
-    <rdg wit="#KEd">kuntimbhi</rdg>
+    <rdg wit="#KEd">kunti(mbhi)</rdg>
     <rdg wit="#O">kuṃti</rdg>
   </app>
   <app loc="142,155">
@@ -781,27 +781,27 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
       <lem>kumbhāgrakūṭa</lem>
       <rdg type="minor" wit="#B #O #Rpc">kuṃbhāgrakūṭa</rdg>
     </rdgGrp>
-    <rdg wit="#C1">kuṃbhāgrakruṭa</rdg>
+    <rdg wit="#C1">kuṃbhāgra<lb xmlns="http://www.tei-c.org/ns/1.0" n="3"/>kruṭa</rdg>
     <rdg wit="#Cc">kumbhāgrakūṭaḥ</rdg>
     <rdg wit="#Rac">kuṃbhāṃgrakūṭa</rdg>
   </app>
   <app loc="155,180">
     <rdgGrp type="lemma" select="#KEd #O #R">
       <lem>kroḍeṣūtkṛttakaṇṭhotthita</lem>
-      <rdg type="minor" wit="#KEd"><caesura/><lb n="15"/>kroḍeṣūtkṛttakaṇṭhotthita</rdg>
-      <rdg type="minor" wit="#O"><caesura/>kroḍeṣūtkṛtta-<lb n="6"/>kaṃṭhotthita</rdg>
-      <rdg type="minor" wit="#R"><caesura/>kroḍeṣūtkṛttakaṃṭhotthita</rdg>
+      <rdg type="minor" wit="#KEd"><caesura xmlns="http://www.tei-c.org/ns/1.0"/><lb xmlns="http://www.tei-c.org/ns/1.0" n="15"/>kroḍeṣūtkṛttakaṇṭhotthita</rdg>
+      <rdg type="minor" wit="#O"><caesura xmlns="http://www.tei-c.org/ns/1.0"/>kroḍeṣūtkṛtta-<lb xmlns="http://www.tei-c.org/ns/1.0" n="6"/>kaṃṭhotthita</rdg>
+      <rdg type="minor" wit="#R"><caesura xmlns="http://www.tei-c.org/ns/1.0"/>kroḍeṣūtkṛttakaṃṭhotthita</rdg>
     </rdgGrp>
-    <rdg wit="#C1">kroḍe pūtkṛttakaṃṭhotthita</rdg>
-    <rdg wit="#B">kroḍeṣūtkaṃtthita</rdg>
-    <rdg wit="#Cc"> kroḍe phutkṛttakaṇṭhojjhita</rdg>
+    <rdg wit="#C1"><caesura xmlns="http://www.tei-c.org/ns/1.0"/>kroḍe pūtkṛttakaṃṭhotthita</rdg>
+    <rdg wit="#B"><caesura xmlns="http://www.tei-c.org/ns/1.0"/>kroḍe<note xmlns="http://www.tei-c.org/ns/1.0" place="top-margin">madhye 2</note>ṣūtkaṃ<gap xmlns="http://www.tei-c.org/ns/1.0" quantity="3" unit="akṣara" reason="damage"/><unclear xmlns="http://www.tei-c.org/ns/1.0">tthi</unclear>ta</rdg>
+    <rdg wit="#Cc"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> <lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>kroḍe phutkṛttakaṇṭhojjhita</rdg>
   </app>
   <app loc="201,213">
     <rdgGrp type="lemma" select="#B #C1 #Cc #KEd #O">
       <lem>kṛpāṇaḥ || 1 ||</lem>
       <rdg type="minor" wit="#Cc">kṛpāṇaḥ ||</rdg>
     </rdgGrp>
-    <rdg wit="#R">kṛpā   </rdg>
+    <rdg wit="#R">kṛpā<gap xmlns="http://www.tei-c.org/ns/1.0" reason="lost" quantity="2" unit="akṣara"/> <lb xmlns="http://www.tei-c.org/ns/1.0" n="3"/>|| 1 ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#v_2" source="alignments/v_2.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -820,22 +820,22 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>preṅkhadbhiḥ</lem>
       <rdg type="minor" wit="#O #R">preṃkhadbhiḥ</rdg>
-      <rdg type="minor" wit="#B"><note place="right-margin">ikhi gatau <unclear>2</unclear></note>preṃkhadbhiḥ</rdg>
+      <rdg type="minor" wit="#B"><note xmlns="http://www.tei-c.org/ns/1.0" place="right-margin">ikhi gatau <unclear>2</unclear></note>preṃkhadbhiḥ</rdg>
     </rdgGrp>
-    <rdg wit="#C1">prekhadbhiḥ</rdg>
+    <rdg wit="#C1">prekha<unclear xmlns="http://www.tei-c.org/ns/1.0">dbhiḥ</unclear></rdg>
   </app>
   <app loc="16,25">
     <rdgGrp type="lemma" select="#C1 #KEd #O #R">
       <lem>kharāṃśoḥ</lem>
-      <rdg type="minor" wit="#O">kha<lb n="8"/>rāṃśoḥ</rdg>
+      <rdg type="minor" wit="#O">kha<lb xmlns="http://www.tei-c.org/ns/1.0" n="8"/>rāṃśoḥ</rdg>
     </rdgGrp>
-    <rdg wit="#B">kharāṃ</rdg>
+    <rdg wit="#B">kha<lb xmlns="http://www.tei-c.org/ns/1.0" n="3"/>rāṃ<gap xmlns="http://www.tei-c.org/ns/1.0" quantity="3" unit="akṣara" reason="damage"/></rdg>
   </app>
   <app loc="25,44">
     <lem wit="#KEd">prakharakharaśikhāḥ</lem>
     <rdg wit="#O #R">prakharakharaśikhā</rdg>
-    <rdg wit="#B">varakharakhā</rdg>
-    <rdg wit="#C1">prakharakeraśikhāḥ</rdg>
+    <rdg wit="#B"><gap xmlns="http://www.tei-c.org/ns/1.0" quantity="1" unit="akṣara" reason="damage"/>varakhara<gap xmlns="http://www.tei-c.org/ns/1.0" quantity="1" unit="akṣara" reason="damage"/>khā</rdg>
+    <rdg wit="#C1">prakha<lb xmlns="http://www.tei-c.org/ns/1.0" n="4"/>rakeraśikhāḥ</rdg>
   </app>
   <app loc="58,67">
     <lem wit="#C1 #KEd #O #R">mayūkhaiḥ</lem>
@@ -844,36 +844,36 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
   <app loc="67,81">
     <rdgGrp type="lemma" select="#Bpc #C1 #KEd #O #R">
       <lem>khelāsaṃkhyeṣu</lem>
-      <rdg type="minor" wit="#Bpc #C1 #O #R"><caesura/> khelāsaṃkhyeṣu</rdg>
-      <rdg type="minor" wit="#KEd"><caesura/> <lb n="18"/>khelāsaṃkhyeṣu</rdg>
+      <rdg type="minor" wit="#Bpc #C1 #O #R"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> khelāsaṃkhyeṣu</rdg>
+      <rdg type="minor" wit="#KEd"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> <lb xmlns="http://www.tei-c.org/ns/1.0" n="18"/>khelāsaṃkhyeṣu</rdg>
     </rdgGrp>
-    <rdg wit="#Bac"> khelāsaṃkhyaiṣu</rdg>
+    <rdg wit="#Bac"><caesura xmlns="http://www.tei-c.org/ns/1.0"/> khelāsaṃkhyaiṣu</rdg>
   </app>
   <app loc="113,123">
     <rdgGrp type="lemma" select="#B #C1 #R">
       <lem>khanitram |</lem>
-      <rdg type="minor" wit="#R">kha<unclear>ni</unclear>traṃ |</rdg>
+      <rdg type="minor" wit="#R">kha<unclear xmlns="http://www.tei-c.org/ns/1.0">ni</unclear>traṃ |</rdg>
       <rdg type="minor" wit="#B #C1">khanitraṃ ||</rdg>
     </rdgGrp>
-    <rdg wit="#O">khamitraṃ </rdg>
-    <rdg wit="#KEd">khaminittram </rdg>
+    <rdg wit="#O">khamitraṃ |</rdg>
+    <rdg wit="#KEd">khami(ni)ttram |</rdg>
   </app>
   <app loc="123,130">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>khyātaḥ</lem>
       <rdg type="minor" wit="#R">
-        <unclear>khyātaḥ</unclear>
+        <unclear xmlns="http://www.tei-c.org/ns/1.0">khyātaḥ</unclear>
       </rdg>
-      <rdg type="minor" wit="#KEd"><pb n="40" facs="42" type="page"/><lb n="1"/>khyātaḥ</rdg>
+      <rdg type="minor" wit="#KEd"><pb xmlns="http://www.tei-c.org/ns/1.0" n="40" facs="42" type="page"/><lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>khyātaḥ</rdg>
     </rdgGrp>
-    <rdg wit="#C1">khyātta'</rdg>
+    <rdg wit="#C1">khyātta<lb xmlns="http://www.tei-c.org/ns/1.0" n="5"/>'</rdg>
   </app>
   <app loc="146,162">
     <rdgGrp type="lemma" select="#C1 #KEd #O #R">
       <lem>khalu kamitṛjuṣāṃ</lem>
-      <rdg type="minor" wit="#O">khalu ka-<pb n="2r" type="page"/><lb n="1"/>mitṛjuṣāṃ</rdg>
+      <rdg type="minor" wit="#O">khalu ka-<pb xmlns="http://www.tei-c.org/ns/1.0" n="2r" type="page"/><lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>mitṛjuṣāṃ</rdg>
     </rdgGrp>
-    <rdg wit="#B">khatṛjuṣāṃ</rdg>
+    <rdg wit="#B"><note xmlns="http://www.tei-c.org/ns/1.0" place="left-margin">kāmukajuṣāṃ<gap quantity="1" unit="akṣara" reason="damage"/></note>kha<lb xmlns="http://www.tei-c.org/ns/1.0" n="4"/><gap xmlns="http://www.tei-c.org/ns/1.0" quantity="3" unit="akṣara" reason="damage"/>tṛjuṣāṃ</rdg>
   </app>
   <app loc="172,180">
     <lem wit="#C1 #KEd #O #R">akharvaḥ</lem>
@@ -883,13 +883,13 @@ dhairyasyeti || asyāyaṃ khaḍga auddhatyabhājo raṇadharaṇicarān saṃg
     <lem wit="#KEd #R">utkhātakhaḍga</lem>
     <rdg wit="#O">utkhātakhatakhaḍga</rdg>
     <rdg wit="#B">ukhātakhaḍga</rdg>
-    <rdg wit="#C1">uśvātakhaḍgaḥ</rdg>
+    <rdg wit="#C1">uśvātakha<unclear xmlns="http://www.tei-c.org/ns/1.0">ḍgaḥ</unclear></rdg>
   </app>
   <app loc="211,224">
     <rdgGrp type="lemma" select="#B #KEd #O #R">
       <lem>khanatkāravān</lem>
-      <rdg type="minor" wit="#O"><lb n="3"/>khanatkāravān</rdg>
+      <rdg type="minor" wit="#O"><lb xmlns="http://www.tei-c.org/ns/1.0" n="3"/>khanatkāravān</rdg>
     </rdgGrp>
-    <rdg wit="#C1">khanatkākhān</rdg>
+    <rdg wit="#C1">khanatkā<lb xmlns="http://www.tei-c.org/ns/1.0" n="6"/>khān</rdg>
   </app>
 </listApp></standOff></TEI>
