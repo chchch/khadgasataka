@@ -48,17 +48,17 @@
     <expan>A Descriptive Catalogue of the Sanskrit Manuscripts in the Collection of the Asiatic Society of Bengal, Volume VII: Kāvya Manuscripts</expan>
   </witness>
   <witness xml:id="KEd" source="witnesses/KEd.xml">
-    <abbr type="siglum">K<hi rend="superscript"><hi rend="italic">Ed</hi></hi></abbr>
+    <abbr type="siglum">K<hi rend="superscript">Ed</hi></abbr>
     <expan>
       <title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title>
     </expan>
     <listWit>
       <witness xml:id="KEdac" n="ac">
-        <abbr type="siglum">K<hi rend="superscript"><hi rend="italic">Edac</hi></hi></abbr>
+        <abbr type="siglum">K<hi rend="superscript">Ed<hi rend="italic">ac</hi></hi></abbr>
         <expan><title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title> [ante correctionem]</expan>
       </witness>
       <witness xml:id="KEdpc" n="pc">
-        <abbr type="siglum">K<hi rend="superscript"><hi rend="italic">Edpc</hi></hi></abbr>
+        <abbr type="siglum">K<hi rend="superscript">Ed<hi rend="italic">pc</hi></hi></abbr>
         <expan><title xml:lang="sa">Kāvyamālā | Ekādaśo gucchakaḥ</title> [post correctionem]</expan>
       </witness>
     </listWit>
