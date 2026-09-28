@@ -87,61 +87,63 @@
    <revisionDesc/></teiHeader>
    <facsimile>
    <graphic url="https://iiif.archive.org/iiif/RASB_sanskrit_catalogue_vol_7_kavya/manifest.json" facs="478"/></facsimile>
-<text corresp="#Cc" xml:lang="sa"> <body>
-            <milestone n="454" unit="page"/>
-            <head xml:lang="en"><lb n="19"/>5558</head>
-            <head xml:lang="en"><lb n="20"/>Vināyaka Bhaṭṭa (Karpaṭa)</head>
-            <head type="sub" xml:lang="en"><lb n="21"/>6024. <foreign xml:lang="sa">khaḍgaśatakam |</foreign> <hi rend="italic">Khadga-satakam</hi></head>
-            <p xml:lang="en">
-            <lb n="22"/>Substance, foolscap paper. 11 x 4½ inches Folia, 19 Lines, 7 on a <lb n="23"/>page. Extent in ślokas, 300. Character, very modern Nāgara. Appear<lb n="24"/>ance, fresh. Complete.
-            </p>
-            <p xml:lang="en">
-            <lb n="25"/>A century of verses in honour of Kṛṣṇa's sword.
-            </p>
-            <p xml:lang="en">
-            <lb n="26"/>Beginning :—
-            </p>
-            <p xml:lang="sa">
-            <lb n="27"/>śrīgaṇeśāya namaḥ |
-            </p>
-            <div n="1">
-                <lg type="verse" xml:id="v_1">
-                    <l>
+  <text corresp="#Cc" xml:lang="sa">
+    <body>
+      <milestone n="454" unit="page" facs="479"/>
+      <head xml:lang="en"><lb n="19"/>5558</head>
+      <head xml:lang="en"><lb n="20"/>Vināyaka Bhaṭṭa (Karpaṭa)</head>
+      <head type="sub" xml:lang="en"><lb n="21"/>6024. <foreign xml:lang="sa">khaḍgaśatakam |</foreign> <hi rend="italic">Khadga-satakam</hi></head>
+      <p xml:lang="en">
+      <lb n="22"/>Substance, foolscap paper. 11 x 4½ inches Folia, 19 Lines, 7 on a <lb n="23"/>page. Extent in ślokas, 300. Character, very modern Nāgara. Appear<lb n="24"/>ance, fresh. Complete.
+      </p>
+      <p xml:lang="en">
+      <lb n="25"/>A century of verses in honour of Kṛṣṇa's sword.
+      </p>
+      <p xml:lang="en">
+      <lb n="26"/>Beginning :—
+      </p>
+      <p xml:lang="sa">
+      <lb n="27"/>śrīgaṇeśāya namaḥ |
+      </p>
+      <div n="1">
+          <lg type="verse" xml:id="v_1">
+              <l>
 <lb n="28"/>kalpātikrūrakālabhrukuṭikuṭilatākalpakalpāgramuṣṭiḥ
 <caesura/>
 <lb n="29"/>krudhyatkālīkaṭākṣāṅkita iva kalayat kāntim ekāntakālīm |
-                    </l>
-                    <l>
-<pb n="455" facs="480"/>
-                      <lb n="1"/>krīḍaty asyākrameṇa krakacakṛtikṛtī kumbhikumbhāgrakūṭaḥ
+              </l>
+          <l>
+<pb n="455" facs="480"/><lb n="1"/>krīḍaty asyākrameṇa krakacakṛtikṛtī kumbhikumbhāgrakūṭaḥ
 <caesura/>
 <lb n="2"/>kroḍe phutkṛttakaṇṭhojjhitarudhirakaṇākīrṇakoṇaḥ kṛpāṇaḥ ||
-                    </l>
-                </lg>
-            </div>
-            <p xml:lang="en">
-            <lb n="3"/>End :—
-            </p>
-            <div n="100">
-                <lg type="verse" xml:id="v_100">
-                    <l>
+              </l>
+          </lg>
+      </div>
+      <p xml:lang="en">
+      <lb n="3"/>End :—
+      </p>
+      <div n="100">
+          <lg type="verse" xml:id="v_100">
+              <l>
 <lb n="4"/>sve sve kāle 'tikoṣāsvaguṇavibhavataḥ kṣiptadoṣākaraśrīḥ
 <caesura/>
 <lb n="5"/>śaśvadviṣṇoḥ pade 'pi sphuraṇamahimato darśanyantī vilāsān |
-                    </l>
-                    <l>
+              </l>
+              <l>
 <lb n="6"/>uddhāro jaṃbhamānya pradhanaparicaye sainadīyā kṛpāṇo
 <caesura/>
 <lb n="7"/>niṣkārpaṇyāhitānāṃ hṛdi vasatu haṭhākṛṣṭatatkīrttilakṣmīḥ ||
-                    </l>
-                </lg>
-             </div>
-             <p xml:lang="en">
-             <lb n="8"/>Colophon :—
-             </p>
-             <div type="colophon">
-                <p>
+              </l>
+          </lg>
+       </div>
+       <p xml:lang="en">
+       <lb n="8"/>Colophon :—
+       </p>
+       <div type="colophon">
+          <p>
 <lb n="9"/>iti śrīkarpaṭopanāma-vināyakabhaṭṭaviracitaḥ khaḍgaśatakam samāptamam ||
-                </p>
-             </div>
-        </body></text></TEI>
+          </p>
+       </div>
+    </body>
+  </text>
+</TEI>
